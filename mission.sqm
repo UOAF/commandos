@@ -4,9 +4,6 @@ class Mission
 	addOns[]=
 	{
 		"camisc3",
-		"ace_c_weapon",
-		"acex_c_weapon",
-		"ace_sys_wounds",
 		"cacharacters2",
 		"caweapons_ammoboxes",
 		"camisc_e",
@@ -16,14 +13,9 @@ class Mission
 		"cacharacters_pmc",
 		"CAWheeled",
 		"CAWheeled2_VWGolf",
-		"THIRSK_Clouds",
-		"acex_ru_veh_mi17",
 		"CAAir2_F35B",
 		"CAAir_E_AH64D",
-		"ace_sys_air_refuel",
 		"CAAir2_Pchela1T",
-		"acex_c_vehicle",
-		"acex_ru_c_vehicle",
 		"CAWheeled_E",
 		"ca_animals2_dogs_pastor",
 		"ca_modules",
@@ -31,51 +23,31 @@ class Mission
 		"cacharacters_baf",
 		"caweapons_e_ammoboxes",
 		"castructures_e_misc_misc_market",
-		"asc_eu_lights",
-		"ace_sys_fastroping",
-		"ace_sys_arty_m119",
-		"ace_sys_arty_ammunition",
 		"caweapons_e",
 		"caweapons_kord",
-		"ace_sys_tracking",
 		"CAMisc",
-		"ace_sys_repair"
 	};
 	addOnsAuto[]=
 	{
-		"ace_sys_wounds",
 		"cacharacters_e",
 		"cacharacters_pmc",
 		"cacharacters_baf",
-		"THIRSK_Clouds",
 		"cacharacters2",
 		"ca_modules",
 		"ca_modules_e_weather",
-		"ace_sys_tracking",
-		"ace_sys_repair",
 		"camisc3",
-		"ace_c_weapon",
-		"acex_c_weapon",
 		"caweapons_ammoboxes",
 		"camisc_e",
 		"CAWater",
 		"CAWheeled",
 		"CAWheeled2_VWGolf",
-		"acex_ru_veh_mi17",
 		"CAAir2_F35B",
 		"CAAir_E_AH64D",
 		"CAAir2_Pchela1T",
-		"ace_sys_air_refuel",
-		"acex_c_vehicle",
-		"acex_ru_c_vehicle",
 		"CAWheeled_E",
 		"ca_animals2_dogs_pastor",
 		"caweapons_e_ammoboxes",
 		"castructures_e_misc_misc_market",
-		"asc_eu_lights",
-		"ace_sys_fastroping",
-		"ace_sys_arty_m119",
-		"ace_sys_arty_ammunition",
 		"caweapons_kord",
 		"CAMisc",
 		"fdf_isle1_a"
@@ -227,7 +199,7 @@ class Mission
 					special="NONE";
 					id=56;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="CUP_B_US_Soldier";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
@@ -240,7 +212,7 @@ class Mission
 					special="NONE";
 					id=57;
 					side="GUER";
-					vehicle="Soldier_Bodyguard_AA12_PMC";
+					vehicle="CUP_I_PMC_Bodyguard_AA12";
 					player="PLAY CDG";
 					rank="MAJOR";
 					skill=0.60000002;
@@ -254,7 +226,7 @@ class Mission
 					special="NONE";
 					id=62;
 					side="GUER";
-					vehicle="Soldier_TL_PMC";
+					vehicle="CUP_I_PMC_Soldier_TL";
 					player="PLAY CDG";
 					rank="CAPTAIN";
 					skill=0.60000002;
@@ -268,7 +240,7 @@ class Mission
 					special="NONE";
 					id=61;
 					side="GUER";
-					vehicle="Soldier_MG_PKM_PMC";
+					vehicle="CUP_I_PMC_Soldier_MG_PKM";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -282,7 +254,7 @@ class Mission
 					special="NONE";
 					id=58;
 					side="GUER";
-					vehicle="Soldier_Sniper_KSVK_PMC";
+					vehicle="CUP_I_PMC_Sniper";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -296,7 +268,7 @@ class Mission
 					special="NONE";
 					id=59;
 					side="GUER";
-					vehicle="Soldier_GL_PMC";
+					vehicle="CUP_I_PMC_Soldier_GL";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -310,7 +282,7 @@ class Mission
 					special="NONE";
 					id=60;
 					side="GUER";
-					vehicle="CIV_Contractor1_BAF";
+					vehicle="CUP_I_PMC_Contractor1";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -324,7 +296,7 @@ class Mission
 					special="NONE";
 					id=152;
 					side="GUER";
-					vehicle="CIV_Contractor2_BAF";
+					vehicle="CUP_I_PMC_Contractor2";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -338,7 +310,7 @@ class Mission
 					special="NONE";
 					id=151;
 					side="GUER";
-					vehicle="Soldier_Engineer_PMC";
+					vehicle="CUP_I_PMC_Engineer";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -443,7 +415,7 @@ class Mission
 					special="NONE";
 					id=69;
 					side="EAST";
-					vehicle="RU_Commander";
+					vehicle="CUP_O_RU_Commander_VDV";
 					player="PLAY CDG";
 					leader=1;
 					rank="MAJOR";
@@ -459,7 +431,7 @@ class Mission
 					special="NONE";
 					id=70;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="signaller";
@@ -473,7 +445,7 @@ class Mission
 					special="NONE";
 					id=71;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""medic"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; russianCO = group this; group this setGroupId [""Base HQ""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
@@ -486,7 +458,7 @@ class Mission
 					special="NONE";
 					id=72;
 					side="EAST";
-					vehicle="RU_Soldier_Officer";
+					vehicle="CUP_O_RU_Officer_VDV_EMR";
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
@@ -551,7 +523,7 @@ class Mission
 					special="NONE";
 					id=75;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -566,7 +538,7 @@ class Mission
 					special="NONE";
 					id=76;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -579,7 +551,7 @@ class Mission
 					special="NONE";
 					id=77;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -592,7 +564,7 @@ class Mission
 					special="NONE";
 					id=78;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -605,7 +577,7 @@ class Mission
 					special="NONE";
 					id=79;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -618,7 +590,7 @@ class Mission
 					special="NONE";
 					id=80;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -639,7 +611,7 @@ class Mission
 					special="NONE";
 					id=81;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -654,7 +626,7 @@ class Mission
 					special="NONE";
 					id=82;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -667,7 +639,7 @@ class Mission
 					special="NONE";
 					id=83;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -680,7 +652,7 @@ class Mission
 					special="NONE";
 					id=84;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -693,7 +665,7 @@ class Mission
 					special="NONE";
 					id=85;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -706,7 +678,7 @@ class Mission
 					special="NONE";
 					id=86;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -727,7 +699,7 @@ class Mission
 					special="NONE";
 					id=87;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -742,7 +714,7 @@ class Mission
 					special="NONE";
 					id=88;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -755,7 +727,7 @@ class Mission
 					special="NONE";
 					id=89;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -768,7 +740,7 @@ class Mission
 					special="NONE";
 					id=90;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -781,7 +753,7 @@ class Mission
 					special="NONE";
 					id=91;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -794,7 +766,7 @@ class Mission
 					special="NONE";
 					id=92;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -815,7 +787,7 @@ class Mission
 					special="NONE";
 					id=93;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -830,7 +802,7 @@ class Mission
 					special="NONE";
 					id=94;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -843,7 +815,7 @@ class Mission
 					special="NONE";
 					id=95;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -856,7 +828,7 @@ class Mission
 					special="NONE";
 					id=96;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -869,7 +841,7 @@ class Mission
 					special="NONE";
 					id=97;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -882,7 +854,7 @@ class Mission
 					special="NONE";
 					id=98;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -903,7 +875,7 @@ class Mission
 					special="NONE";
 					id=99;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -918,7 +890,7 @@ class Mission
 					special="NONE";
 					id=100;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -931,7 +903,7 @@ class Mission
 					special="NONE";
 					id=101;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -944,7 +916,7 @@ class Mission
 					special="NONE";
 					id=102;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -957,7 +929,7 @@ class Mission
 					special="NONE";
 					id=103;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -970,7 +942,7 @@ class Mission
 					special="NONE";
 					id=104;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
@@ -991,7 +963,7 @@ class Mission
 					special="NONE";
 					id=105;
 					side="EAST";
-					vehicle="RU_Soldier_Pilot";
+					vehicle="CUP_O_RU_Pilot_EMR";
 					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
@@ -1007,7 +979,7 @@ class Mission
 					special="NONE";
 					id=106;
 					side="EAST";
-					vehicle="RU_Soldier_Pilot";
+					vehicle="CUP_O_RU_Pilot_EMR";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -1031,7 +1003,7 @@ class Mission
 					special="NONE";
 					id=108;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
@@ -1043,7 +1015,7 @@ class Mission
 					special="NONE";
 					id=109;
 					side="CIV";
-					vehicle="Doctor";
+					vehicle="CUP_C_C_Doctor_01";
 					player="PLAY CDG";
 					rank="MAJOR";
 					skill=0.60000002;
@@ -1067,7 +1039,7 @@ class Mission
 					special="NONE";
 					id=110;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
@@ -1079,7 +1051,7 @@ class Mission
 					special="NONE";
 					id=111;
 					side="CIV";
-					vehicle="Functionary2";
+					vehicle="C_scientist_02_formal_F";
 					player="PLAY CDG";
 					rank="MAJOR";
 					skill=0.60000002;
@@ -1102,7 +1074,7 @@ class Mission
 					special="NONE";
 					id=130;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -1126,7 +1098,7 @@ class Mission
 					special="NONE";
 					id=132;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -1151,7 +1123,7 @@ class Mission
 					special="NONE";
 					id=134;
 					side="GUER";
-					vehicle="GUE_Soldier_1";
+					vehicle="I_G_Soldier_A_F";
 					leader=1;
 					lock="UNLOCKED";
 					rank="COLONEL";
@@ -1165,7 +1137,7 @@ class Mission
 					special="NONE";
 					id=45;
 					side="CIV";
-					vehicle="Doctor";
+					vehicle="CUP_C_C_Doctor_01";
 					player="PLAY CDG";
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1551,7 +1523,7 @@ class Mission
 					special="NONE";
 					id=192;
 					side="GUER";
-					vehicle="CIV_Contractor1_BAF";
+					vehicle="CUP_I_PMC_Soldier";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
@@ -1563,7 +1535,7 @@ class Mission
 					special="NONE";
 					id=189;
 					side="CIV";
-					vehicle="Policeman";
+					vehicle="CUP_C_C_Policeman_02";
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
@@ -1575,7 +1547,7 @@ class Mission
 					special="NONE";
 					id=191;
 					side="CIV";
-					vehicle="Policeman";
+					vehicle="CUP_C_C_Policeman_02";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  this moveingunner kordmg; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
 				};
@@ -1586,7 +1558,7 @@ class Mission
 					special="NONE";
 					id=190;
 					side="CIV";
-					vehicle="Policeman";
+					vehicle="CUP_C_C_Policeman_02";
 					skill=0.60000002;
 					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
 				};
@@ -1619,7 +1591,7 @@ class Mission
 					azimut=-639.22699;
 					id=206;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -1641,7 +1613,7 @@ class Mission
 					azimut=-564.64502;
 					id=207;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="CUP_O_RU_Soldier_EMR";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -2156,7 +2128,7 @@ class Mission
 			special="NONE";
 			id=42;
 			side="EMPTY";
-			vehicle="ACE_USVehicleBox";
+			vehicle="B_supplyCrate_F";
 			leader=1;
 			skill=0.51999998;
 			init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
@@ -2168,7 +2140,7 @@ class Mission
 			special="NONE";
 			id=46;
 			side="EMPTY";
-			vehicle="USBasicAmmunitionBox";
+			vehicle="Land_Pallet_MilBoxes_F";
 			leader=1;
 			skill=0.51999998;
 			init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
@@ -2201,7 +2173,7 @@ class Mission
 			special="NONE";
 			id=51;
 			side="EMPTY";
-			vehicle="Zodiac";
+			vehicle="CUP_B_Zodiac_USMC";
 			leader=1;
 			skill=0.60000002;
 			description="4th Squad / Leader";
@@ -2213,7 +2185,7 @@ class Mission
 			special="NONE";
 			id=52;
 			side="EMPTY";
-			vehicle="Zodiac";
+			vehicle="CUP_B_Zodiac_USMC";
 			leader=1;
 			skill=0.60000002;
 			description="4th Squad / Leader";
@@ -2225,7 +2197,7 @@ class Mission
 			special="NONE";
 			id=53;
 			side="EMPTY";
-			vehicle="Zodiac";
+			vehicle="CUP_B_Zodiac_USMC";
 			leader=1;
 			skill=0.60000002;
 			description="4th Squad / Leader";
@@ -2237,7 +2209,7 @@ class Mission
 			special="NONE";
 			id=54;
 			side="EMPTY";
-			vehicle="Zodiac";
+			vehicle="CUP_B_Zodiac_USMC";
 			leader=1;
 			skill=0.60000002;
 			description="4th Squad / Leader";
@@ -2249,7 +2221,7 @@ class Mission
 			special="NONE";
 			id=55;
 			side="EMPTY";
-			vehicle="Zodiac";
+			vehicle="CUP_B_Zodiac_USMC";
 			leader=1;
 			skill=0.60000002;
 			description="4th Squad / Leader";
@@ -2261,7 +2233,7 @@ class Mission
 			special="NONE";
 			id=63;
 			side="EMPTY";
-			vehicle="Skoda";
+			vehicle="CUP_C_Octavia_CIV";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="id = [""gearcar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
@@ -2273,7 +2245,7 @@ class Mission
 			special="NONE";
 			id=64;
 			side="EMPTY";
-			vehicle="VWGolf";
+			vehicle="CUP_C_Golf4_random_Civ";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="id = [""weaponscar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
@@ -2285,7 +2257,7 @@ class Mission
 			special="NONE";
 			id=107;
 			side="EMPTY";
-			vehicle="ACE_Mi17_RU";
+			vehicle="RHS_Mi8mt_vdv";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="helo";
@@ -2315,7 +2287,7 @@ class Mission
 			azimut=-114.131;
 			id=114;
 			side="EMPTY";
-			vehicle="F35B";
+			vehicle="RHS_T50_vvs_blueonblue";
 			lock="LOCKED";
 			skill=0.60000002;
 			ammo=0;
@@ -2328,7 +2300,7 @@ class Mission
 			azimut=-329.55499;
 			id=115;
 			side="EMPTY";
-			vehicle="AH64D_EP1";
+			vehicle="RHS_AH64D_wd";
 			lock="LOCKED";
 			skill=0.60000002;
 			ammo=0;
@@ -2341,7 +2313,7 @@ class Mission
 			azimut=-540.98602;
 			id=116;
 			side="EMPTY";
-			vehicle="Pchela1T";
+			vehicle="rhs_pchela1t_vvsc";
 			lock="LOCKED";
 			skill=0.60000002;
 			ammo=0;
@@ -2354,7 +2326,7 @@ class Mission
 			azimut=-743.14697;
 			id=117;
 			side="EMPTY";
-			vehicle="ACE_HC130_N";
+			vehicle="CUP_B_C130J_Cargo_USMC";
 			lock="LOCKED";
 			skill=0.60000002;
 			text="cargoplane";
@@ -2366,7 +2338,7 @@ class Mission
 			azimut=-540.98602;
 			id=118;
 			side="EMPTY";
-			vehicle="Pchela1T";
+			vehicle="rhs_pchela1t_vvsc";
 			lock="LOCKED";
 			skill=0.60000002;
 			ammo=0;
@@ -2379,7 +2351,7 @@ class Mission
 			azimut=-540.98602;
 			id=119;
 			side="EMPTY";
-			vehicle="Pchela1T";
+			vehicle="rhs_pchela1t_vvsc";
 			lock="LOCKED";
 			skill=0.60000002;
 			ammo=0;
@@ -2393,7 +2365,7 @@ class Mission
 			special="NONE";
 			id=120;
 			side="EMPTY";
-			vehicle="ACE_Ural_RU";
+			vehicle="RHS_Ural_VDV_01";
 			lock="LOCKED";
 			skill=1;
 			text="testural";
@@ -2407,7 +2379,7 @@ class Mission
 			special="NONE";
 			id=121;
 			side="EMPTY";
-			vehicle="ACE_Ural_RU";
+			vehicle="RHS_Ural_VDV_01";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
@@ -2420,7 +2392,7 @@ class Mission
 			special="NONE";
 			id=122;
 			side="EMPTY";
-			vehicle="ACE_Ural_RU";
+			vehicle="RHS_Ural_VDV_01";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
@@ -2433,7 +2405,7 @@ class Mission
 			special="NONE";
 			id=123;
 			side="EMPTY";
-			vehicle="ACE_Ural_RU";
+			vehicle="RHS_Ural_VDV_01";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
@@ -2446,7 +2418,7 @@ class Mission
 			special="NONE";
 			id=124;
 			side="EMPTY";
-			vehicle="UAZ_RU";
+			vehicle="rhs_uaz_vdv";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
@@ -2459,7 +2431,7 @@ class Mission
 			special="NONE";
 			id=125;
 			side="EMPTY";
-			vehicle="UAZ_RU";
+			vehicle="rhs_uaz_vdv";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
@@ -2472,7 +2444,7 @@ class Mission
 			special="NONE";
 			id=126;
 			side="EMPTY";
-			vehicle="UAZ_RU";
+			vehicle="rhs_uaz_vdv";
 			lock="LOCKED";
 			skill=1;
 			text="car";
@@ -2486,7 +2458,7 @@ class Mission
 			special="NONE";
 			id=127;
 			side="EMPTY";
-			vehicle="UAZ_RU";
+			vehicle="rhs_uaz_vdv";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
@@ -2499,7 +2471,7 @@ class Mission
 			special="NONE";
 			id=128;
 			side="EMPTY";
-			vehicle="TT650_TK_EP1";
+			vehicle="CUP_O_TT650_TKA";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
@@ -2512,7 +2484,7 @@ class Mission
 			special="NONE";
 			id=129;
 			side="EMPTY";
-			vehicle="TT650_TK_EP1";
+			vehicle="CUP_O_TT650_TKA";
 			lock="LOCKED";
 			skill=1;
 			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
@@ -2761,7 +2733,7 @@ class Mission
 			special="NONE";
 			id=158;
 			side="EMPTY";
-			vehicle="ace_arty_m119";
+			vehicle="rhs_D30_vdv";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
@@ -2772,7 +2744,7 @@ class Mission
 			special="NONE";
 			id=159;
 			side="EMPTY";
-			vehicle="ace_arty_105mm_ammo_m1";
+			vehicle="ACE_Box_82mm_Mo_Combo";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
@@ -2783,7 +2755,7 @@ class Mission
 			special="NONE";
 			id=160;
 			side="EMPTY";
-			vehicle="ace_arty_105mm_ammo_m1";
+			vehicle="ACE_Box_82mm_Mo_Combo";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
@@ -2794,7 +2766,7 @@ class Mission
 			special="NONE";
 			id=161;
 			side="EMPTY";
-			vehicle="ace_arty_105mm_ammo_m1";
+			vehicle="ACE_Box_82mm_Mo_Combo";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
@@ -2805,7 +2777,7 @@ class Mission
 			special="NONE";
 			id=162;
 			side="EMPTY";
-			vehicle="ace_arty_105mm_ammo_m916";
+			vehicle="ACE_Box_82mm_Mo_HE";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
@@ -2816,7 +2788,7 @@ class Mission
 			special="NONE";
 			id=163;
 			side="EMPTY";
-			vehicle="ace_arty_105mm_ammo_m60a2";
+			vehicle="ACE_Box_82mm_Mo_Smoke";
 			skill=0.60000002;
 			description="Chadori Hudsonski, Experimental Physicist";
 		};
