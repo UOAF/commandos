@@ -1,0 +1,2 @@
+stockadeLocked = true; 
+publicvariable "stockadeLocked";

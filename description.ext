@@ -1,0 +1,162 @@
+respawn = "BASE";
+respawndelay = 10;
+respawnDialog = 0;
+disabledAI = 1;
+
+//mission loading text
+onLoadMission = "Krause Simple TVT Series.";
+
+//mission time
+onLoadMissionTime = true;
+
+class Header
+{
+   gameType = Team;            //DM, Team, Coop, CTI
+   minPlayers = 2;             //min # of players the mission supports
+   maxPlayers = 50;            //Max # of players the mission supports
+   playerCountMultipleOf = 1;  //Unknown
+};
+
+class Params
+{
+	class Time
+	{
+		title = "H-Hour";
+		values[] = {0,1,2};
+		texts[] = {"Night","Dawn","Day"};
+		default = 0;
+	};
+	
+	class Tasks
+	{
+		title = "CIA Tasks";
+		values[] = {0,1,2,3,4,5,6,7,8};
+		texts[] = {"2","3","4","5","6","7","8","9","THE AHNULD CHALLENGE"};
+		default = 1;
+	};	
+	
+	class ciauniforms
+	{
+		title = "CIA Starts with Uniforms?";
+		values[] = {0,1};
+		texts[] = {"Yes","No"};
+		default = 0;
+	};	
+
+	
+};
+
+//sounds
+class CfgSounds
+{
+	class retardalert
+	{
+		name = "retardalert"; 
+		sound[] = {retardalert.ogg, db+0, 1.0};
+		titles[] = {0, ""};
+	};
+	
+	class dogbark1
+	{
+		name = "dogbark1"; 
+		sound[] = {\scripts\angrybarking.ogg, db-5, 1.0};
+		titles[] = {0, ""};
+	};
+
+	class dogbark2
+	{
+		name = "dogbark2"; 
+		sound[] = {\scripts\singleBark.ogg, db-5, 1.0};
+		titles[] = {0, ""};
+	};
+	
+	class doggrowl
+	{
+		name = "doggrowl"; 
+		sound[] = {\scripts\growl.ogg, db-10, 1.0};
+		titles[] = {0, ""};
+	};
+	
+	class dogwhine
+	{
+		name = "dogwhine"; 
+		sound[] = {\scripts\dogwhine.ogg, db-10, 1.0};
+		titles[] = {0, ""};
+	};
+		
+	  class whistle
+  {
+   name = "whistle";
+   sound[] = {"\scripts\whistle.ogg", db-0, 1};
+   titles[] = {};
+  };
+
+	  class bitbyDog
+  {
+   name = "bitbyDog";
+   sound[] = {"\scripts\hit3.ogg", db-0, 1};
+   titles[] = {};
+  };	
+
+	  class dogrunning1
+  {
+   name = "dogrunning1";
+   sound[] = {"\scripts\dogrunning1.ogg", db-25, 1};
+   titles[] = {};
+  };	
+
+	  class dogrunning2
+  {
+   name = "dogrunning2";
+   sound[] = {"\scripts\dogrunning2.ogg", db-25, 1};
+   titles[] = {};
+  };	
+  
+	  class dogpant
+  {
+   name = "dogpant";
+   sound[] = {"\scripts\dogpant.ogg", db-10, 1};
+   titles[] = {};
+  };	
+  
+  	  class windowbreak
+  {
+   name = "windowbreak";
+   sound[] = {"\scripts\windowbreak.ogg", db-0, 1};
+   titles[] = {};
+  };	
+  
+  	  class breakingin
+  {
+   name = "breakingin";
+   sound[] = {"\scripts\breakingin.ogg", db-25, 1};
+   titles[] = {};
+  };	
+
+     class stab
+  {
+   name = "stab";
+   sound[] = {"\scripts\stab.ogg", db-15, 1};
+   titles[] = {};
+  };	
+  
+     class tgtdestroyed
+  {
+   name = "tgtdestroyed";
+   sound[] = {"\scripts\tgtdestroyed.ogg", db-20, 1};
+   titles[] = {};
+  };	
+  
+};
+
+
+class CfgMusic
+{
+ tracks[]={};
+
+ class goldeneye
+ {
+  name = "goldeneye";
+  sound[] = {"\scripts\goldeneye.ogg", db+0, 1.0};
+ };
+};

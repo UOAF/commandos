@@ -1,0 +1,3576 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"camisc3",
+		"ace_c_weapon",
+		"acex_c_weapon",
+		"ace_sys_wounds",
+		"cacharacters2",
+		"caweapons_ammoboxes",
+		"camisc_e",
+		"fdf_isle1_a",
+		"CAWater",
+		"cacharacters_e",
+		"cacharacters_pmc",
+		"CAWheeled",
+		"CAWheeled2_VWGolf",
+		"THIRSK_Clouds",
+		"acex_ru_veh_mi17",
+		"CAAir2_F35B",
+		"CAAir_E_AH64D",
+		"ace_sys_air_refuel",
+		"CAAir2_Pchela1T",
+		"acex_c_vehicle",
+		"acex_ru_c_vehicle",
+		"CAWheeled_E",
+		"ca_animals2_dogs_pastor",
+		"ca_modules",
+		"ca_modules_e_weather",
+		"cacharacters_baf",
+		"caweapons_e_ammoboxes",
+		"castructures_e_misc_misc_market",
+		"asc_eu_lights",
+		"ace_sys_fastroping",
+		"ace_sys_arty_m119",
+		"ace_sys_arty_ammunition",
+		"caweapons_e",
+		"caweapons_kord",
+		"ace_sys_tracking",
+		"CAMisc",
+		"ace_sys_repair"
+	};
+	addOnsAuto[]=
+	{
+		"ace_sys_wounds",
+		"cacharacters_e",
+		"cacharacters_pmc",
+		"cacharacters_baf",
+		"THIRSK_Clouds",
+		"cacharacters2",
+		"ca_modules",
+		"ca_modules_e_weather",
+		"ace_sys_tracking",
+		"ace_sys_repair",
+		"camisc3",
+		"ace_c_weapon",
+		"acex_c_weapon",
+		"caweapons_ammoboxes",
+		"camisc_e",
+		"CAWater",
+		"CAWheeled",
+		"CAWheeled2_VWGolf",
+		"acex_ru_veh_mi17",
+		"CAAir2_F35B",
+		"CAAir_E_AH64D",
+		"CAAir2_Pchela1T",
+		"ace_sys_air_refuel",
+		"acex_c_vehicle",
+		"acex_ru_c_vehicle",
+		"CAWheeled_E",
+		"ca_animals2_dogs_pastor",
+		"caweapons_e_ammoboxes",
+		"castructures_e_misc_misc_market",
+		"asc_eu_lights",
+		"ace_sys_fastroping",
+		"ace_sys_arty_m119",
+		"ace_sys_arty_ammunition",
+		"caweapons_kord",
+		"CAMisc",
+		"fdf_isle1_a"
+	};
+	randomSeed=2096127;
+	class Intel
+	{
+		briefingName="TVT50_KST12_Commandos_v11";
+		briefingDescription="SLOT ALL CIA | SLOT SENIOR SERGEANT, SCIENTISTS and COMMANDER";
+		resistanceWest=0;
+		resistanceEast=1;
+		startWeather=0.25;
+		startFog=0.15000001;
+		forecastWeather=0.14999998;
+		year=2011;
+		month=11;
+		day=5;
+		hour=20;
+		minute=0;
+	};
+	class Groups
+	{
+		items=49;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8508.3037,5.0005341,4578.7793};
+					azimut=-92.498978;
+					special="NONE";
+					id=0;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="ao";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11935.368,18.009348,10251.722};
+					special="NONE";
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.33333331;
+					text="specPen";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9093.8564,46.256069,4550.8389};
+					azimut=-27.366722;
+					id=43;
+					side="LOGIC";
+					vehicle="ACE_Wounds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8391.2119,5.0005341,4492.2773};
+					azimut=0.080141306;
+					id=44;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="hill";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8843.0723,5.0005341,4235.9966};
+					id=48;
+					side="LOGIC";
+					vehicle="ACE_Wounds_EveryoneMedic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8884.4072,5.0005341,4236.7905};
+					id=49;
+					side="LOGIC";
+					vehicle="ACE_Wounds_FullHeal";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					presence=0;
+					position[]={10045.375,4.4634171,5995.166};
+					azimut=-468.33414;
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="US_Soldier_EP1";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					description="4th Squad / Leader";
+				};
+				class Item1
+				{
+					position[]={10043.24,4.4634171,5996.7051};
+					azimut=-718.33801;
+					special="NONE";
+					id=57;
+					side="GUER";
+					vehicle="Soldier_Bodyguard_AA12_PMC";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];  this setVariable [""pistolDrawn"", 0];  takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""isHiding"", false];  ";
+					description="SAD Group / Leader";
+				};
+				class Item2
+				{
+					position[]={10044.693,4.4634171,5996.5474};
+					azimut=-730.31232;
+					special="NONE";
+					id=62;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					rank="CAPTAIN";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0]; takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; this setVariable [""isHiding"", false]; ";
+					description="SAD Group / Assistant Leader, Helicopter Pilot";
+				};
+				class Item3
+				{
+					position[]={10045.991,4.4634171,5996.5469};
+					azimut=-730.31232;
+					special="NONE";
+					id=61;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];";
+					description="SAD Group / Operator";
+				};
+				class Item4
+				{
+					position[]={10042.86,4.4634171,5994.7402};
+					azimut=-376.27899;
+					special="NONE";
+					id=58;
+					side="GUER";
+					vehicle="Soldier_Sniper_KSVK_PMC";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];  this setVariable [""buttStroked"", false, true];";
+					description="SAD Group / Operator";
+				};
+				class Item5
+				{
+					position[]={10044.551,4.4634171,5994.8296};
+					azimut=-376.27899;
+					special="NONE";
+					id=59;
+					side="GUER";
+					vehicle="Soldier_GL_PMC";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false]; ";
+					description="SAD Group / Operator";
+				};
+				class Item6
+				{
+					position[]={10045.834,4.4634171,5994.6396};
+					azimut=-376.27899;
+					special="NONE";
+					id=60;
+					side="GUER";
+					vehicle="CIV_Contractor1_BAF";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false]; ";
+					description="SAD Group / Operator";
+				};
+				class Item7
+				{
+					position[]={10047.332,4.4634171,5994.1895};
+					azimut=-376.27899;
+					special="NONE";
+					id=152;
+					side="GUER";
+					vehicle="CIV_Contractor2_BAF";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0]; this setVariable [""isHiding"", false]; ";
+					description="SAD Group / Operator";
+				};
+				class Item8
+				{
+					position[]={10047.278,4.4634171,5996.5059};
+					azimut=-376.27899;
+					special="NONE";
+					id=151;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];";
+					description="SAD Group / Operator";
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10036.062,6.1119452,6018.2593};
+					azimut=-720.38898;
+					special="NONE";
+					id=65;
+					side="LOGIC";
+					vehicle="TH_SNOWING4";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10114.217,2.0033529,5891.6792};
+					azimut=-352.65201;
+					special="NONE";
+					id=66;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="boats1";
+				};
+			};
+		};
+		class Item9
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11704.036,2.0896714,5400.2129};
+					azimut=-352.65201;
+					special="NONE";
+					id=67;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="boats2";
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8482.1699,2.9854724,7629.376};
+					azimut=-352.65201;
+					special="NONE";
+					id=68;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="boats3";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8056.6777,5.0005341,4270.6802};
+					azimut=-689.21698;
+					special="NONE";
+					id=69;
+					side="EAST";
+					vehicle="RU_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=0.60000002;
+					text="rusCommander";
+					init="id = [""commander"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  russianCO = group this; group this setGroupId [""Base HQ""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];  this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj13' in objectivesText) then {   [-2, {    hint format ['The base commander was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
+					description="Base Commander";
+				};
+				class Item1
+				{
+					position[]={8055.9814,5.0005341,4265.0679};
+					azimut=-1090.83;
+					special="NONE";
+					id=70;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="signaller";
+					init="id = [""RTO"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; russianCO = group this; group this setGroupId [""Base HQ""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  this setVariable [""buttStroked"", false, true]; ";
+					description="Base Signaller";
+				};
+				class Item2
+				{
+					position[]={8062.3613,5.0005341,4263.6138};
+					azimut=-379.67001;
+					special="NONE";
+					id=71;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""medic"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; russianCO = group this; group this setGroupId [""Base HQ""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
+					description="Chief Medic";
+				};
+				class Item3
+				{
+					position[]={8049.0435,5.0005341,4265.0674};
+					azimut=-716.77197;
+					special="NONE";
+					id=72;
+					side="EAST";
+					vehicle="RU_Soldier_Officer";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="seniorsgt";
+					init="id = [""commander"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; russianCO = group this; group this setGroupId [""Base HQ""]; this addweapon ""EvDogTags""; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+					description="Senior Sergeant";
+				};
+			};
+		};
+		class Item12
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8485.6367,5.0005341,4432.2466};
+					azimut=-379.67001;
+					special="NONE";
+					id=73;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_runway_edgelight"", 2000]);";
+					description="Base Commander";
+				};
+			};
+		};
+		class Item13
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8526.373,5.0005341,4401.7222};
+					azimut=-379.67001;
+					special="NONE";
+					id=74;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_NavigLight"", 2000]);";
+					description="Base Commander";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={7988.5098,5.0005341,4295.4326};
+					azimut=-198.49699;
+					special="NONE";
+					id=75;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Patrol Leader";
+				};
+				class Item1
+				{
+					position[]={7990.2495,5.0005341,4298.1479};
+					azimut=-198.49699;
+					special="NONE";
+					id=76;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Assistant Leader";
+				};
+				class Item2
+				{
+					position[]={7986.5679,5.0005341,4298.4634};
+					azimut=-198.49699;
+					special="NONE";
+					id=77;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Guard";
+				};
+				class Item3
+				{
+					position[]={7990.3862,5.0005341,4300.7671};
+					azimut=-198.49699;
+					special="NONE";
+					id=78;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Guard";
+				};
+				class Item4
+				{
+					position[]={7986.1616,5.0005341,4302.5732};
+					azimut=-198.49699;
+					special="NONE";
+					id=79;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Guard";
+				};
+				class Item5
+				{
+					position[]={7988.4194,5.0005341,4304.5679};
+					azimut=-198.49699;
+					special="NONE";
+					id=80;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  1patrol = group this; group this setGroupId [""1 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="1 Patrol / Guard";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={8033.8257,5.0005341,4296.5996};
+					azimut=-559.245;
+					special="NONE";
+					id=81;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Patrol Leader";
+				};
+				class Item1
+				{
+					position[]={8035.8999,5.0005341,4299.5908};
+					azimut=-559.245;
+					special="NONE";
+					id=82;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Assistant Leader";
+				};
+				class Item2
+				{
+					position[]={8032.2124,5.0005341,4299.8623};
+					azimut=-559.245;
+					special="NONE";
+					id=83;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Guard";
+				};
+				class Item3
+				{
+					position[]={8035.9995,5.0005341,4302.21};
+					azimut=-559.245;
+					special="NONE";
+					id=84;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Guard";
+				};
+				class Item4
+				{
+					position[]={8031.7554,5.0005341,4303.9575};
+					azimut=-559.245;
+					special="NONE";
+					id=85;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Guard";
+				};
+				class Item5
+				{
+					position[]={8033.9839,5.0005341,4305.9897};
+					azimut=-559.245;
+					special="NONE";
+					id=86;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="2 Patrol / Guard";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={8072.6509,5.0005341,4295.002};
+					azimut=-178.77699;
+					special="NONE";
+					id=87;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Patrol Leader";
+				};
+				class Item1
+				{
+					position[]={8074.9917,5.0005341,4298.1299};
+					azimut=-178.77699;
+					special="NONE";
+					id=88;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Assistant Leader";
+				};
+				class Item2
+				{
+					position[]={8071.6421,5.0005341,4299.6714};
+					azimut=-178.77699;
+					special="NONE";
+					id=89;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Guard";
+				};
+				class Item3
+				{
+					position[]={8076.0093,5.0005341,4300.5459};
+					azimut=-178.77699;
+					special="NONE";
+					id=90;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Guard";
+				};
+				class Item4
+				{
+					position[]={8072.646,5.0005341,4303.6733};
+					azimut=-178.77699;
+					special="NONE";
+					id=91;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Guard";
+				};
+				class Item5
+				{
+					position[]={8076.2163,5.0005341,4302.7612};
+					azimut=-178.77699;
+					special="NONE";
+					id=92;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="3 Patrol / Guard";
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={7956.1802,5.0005341,4297.124};
+					azimut=-561.94202;
+					special="NONE";
+					id=93;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Patrol Leader";
+				};
+				class Item1
+				{
+					position[]={7958.1099,5.0005341,4300.2036};
+					azimut=-561.94202;
+					special="NONE";
+					id=94;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Assistant Leader";
+				};
+				class Item2
+				{
+					position[]={7954.4165,5.0005341,4300.3022};
+					azimut=-561.94202;
+					special="NONE";
+					id=95;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Guard";
+				};
+				class Item3
+				{
+					position[]={7958.0835,5.0005341,4302.8271};
+					azimut=-561.94202;
+					special="NONE";
+					id=96;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Guard";
+				};
+				class Item4
+				{
+					position[]={7953.7622,5.0005341,4304.3721};
+					azimut=-561.94202;
+					special="NONE";
+					id=97;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Guard";
+				};
+				class Item5
+				{
+					position[]={7955.8892,5.0005341,4306.5063};
+					azimut=-561.94202;
+					special="NONE";
+					id=98;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="4 Patrol / Guard";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={8111.2959,5.0005341,4295.4907};
+					azimut=-542.07202;
+					special="NONE";
+					id=99;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Patrol Leader";
+				};
+				class Item1
+				{
+					position[]={8114.1626,5.0005341,4297.731};
+					azimut=-542.07202;
+					special="NONE";
+					id=100;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Assistant Leader";
+				};
+				class Item2
+				{
+					position[]={8110.7217,5.0005341,4299.082};
+					azimut=-542.07202;
+					special="NONE";
+					id=101;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Guard";
+				};
+				class Item3
+				{
+					position[]={8115.0298,5.0005341,4300.2056};
+					azimut=-542.07202;
+					special="NONE";
+					id=102;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Guard";
+				};
+				class Item4
+				{
+					position[]={8111.4893,5.0005341,4303.1328};
+					azimut=-542.07202;
+					special="NONE";
+					id=103;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Guard";
+				};
+				class Item5
+				{
+					position[]={8114.2192,5.0005341,4304.418};
+					azimut=-542.07202;
+					special="NONE";
+					id=104;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  5patrol = group this; group this setGroupId [""5 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+					description="5 Patrol / Guard";
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={7758.1816,5.0005341,4301.4692};
+					azimut=-463.241;
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="pilot1";
+					init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""]; this setVariable [""pistolDrawn"", 0];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
+					description="Base Helicopter / Pilot";
+				};
+				class Item1
+				{
+					position[]={7759.9424,5.0005341,4300.6543};
+					azimut=-463.241;
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="pilot2";
+					init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""]; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
+					description="Base Helicopter / Crew Chief";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					presence=0;
+					position[]={8017.3608,5.0005341,4258.7344};
+					azimut=-616.41858;
+					special="NONE";
+					id=108;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={8017.7256,5.0005341,4261.5674};
+					azimut=-648.01398;
+					special="NONE";
+					id=109;
+					side="CIV";
+					vehicle="Doctor";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=0.60000002;
+					text="dr1";
+					init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist1 = group this; group this setGroupId [""Dr. Hudsonski""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""ace_arty_rangeTable_m119""; this addweapon ""ACE_Map_Tools""; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj11' in objectivesText) then {   [-2, {    hint format ['Dr. Hudsonski was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
+					description="Chadori Hudsonski, Experimental Physicist";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					presence=0;
+					position[]={8012.5132,5.0005341,4276.4102};
+					azimut=-658.36865;
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={8015.1196,5.0005341,4274.8579};
+					azimut=-633.87402;
+					special="NONE";
+					id=111;
+					side="CIV";
+					vehicle="Functionary2";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=0.60000002;
+					text="dr2";
+					init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist2 = group this; group this setGroupId [""Dr. Zedic""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj12' in objectivesText) then {   [-2, {    hint format ['Dr. Zedic was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""];";
+					description="Gavriil Zedic, Chemical Warfare Expert";
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8053.5205,5.0005341,4335.1265};
+					azimut=-908.224;
+					special="NONE";
+					id=130;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="handler1";
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 1k9 = group this; group this setGroupId [""1 K-9""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+					description="1 K-9 Detachment / Handler";
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8004.5381,5.0005341,4334.7861};
+					azimut=-174.57001;
+					special="NONE";
+					id=132;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="handler2";
+					init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 2k9 = group this; group this setGroupId [""2 K-9""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+					description="2 K-9 Detachment / Handler";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					presence=0;
+					position[]={10121.489,29.136635,9243.3047};
+					azimut=-360.465;
+					special="NONE";
+					id=134;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=0.60000002;
+					description="Camera Man (For FRAPS)";
+				};
+				class Item1
+				{
+					position[]={10121.59,29.159864,9241.8936};
+					azimut=-360.465;
+					special="NONE";
+					id=45;
+					side="CIV";
+					vehicle="Doctor";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="camman";
+					init="removeallweapons this; hideobject this; this addeventhandler [""HandleDamage"","""" ]; this removeweapon ""itemradio""; cameraMan = group this; group this setGroupId [""CAMERA MAN""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; 0 = this spawn { _this setVariable [""ace_w_allow_dam"", false] };";
+					description="Camera Man (For FRAPS)";
+				};
+			};
+		};
+		class Item25
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14544.306,6.7172079,19699.709};
+					special="NONE";
+					id=135;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.33333331;
+					text="graveyard";
+				};
+			};
+		};
+		class Item26
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7865.1836,5.0005341,4268.3506};
+					id=136;
+					side="LOGIC";
+					vehicle="BIS_Effect_MovieNight";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item27
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7832.4199,5.0005341,4211.7139};
+					id=137;
+					side="LOGIC";
+					vehicle="WeatherParticlesManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item28
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8320.3496,13.456318,5372.1704};
+					azimut=-361.401;
+					special="NONE";
+					id=146;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="foodloc";
+					init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +2] ";
+					description="SAD Group / Operator";
+				};
+			};
+		};
+		class Item29
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9463.1924,22.424528,4156.7539};
+					azimut=-361.401;
+					special="NONE";
+					id=145;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="towerloc";
+					description="SAD Group / Operator";
+				};
+			};
+		};
+		class Item30
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8562.8936,7.3402042,7923.4712};
+					azimut=-359.845;
+					special="NONE";
+					id=169;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="city1";
+					description="SAD Group / Leader";
+				};
+			};
+		};
+		class Item31
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10870.885,10.801403,6899.188};
+					azimut=-359.845;
+					special="NONE";
+					id=170;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="city2";
+					description="SAD Group / Leader";
+				};
+			};
+		};
+		class Item32
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8460.3467,18.038685,4343.0723};
+					azimut=-178.77699;
+					special="NONE";
+					id=172;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="controlTower";
+					init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +11]; ";
+					description="3 Patrol / Patrol Leader";
+				};
+			};
+		};
+		class Item33
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7927.2642,15.329231,4064.4934};
+					azimut=-178.77699;
+					special="NONE";
+					id=173;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="chemfire1";
+					init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+					description="3 Patrol / Patrol Leader";
+				};
+			};
+		};
+		class Item34
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7929.5361,11.012552,4100.5762};
+					azimut=-178.77699;
+					special="NONE";
+					id=174;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="chemfire2";
+					init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+					description="3 Patrol / Patrol Leader";
+				};
+			};
+		};
+		class Item35
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8572.4648,15.591526,5186.7944};
+					azimut=-178.77699;
+					special="NONE";
+					id=175;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="hudsonPlans";
+					init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+					description="3 Patrol / Patrol Leader";
+				};
+			};
+		};
+		class Item36
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8397.1182,5.0241485,5177.646};
+					azimut=-178.77699;
+					special="NONE";
+					id=176;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="expercanon";
+					description="3 Patrol / Patrol Leader";
+				};
+			};
+		};
+		class Item37
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8267.6289,5.0005341,4229.3311};
+					id=182;
+					side="LOGIC";
+					vehicle="ACE_ForceGroupMarkersOff_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item38
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10042.42,4.4634171,6005.5508};
+					id=183;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="offlimits1";
+				};
+			};
+		};
+		class Item39
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7928.543,5.0005341,4045.0928};
+					id=184;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="offlimits2";
+				};
+			};
+		};
+		class Item40
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8399.2402,5.0319405,5175.6934};
+					id=185;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="offlimits3";
+				};
+			};
+		};
+		class Item41
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9443.9189,5.0005341,4157.5186};
+					id=186;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="offlimits4";
+				};
+			};
+		};
+		class Item42
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9539.6621,36.710541,16410.375};
+					azimut=-2159.98;
+					special="NONE";
+					id=187;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="centerOfRange";
+					description="2 K-9 Detachment / Hound";
+				};
+			};
+		};
+		class Item43
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					presence=0;
+					position[]={9072.7168,10.00061,5952.3291};
+					azimut=-360.202;
+					special="NONE";
+					id=192;
+					side="GUER";
+					vehicle="CIV_Contractor1_BAF";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={9071.9932,10.00061,5948.8354};
+					azimut=-360.202;
+					special="NONE";
+					id=189;
+					side="CIV";
+					vehicle="Policeman";
+					rank="CORPORAL";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+				};
+				class Item2
+				{
+					position[]={9069.5605,10.00061,5945.5762};
+					azimut=-360.202;
+					special="NONE";
+					id=191;
+					side="CIV";
+					vehicle="Policeman";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  this moveingunner kordmg; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+				};
+				class Item3
+				{
+					position[]={9075.0547,10.00061,5945.5508};
+					azimut=-360.202;
+					special="NONE";
+					id=190;
+					side="CIV";
+					vehicle="Policeman";
+					skill=0.60000002;
+					init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9062.8906,10.00061,5962.6587};
+					combatMode="RED";
+					speed="FULL";
+					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item44
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10040.215,4.4634171,5997.626};
+					azimut=-639.22699;
+					id=206;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="uniform2";
+					init="removeallweapons this; removeallitems this; if (isserver) then {this setdammage 1; };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+					description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
+				};
+			};
+		};
+		class Item45
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10040.56,4.4634171,5998.2363};
+					azimut=-564.64502;
+					id=207;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="uniform1";
+					init="removeallweapons this; removeallitems this; if (isserver) then {this setdammage 1; };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+					description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
+				};
+			};
+		};
+		class Item46
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8308.3135,5.2114263,4197.897};
+					id=208;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="stockade";
+				};
+			};
+		};
+		class Item47
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9069.6396,10.021862,5882.5713};
+					id=209;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="offlimits5";
+				};
+			};
+		};
+		class Item48
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6812.8711,-30,5978.2139};
+					id=211;
+					side="LOGIC";
+					vehicle="ace_sys_repair_tyres";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=120;
+		class Item0
+		{
+			position[]={11948.209,17.576784,10282.597};
+			azimut=-178.96394;
+			special="NONE";
+			id=2;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item1
+		{
+			position[]={11956.142,17.621107,10282.479};
+			azimut=-178.96394;
+			special="NONE";
+			id=3;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item2
+		{
+			position[]={11963.127,17.701536,10282.495};
+			azimut=-178.96394;
+			special="NONE";
+			id=4;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item3
+		{
+			position[]={11939.836,17.518761,10282.515};
+			azimut=-178.96394;
+			special="NONE";
+			id=5;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item4
+		{
+			position[]={11915.419,17.26725,10282.788};
+			azimut=-178.96394;
+			special="NONE";
+			id=6;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item5
+		{
+			position[]={11923.351,17.364796,10282.675};
+			azimut=-178.96394;
+			special="NONE";
+			id=7;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item6
+		{
+			position[]={11931.517,17.451855,10282.437};
+			azimut=-178.96394;
+			special="NONE";
+			id=8;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item7
+		{
+			position[]={11908.907,17.180721,10282.886};
+			azimut=-178.96394;
+			special="NONE";
+			id=9;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item8
+		{
+			position[]={11903.851,17.333424,10263.536};
+			azimut=-269.76535;
+			special="NONE";
+			id=10;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item9
+		{
+			position[]={11903.854,17.185192,10271.468};
+			azimut=-269.76535;
+			special="NONE";
+			id=11;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item10
+		{
+			position[]={11903.517,17.099184,10282.491};
+			azimut=-269.45139;
+			special="NONE";
+			id=12;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item11
+		{
+			position[]={11904.05,17.592632,10255.163};
+			azimut=-269.76535;
+			special="NONE";
+			id=13;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item12
+		{
+			position[]={11904.116,18.552263,10230.747};
+			azimut=-269.76535;
+			special="NONE";
+			id=14;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item13
+		{
+			position[]={11904.12,18.234669,10238.681};
+			azimut=-269.76535;
+			special="NONE";
+			id=15;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item14
+		{
+			position[]={11904.243,17.912731,10246.847};
+			azimut=-269.76535;
+			special="NONE";
+			id=16;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item15
+		{
+			position[]={11904.167,18.95677,10220.021};
+			azimut=-269.76535;
+			special="NONE";
+			id=17;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item16
+		{
+			position[]={11948.141,20.443043,10219.466};
+			azimut=-178.96394;
+			special="NONE";
+			id=18;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item17
+		{
+			position[]={11956.072,20.761532,10219.353};
+			azimut=-178.96394;
+			special="NONE";
+			id=19;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item18
+		{
+			position[]={11962.281,21.032047,10219.435};
+			azimut=-178.96394;
+			special="NONE";
+			id=20;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item19
+		{
+			position[]={11939.766,20.128826,10219.388};
+			azimut=-178.96394;
+			special="NONE";
+			id=21;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item20
+		{
+			position[]={11915.349,19.335175,10219.661};
+			azimut=-178.96394;
+			special="NONE";
+			id=22;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item21
+		{
+			position[]={11923.282,19.621344,10219.544};
+			azimut=-178.96394;
+			special="NONE";
+			id=23;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item22
+		{
+			position[]={11931.448,19.947821,10219.31};
+			azimut=-178.96394;
+			special="NONE";
+			id=24;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item23
+		{
+			position[]={11908.267,19.107479,10219.661};
+			azimut=-178.96394;
+			special="NONE";
+			id=25;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item24
+		{
+			position[]={11968.1,19.691286,10237.231};
+			azimut=-90.704964;
+			special="NONE";
+			id=26;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item25
+		{
+			position[]={11968.225,20.403116,10229.298};
+			azimut=-90.704964;
+			special="NONE";
+			id=27;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item26
+		{
+			position[]={11968.192,21.055634,10222.86};
+			azimut=-90.704964;
+			special="NONE";
+			id=28;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item27
+		{
+			position[]={11967.764,18.982306,10245.601};
+			azimut=-90.704964;
+			special="NONE";
+			id=29;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item28
+		{
+			position[]={11967.295,17.759327,10270.015};
+			azimut=-90.704964;
+			special="NONE";
+			id=30;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item29
+		{
+			position[]={11967.422,17.985716,10262.081};
+			azimut=-90.704964;
+			special="NONE";
+			id=31;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item30
+		{
+			position[]={11967.434,18.391788,10253.909};
+			azimut=-90.704964;
+			special="NONE";
+			id=32;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item31
+		{
+			position[]={11967.246,17.745516,10276.769};
+			azimut=-90.704964;
+			special="NONE";
+			id=33;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item32
+		{
+			position[]={11903.444,17.133244,10276.901};
+			azimut=-269.45139;
+			special="NONE";
+			id=34;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item33
+		{
+			position[]={11904.179,18.775429,10225.337};
+			azimut=-269.45139;
+			special="NONE";
+			id=35;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item34
+		{
+			position[]={11968.252,21.582624,10217.146};
+			azimut=-269.45139;
+			special="NONE";
+			id=36;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item35
+		{
+			position[]={11968.153,21.377308,10219.298};
+			azimut=-178.96394;
+			special="NONE";
+			id=37;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item36
+		{
+			position[]={11903.007,18.929949,10219.731};
+			azimut=-178.96394;
+			special="NONE";
+			id=38;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item37
+		{
+			position[]={11966.393,17.742649,10282.437};
+			azimut=-178.96394;
+			special="NONE";
+			id=39;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item38
+		{
+			position[]={11967.139,17.746603,10281.495};
+			azimut=-90.704964;
+			special="NONE";
+			id=40;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item39
+		{
+			position[]={11903.106,17.089329,10282.995};
+			azimut=-178.96394;
+			special="NONE";
+			id=41;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item40
+		{
+			position[]={11935.822,17.683853,10262.13};
+			azimut=-178.964;
+			special="NONE";
+			id=42;
+			side="EMPTY";
+			vehicle="ACE_USVehicleBox";
+			leader=1;
+			skill=0.51999998;
+			init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
+		};
+		class Item41
+		{
+			position[]={10116.591,29.059923,9244.3281};
+			azimut=-178.964;
+			special="NONE";
+			id=46;
+			side="EMPTY";
+			vehicle="USBasicAmmunitionBox";
+			leader=1;
+			skill=0.51999998;
+			init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
+		};
+		class Item42
+		{
+			position[]={10116.536,29.082762,9242.8594};
+			id=47;
+			side="EMPTY";
+			vehicle="ClutterCutter_EP1";
+			skill=0.60000002;
+			text="camrespawn";
+		};
+		class Item43
+		{
+			position[]={10108.262,2.8093133,5899.3906};
+			azimut=-524.27563;
+			special="NONE";
+			id=50;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item44
+		{
+			position[]={10122.146,2.9694152,5899.7202};
+			azimut=-524.27563;
+			special="NONE";
+			id=51;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item45
+		{
+			position[]={11708.968,3.1051528,5409.3662};
+			azimut=-524.27563;
+			special="NONE";
+			id=52;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item46
+		{
+			position[]={11711.806,2.5985374,5398.373};
+			azimut=-491.64572;
+			special="NONE";
+			id=53;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item47
+		{
+			position[]={8475.4316,3.6696174,7625.8267};
+			azimut=-564.26855;
+			special="NONE";
+			id=54;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item48
+		{
+			position[]={8487.9941,3.2788863,7639.7021};
+			azimut=-557.08929;
+			special="NONE";
+			id=55;
+			side="EMPTY";
+			vehicle="Zodiac";
+			leader=1;
+			skill=0.60000002;
+			description="4th Squad / Leader";
+		};
+		class Item49
+		{
+			position[]={10042.933,4.5923691,6010.6538};
+			azimut=-720.38898;
+			special="NONE";
+			id=63;
+			side="EMPTY";
+			vehicle="Skoda";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="id = [""gearcar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
+		};
+		class Item50
+		{
+			position[]={10042.785,6.5909834,6023.9087};
+			azimut=-361.258;
+			special="NONE";
+			id=64;
+			side="EMPTY";
+			vehicle="VWGolf";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="id = [""weaponscar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
+		};
+		class Item51
+		{
+			position[]={7739.8125,5.0005341,4300.6885};
+			azimut=-267.31201;
+			special="NONE";
+			id=107;
+			side="EMPTY";
+			vehicle="ACE_Mi17_RU";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			text="helo";
+			init="clearmagazinecargo this; clearweaponcargo this; this setVariable [""chopperFlares"", 20, true];  this addAction [""Drop Paraflare"", ""scripts\chopperparaflare.sqf"", [], 10, true, true, """", ""(gunner _target == player) && (_target getvariable 'chopperFlares') > 0""];";
+		};
+		class Item52
+		{
+			position[]={7741.499,5.0005341,4301.0493};
+			azimut=85.393089;
+			id=112;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.60000002;
+		};
+		class Item53
+		{
+			position[]={7742.8203,5.0005341,4277.8564};
+			azimut=-90.881126;
+			id=113;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.60000002;
+		};
+		class Item54
+		{
+			position[]={8492.5215,5.081264,4829.5244};
+			azimut=-114.131;
+			id=114;
+			side="EMPTY";
+			vehicle="F35B";
+			lock="LOCKED";
+			skill=0.60000002;
+			ammo=0;
+			text="t50";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item55
+		{
+			position[]={8165.585,5.0812635,4631.187};
+			azimut=-329.55499;
+			id=115;
+			side="EMPTY";
+			vehicle="AH64D_EP1";
+			lock="LOCKED";
+			skill=0.60000002;
+			ammo=0;
+			text="apache";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item56
+		{
+			position[]={9786.1611,5.081264,4232.0874};
+			azimut=-540.98602;
+			id=116;
+			side="EMPTY";
+			vehicle="Pchela1T";
+			lock="LOCKED";
+			skill=0.60000002;
+			ammo=0;
+			text="drone2";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item57
+		{
+			position[]={9860.6582,5.0005341,3904.6594};
+			azimut=-743.14697;
+			id=117;
+			side="EMPTY";
+			vehicle="ACE_HC130_N";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="cargoplane";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item58
+		{
+			position[]={9778.6025,5.081264,4232.1611};
+			azimut=-540.98602;
+			id=118;
+			side="EMPTY";
+			vehicle="Pchela1T";
+			lock="LOCKED";
+			skill=0.60000002;
+			ammo=0;
+			text="drone1";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item59
+		{
+			position[]={9794.1514,5.081264,4231.7983};
+			azimut=-540.98602;
+			id=119;
+			side="EMPTY";
+			vehicle="Pchela1T";
+			lock="LOCKED";
+			skill=0.60000002;
+			ammo=0;
+			text="drone3";
+			init="clearmagazinecargo this; clearweaponcargo this;";
+		};
+		class Item60
+		{
+			position[]={7939.1934,5.0005341,4174.8569};
+			azimut=-538.89099;
+			special="NONE";
+			id=120;
+			side="EMPTY";
+			vehicle="ACE_Ural_RU";
+			lock="LOCKED";
+			skill=1;
+			text="testural";
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item61
+		{
+			position[]={7926.5791,5.0005341,4162.5918};
+			azimut=-269.276;
+			special="NONE";
+			id=121;
+			side="EMPTY";
+			vehicle="ACE_Ural_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item62
+		{
+			position[]={7945.8018,5.0005341,4174.6899};
+			azimut=-183.007;
+			special="NONE";
+			id=122;
+			side="EMPTY";
+			vehicle="ACE_Ural_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item63
+		{
+			position[]={7926.5674,5.0005341,4158.0244};
+			azimut=-272.12;
+			special="NONE";
+			id=123;
+			side="EMPTY";
+			vehicle="ACE_Ural_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item64
+		{
+			position[]={7962.8984,5.0005341,4173.7813};
+			azimut=-177.73399;
+			special="NONE";
+			id=124;
+			side="EMPTY";
+			vehicle="UAZ_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item65
+		{
+			position[]={7963.604,5.0005341,4160.9014};
+			azimut=-363;
+			special="NONE";
+			id=125;
+			side="EMPTY";
+			vehicle="UAZ_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item66
+		{
+			position[]={7969.7397,5.0005341,4173.9531};
+			azimut=-178.604;
+			special="NONE";
+			id=126;
+			side="EMPTY";
+			vehicle="UAZ_RU";
+			lock="LOCKED";
+			skill=1;
+			text="car";
+			init="clearmagazinecargo this; clearweaponcargo this;  unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item67
+		{
+			position[]={7969.5894,5.0005341,4161.1123};
+			azimut=-360.73401;
+			special="NONE";
+			id=127;
+			side="EMPTY";
+			vehicle="UAZ_RU";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item68
+		{
+			position[]={7952.5845,5.0005341,4155.3931};
+			azimut=-356.69699;
+			special="NONE";
+			id=128;
+			side="EMPTY";
+			vehicle="TT650_TK_EP1";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item69
+		{
+			position[]={7949.6284,5.0005341,4155.0161};
+			azimut=-356.69699;
+			special="NONE";
+			id=129;
+			side="EMPTY";
+			vehicle="TT650_TK_EP1";
+			lock="LOCKED";
+			skill=1;
+			init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item70
+		{
+			position[]={8005.1631,5.0005341,4319.1855};
+			azimut=-2159.98;
+			special="NONE";
+			id=131;
+			side="AMBIENT LIFE";
+			vehicle="Pastor";
+			player="PLAY CDG";
+			leader=1;
+			skill=0.60000002;
+			text="dog2";
+			init="0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""dogInCar"", 0]; this setVariable [""dogStamina"", true];";
+			description="2 K-9 Detachment / Hound";
+		};
+		class Item71
+		{
+			position[]={8054.0435,5.0005341,4321.3413};
+			azimut=-1078.96;
+			special="NONE";
+			id=133;
+			side="AMBIENT LIFE";
+			vehicle="Pastor";
+			player="PLAY CDG";
+			leader=1;
+			skill=0.60000002;
+			text="dog1";
+			init="0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""dogInCar"", 0]; this setVariable [""dogStamina"", true];";
+			description="1 K-9 Detachment / Hound";
+		};
+		class Item72
+		{
+			position[]={9445.4502,8.3809853,4156.48};
+			azimut=-630.77002;
+			special="NONE";
+			id=138;
+			side="EMPTY";
+			vehicle="TKSpecialWeapons_EP1";
+			leader=1;
+			lock="UNLOCKED";
+			skill=0.60000002;
+			text="ammobox";
+			init="clearweaponcargo this; clearmagazinecargo this; unlockWeaponCrate = this addAction [""Unlock Weapons Locker"", ""scripts\unlockWeapons.sqf"","""",-1,false,true,"""",""canunlockweapon && ('EvDogTags' in weapons _this)""];  ";
+			description="4 Patrol / Patrol Leader";
+		};
+		class Item73
+		{
+			position[]={9560.7842,5.0005341,4182.6577};
+			azimut=-361.401;
+			special="NONE";
+			id=139;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="fuel1";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { fuelDump = true; publicvariable 'fueldump';};"" ];";
+			description="SAD Group / Operator";
+		};
+		class Item74
+		{
+			position[]={9543.958,5.0005341,4183.3521};
+			azimut=-361.401;
+			special="NONE";
+			id=140;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="fuel2";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { fuelDump = true; publicvariable 'fueldump';};"" ];";
+			description="SAD Group / Operator";
+		};
+		class Item75
+		{
+			position[]={9518.1699,5.0005341,4183.0571};
+			azimut=-361.401;
+			special="NONE";
+			id=141;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="fuel3";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { fuelDump = true; publicvariable 'fueldump';};"" ];";
+			description="SAD Group / Operator";
+		};
+		class Item76
+		{
+			position[]={9500.4482,5.0005341,4183.2549};
+			azimut=-361.401;
+			special="NONE";
+			id=142;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="fuel4";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { fuelDump = true; publicvariable 'fueldump';};"" ];";
+			description="SAD Group / Operator";
+		};
+		class Item77
+		{
+			position[]={9463.1904,5.0005341,4155.6392};
+			azimut=-361.401;
+			special="NONE";
+			id=143;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { radioTowerDestroyed = true; publicvariable 'radioTowerDestroyed';};"" ];";
+			description="SAD Group / Operator";
+		};
+		class Item78
+		{
+			position[]={8320.7744,13.647072,5371.1997};
+			azimut=-361.401;
+			special="NONE";
+			id=144;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="foodcan";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { foodStorage = true; publicvariable 'foodStorage';};"" ]; ";
+			description="SAD Group / Operator";
+		};
+		class Item79
+		{
+			position[]={8320.3877,12.735397,5373.252};
+			azimut=-361.401;
+			special="NONE";
+			id=147;
+			side="EMPTY";
+			vehicle="Land_bags_EP1";
+			leader=1;
+			skill=0.60000002;
+			description="SAD Group / Operator";
+		};
+		class Item80
+		{
+			position[]={8322.9961,11.780033,5370.6445};
+			azimut=-289.40543;
+			special="NONE";
+			id=148;
+			side="EMPTY";
+			vehicle="Land_bags_EP1";
+			leader=1;
+			skill=0.60000002;
+			description="SAD Group / Operator";
+		};
+		class Item81
+		{
+			position[]={8318.3633,12.827435,5370.6909};
+			azimut=-433.64853;
+			special="NONE";
+			id=149;
+			side="EMPTY";
+			vehicle="Land_bags_EP1";
+			leader=1;
+			skill=0.60000002;
+			description="SAD Group / Operator";
+		};
+		class Item82
+		{
+			position[]={8316.6094,14.414366,5375.769};
+			azimut=-216.976;
+			special="NONE";
+			id=150;
+			side="EMPTY";
+			vehicle="Land_bags_EP1";
+			leader=1;
+			skill=0.60000002;
+			description="SAD Group / Operator";
+		};
+		class Item83
+		{
+			position[]={7931.481,15.329231,4071.7078};
+			azimut=-360.202;
+			special="NONE";
+			id=153;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item84
+		{
+			position[]={7931.3423,11.012552,4103.1465};
+			azimut=-360.202;
+			special="NONE";
+			id=154;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item85
+		{
+			position[]={8576.7549,11.274847,5172.062};
+			azimut=-377.19876;
+			special="NONE";
+			id=155;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item86
+		{
+			position[]={8567.4365,15.591526,5202.0879};
+			azimut=-377.19876;
+			special="NONE";
+			id=156;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item87
+		{
+			position[]={7760.0703,5.0005341,4281.9297};
+			azimut=-271.09698;
+			special="NONE";
+			id=157;
+			side="EMPTY";
+			vehicle="ACE_RopeBox";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item88
+		{
+			position[]={8395.123,5.0237231,5177.1255};
+			azimut=-373.92636;
+			special="NONE";
+			id=158;
+			side="EMPTY";
+			vehicle="ace_arty_m119";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item89
+		{
+			position[]={7927.8496,5.0005341,4045.6499};
+			azimut=-453.93829;
+			special="NONE";
+			id=159;
+			side="EMPTY";
+			vehicle="ace_arty_105mm_ammo_m1";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item90
+		{
+			position[]={7926.9663,5.0005341,4045.4868};
+			azimut=-455.91132;
+			special="NONE";
+			id=160;
+			side="EMPTY";
+			vehicle="ace_arty_105mm_ammo_m1";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item91
+		{
+			position[]={7928.6948,5.0005341,4045.7561};
+			azimut=-273.60431;
+			special="NONE";
+			id=161;
+			side="EMPTY";
+			vehicle="ace_arty_105mm_ammo_m1";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item92
+		{
+			position[]={7930.1245,5.0005341,4045.5891};
+			azimut=-449.1734;
+			special="NONE";
+			id=162;
+			side="EMPTY";
+			vehicle="ace_arty_105mm_ammo_m916";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item93
+		{
+			position[]={7931.4243,5.0005341,4045.2864};
+			azimut=-446.39111;
+			special="NONE";
+			id=163;
+			side="EMPTY";
+			vehicle="ace_arty_105mm_ammo_m60a2";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item94
+		{
+			position[]={8399.627,5.0332427,5175.3774};
+			azimut=-397.3942;
+			special="NONE";
+			id=164;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item95
+		{
+			position[]={8396.5781,5.0268464,5176.5449};
+			azimut=-397.3942;
+			special="NONE";
+			id=165;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item96
+		{
+			position[]={8396.0801,5.0291386,5175.5962};
+			azimut=-399.86545;
+			special="NONE";
+			id=166;
+			side="EMPTY";
+			vehicle="ClutterCutter_EP1";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item97
+		{
+			position[]={8393.2012,5.0092993,5184.2256};
+			azimut=-379.67001;
+			special="NONE";
+			id=167;
+			side="EMPTY";
+			vehicle="Land_fort_artillery_nest";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item98
+		{
+			position[]={8400.7041,5.0429544,5167.7759};
+			azimut=-559.00934;
+			special="NONE";
+			id=168;
+			side="EMPTY";
+			vehicle="Land_fort_artillery_nest";
+			skill=0.60000002;
+			description="Chadori Hudsonski, Experimental Physicist";
+		};
+		class Item99
+		{
+			position[]={9649.1348,5.0005341,4255.166};
+			azimut=-360.202;
+			special="NONE";
+			id=171;
+			side="EMPTY";
+			vehicle="Land_Ind_IlluminantTower";
+			skill=0.60000002;
+			description="Senior Sergeant";
+		};
+		class Item100
+		{
+			position[]={9062.3232,10.00061,5943.1396};
+			azimut=-354.85699;
+			special="NONE";
+			id=177;
+			side="EMPTY";
+			vehicle="KORD_high";
+			leader=1;
+			skill=0.60000002;
+			text="kordMG";
+			description="3 Patrol / Patrol Leader";
+		};
+		class Item101
+		{
+			position[]={9067.7041,10.00061,5977.6528};
+			azimut=-178.77699;
+			special="NONE";
+			id=178;
+			side="EMPTY";
+			vehicle="ZavoraAnim";
+			leader=1;
+			skill=0.60000002;
+			init="this animate [""Bargate"",1];";
+			description="3 Patrol / Patrol Leader";
+		};
+		class Item102
+		{
+			position[]={7924.6714,11.012552,4103.7417};
+			azimut=-454.423;
+			special="NONE";
+			id=179;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="chemtank3";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+		};
+		class Item103
+		{
+			position[]={7924.8667,15.329231,4086.9053};
+			azimut=-454.423;
+			special="NONE";
+			id=180;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="chemtank2";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+		};
+		class Item104
+		{
+			position[]={7926.3818,15.329231,4061.8643};
+			azimut=-454.423;
+			special="NONE";
+			id=181;
+			side="EMPTY";
+			vehicle="Fuel_can";
+			leader=1;
+			skill=0.60000002;
+			text="chemtank1";
+			init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
+		};
+		class Item105
+		{
+			position[]={8397.8643,5.0217633,5178.7085};
+			azimut=-336.51801;
+			special="NONE";
+			id=188;
+			side="EMPTY";
+			vehicle="Radio";
+			leader=1;
+			skill=0.60000002;
+			text="scienceRadio";
+			init="this enablesimulation false; this allowdamage false;";
+			description="SAD Group / Operator";
+		};
+		class Item106
+		{
+			position[]={8314.335,5.1625228,4208.9648};
+			azimut=-178.96394;
+			special="NONE";
+			id=193;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item107
+		{
+			position[]={8302.5762,5.0810404,4209.1274};
+			azimut=-178.96394;
+			special="NONE";
+			id=194;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item108
+		{
+			position[]={8317.9111,5.3471208,4197.793};
+			azimut=-90.260376;
+			special="NONE";
+			id=195;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item109
+		{
+			position[]={8317.9736,5.4931202,4189.855};
+			azimut=-90.260376;
+			special="NONE";
+			id=196;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item110
+		{
+			position[]={8317.751,5.2458372,4204.8711};
+			azimut=-90.260376;
+			special="NONE";
+			id=197;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item111
+		{
+			position[]={8306.293,5.321723,4187.9775};
+			azimut=-178.96394;
+			special="NONE";
+			id=198;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item112
+		{
+			position[]={8314.2266,5.4861646,4187.8604};
+			azimut=-178.96394;
+			special="NONE";
+			id=199;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item113
+		{
+			position[]={8299.2109,5.2115188,4187.9775};
+			azimut=-178.96394;
+			special="NONE";
+			id=200;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item114
+		{
+			position[]={8298.4707,5.1212764,4198.1694};
+			azimut=-269.62503;
+			special="NONE";
+			id=201;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item115
+		{
+			position[]={8298.4893,5.076067,4206.1021};
+			azimut=-269.62503;
+			special="NONE";
+			id=202;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item116
+		{
+			position[]={8298.5479,5.1694489,4191.0835};
+			azimut=-269.62503;
+			special="NONE";
+			id=203;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			leader=1;
+			skill=0.51999998;
+		};
+		class Item117
+		{
+			position[]={8307.0479,5.196208,4198.2866};
+			azimut=-360.202;
+			special="NONE";
+			id=204;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			description="Base Commander";
+		};
+		class Item118
+		{
+			position[]={8307.2314,5.109046,4209.0342};
+			azimut=-360.16599;
+			id=205;
+			side="EMPTY";
+			vehicle="Land_BarGate2";
+			leader=1;
+			lock="UNLOCKED";
+			skill=0.60000002;
+			text="stockadeGate";
+			init="this addAction [""Unlock Gate"", ""scripts\unlockStockade.sqf"", [], 6, false, true, """", ""((getpos _this select 1) - (getpos _target select 1) > 0) && (stockadeLocked)""]; this addAction [""Lock Gate"", ""scripts\lockStockade.sqf"", [], 6, false, true, """", ""((getpos _this select 1) - (getpos _target select 1) > 0) && !(stockadeLocked)""]; ";
+			description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
+		};
+		class Item119
+		{
+			position[]={8456.9541,14.122302,4343.8325};
+			azimut=-360.202;
+			special="NONE";
+			id=210;
+			side="EMPTY";
+			vehicle="ASC_EU_BulbN";
+			leader=1;
+			skill=0.60000002;
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +11]; ";
+			description="Base Commander";
+		};
+	};
+	class Markers
+	{
+		items=32;
+		class Item0
+		{
+			position[]={8285.3408,4.4632778,4441.5195};
+			name="opmech";
+			text="Secret Research Facility";
+			type="Strongpoint";
+			colorName="ColorRed";
+			a=3;
+			b=3;
+			angle=-0.050756101;
+		};
+		class Item1
+		{
+			position[]={8348.9375,5.0005341,4877.7798};
+			name="aom";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			fillName="Border";
+			a=4000;
+			b=3300;
+			angle=-360.93301;
+			drawBorder=1;
+		};
+		class Item2
+		{
+			position[]={8509.5459,5.0005341,4568.6323};
+			name="aotool";
+			type="Empty";
+			angle=61.760971;
+		};
+		class Item3
+		{
+			position[]={11574.18,0.25588536,2159.3894};
+			name="ballz_1";
+			text="Area of Operations Limit";
+			type="mil_objective";
+			colorName="ColorOrange";
+			a=0;
+			b=0;
+			angle=61.760971;
+		};
+		class Item4
+		{
+			position[]={11926.759,18.304646,10242.673};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={11940.068,18.603559,10242.591};
+			name="respawn_east";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={10050.386,6.06633,6018.2065};
+			name="opmech_1_1";
+			text="CIA Special Activities Division Group";
+			type="b_inf";
+			colorName="ColorBlue";
+			a=2;
+			b=2;
+			angle=179.60741;
+		};
+		class Item7
+		{
+			position[]={10050.401,6.6276321,6024.8389};
+			name="size_1_1";
+			type="group_1";
+			colorName="ColorBlue";
+			a=2;
+			b=2;
+			angle=0.34552899;
+		};
+		class Item8
+		{
+			position[]={11933.349,18.455009,10242.386};
+			name="respawn_civilian";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={7936.625,5.0005341,4166.0288};
+			name="base";
+			text="Motorpool";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item10
+		{
+			position[]={8043.2886,13.428845,3988.4446};
+			name="base_1_3";
+			text="Chemical Storage";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item11
+		{
+			position[]={7885.1152,5.0005341,4075.333};
+			name="base_1_3_1";
+			text="Chemical Plant";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item12
+		{
+			position[]={8513.3604,5.0005341,5203.2236};
+			name="base_2";
+			text="Aircraft Manufacture";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item13
+		{
+			position[]={9464.541,8.425971,4145.6221};
+			name="base_2_1_1";
+			text="Signals";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item14
+		{
+			position[]={9539.2314,5.0005341,4158.083};
+			name="base_2_1_1_1";
+			text="Fuel Dump + Machine Shop";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item15
+		{
+			position[]={8422.8008,5.0005341,4863.6997};
+			name="base_2_1_2";
+			text="T-50 Hangars";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item16
+		{
+			position[]={9752.8418,5.0005341,4235.0503};
+			name="base_2_1_2_1";
+			text="Experimental Drones";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item17
+		{
+			position[]={8437.4697,5.0005341,4343.7549};
+			name="base_1_3_1_1";
+			text="Control Tower";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item18
+		{
+			position[]={8650.9512,5.0005341,4374.9238};
+			name="base_1_3_1_1_1";
+			text="Weapons Lab (Under Construction)";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item19
+		{
+			position[]={7739.916,5.0005341,4289.7036};
+			name="base_2_1_2_2";
+			text="Helipads";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+			angle=52.61208;
+		};
+		class Item20
+		{
+			position[]={8074.624,5.0005341,4643.4028};
+			name="base_2_1_2_3";
+			text="Captured NATO Aircraft Testing";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item21
+		{
+			position[]={9783.0313,5.081264,3882.9319};
+			name="base_2_1_2_1_1";
+			text="Cargo Aircraft";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item22
+		{
+			position[]={8312.3584,5.0035233,5370.7021};
+			name="base_2_2";
+			text="Food Storage";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item23
+		{
+			position[]={10116.6,29.108797,9241.3359};
+			name="respawn_guerilla";
+			type="Empty";
+		};
+		class Item24
+		{
+			position[]={9434.9805,5.0005341,4160.6069};
+			name="base_2_1_3";
+			text="Arsenal";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+			angle=-91.247871;
+		};
+		class Item25
+		{
+			position[]={9538.2441,33.849979,16431.252};
+			name="range";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			a=500;
+			b=500;
+		};
+		class Item26
+		{
+			position[]={9391.1797,29.22847,16358.563};
+			name="rangeText";
+			text="TARGET RANGE 0054";
+			type="Faction_RU";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item27
+		{
+			position[]={9028.0596,150.64314,15756.016};
+			name="rangeText_1";
+			text="Lab X-18";
+			type="Faction_RU";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item28
+		{
+			position[]={8379.043,5.0005341,5175.6885};
+			name="base_1_2_1";
+			text="Experimental Canon";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item29
+		{
+			position[]={9035.1738,7.9433336,5967.3584};
+			name="base_1_1_1";
+			text="Federal Security Service Checkpoint";
+			type="Faction_RU";
+		};
+		class Item30
+		{
+			position[]={9288.5459,61.768105,4596.0088};
+			name="retardlake";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=10;
+			b=15;
+			angle=-16.998199;
+		};
+		class Item31
+		{
+			position[]={8306.7207,5.1949744,4198.1899};
+			name="base_1_3_1_1_2";
+			text="Stockade";
+			type="Faction_CDF";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+	};
+	class Sensors
+	{
+		items=5;
+		class Item0
+		{
+			position[]={8705.2471,13.241368,4654.8506};
+			a=2000;
+			b=2000;
+			rectangular=1;
+			activationBy="WEST";
+			activationType="EAST D";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="canunlockweapon = true; publicvariable ""canunlockweapon"";";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={8638.1758,5.0005341,4275.4863};
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="false";
+			expActiv="fuelDump = true; radioTowerDestroyed = true; foodStorage = true; dr1 setdammage 1; dr2 setdammage 1; drone1 setdammage 1; drone2 setdammage 1; drone3 setdammage 1; ruscommander setdammage 1; t50 setdammage 1; cargoplane setdammage 1; apache setdammage 1; stealRadarTower = true; sandi_red_deaths = 10;  stealHudsonPlans = true; photoCannon = true;  blowChemPlant = true;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={8542.0244,5.0005341,4262.2778};
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="false";
+			expActiv="balls = []spawn { while {true} do { player sidechat format [""%1"", objectives]; sleep 6;}; };";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={8712.0322,5.0005341,4269.9722};
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="false";
+			expActiv="balls = []spawn { sleep 10;  [""sandi_endMission"", [""time""]] call CBA_fnc_globalEvent;  };";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={9084.6934,3.7493625,6174.4863};
+			a=500;
+			b=500;
+			activationBy="WEST";
+			activationType="GUER D";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="  [-2, {if (side player == east) then {hint ""The Federal Security Service Checkpoint is under attack!""; }; }, []] call CBA_fnc_globalExecute;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=10415800;
+	class Intel
+	{
+		startWeather=0.25;
+		startFog=0.15000001;
+		forecastWeather=0.15000001;
+		year=2014;
+		month=7;
+		day=1;
+		hour=8;
+		minute=0;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=992989;
+	class Intel
+	{
+		startWeather=0.25;
+		startFog=0.15000001;
+		forecastWeather=0.15000001;
+		year=2014;
+		month=7;
+		day=1;
+		hour=8;
+		minute=0;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"fdf_isle1_a"
+	};
+	addOnsAuto[]=
+	{
+		"fdf_isle1_a"
+	};
+	randomSeed=16219220;
+	class Intel
+	{
+		startWeather=0.25;
+		startFog=0.15000001;
+		forecastWeather=0.15000001;
+		year=2014;
+		month=7;
+		day=1;
+		hour=8;
+		minute=0;
+	};
+};
