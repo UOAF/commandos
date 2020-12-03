@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=250;
+		nextID=383;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7979.3828,21.851341,4276.6377};
-		dir[]={0.14469351,-0.37272698,0.91661};
-		up[]={0.058121692,0.92793185,0.36818922};
-		aside[]={0.98778915,6.5221684e-008,-0.15593126};
+		pos[]={8094.3721,28.766737,4231.7183};
+		dir[]={-0.17057456,-0.44780681,0.87781256};
+		up[]={-0.08543735,0.894059,0.43968323};
+		aside[]={0.98170525,5.9022568e-008,0.1907589};
 	};
 };
 binarizationWanted=0;
@@ -28,39 +28,43 @@ addons[]=
 	"A3_Ui_F",
 	"CUP_CA_Config",
 	"CUP_Misc3_Config",
+	"WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP",
 	"A3_Weapons_F_Ammoboxes",
 	"ace_cargo",
 	"A3_Structures_F_EPA_Mil_Scrapyard",
 	"CUP_Misc_e_Config",
-	"CUP_WaterVehicles_Zodiac",
-	"CUP_wheeledvehicles_Octaiva",
-	"CUP_Wheeledvehicles_VWGolf",
+	"A3_Boat_F_Boat_Transport_01",
+	"UK3CB_Factions_Vehicles_Skoda",
+	"UK3CB_Factions_Vehicles_VWGolf",
 	"rhs_c_a2port_air",
 	"CUP_CAMisc",
 	"rhs_c_air",
 	"RHS_US_A2_AirImport",
-	"CUP_AirVehicles_C130J",
+	"UK3CB_Factions_ADA_O",
 	"rhs_c_a2port_car",
-	"CUP_WheeledVehicles_TT650",
-	"CA_Animals2_Dogs_Pastor",
+	"UK3CB_Factions_CHC_I",
+	"UK3CB_Factions_ADM_I",
 	"CUP_CAStructures_E_Misc_Misc_Market",
 	"rhs_c_heavyweapons",
+	"itc_land_rhsafrf_d30",
 	"ace_mk6mortar",
 	"CUP_Buildings_Config",
 	"A3_Modules_F",
-	"CUP_Creatures_Military_USArmy",
-	"CUP_Creatures_Military_PMC",
-	"CUP_Creatures_Military_Russia",
-	"CUP_Creatures_People_Civil_Chernarus",
+	"UK3CB_Factions_CW_US_B_LATE",
+	"po_factions_me",
+	"UK3CB_Factions_CW_SOV_O_EARLY",
 	"A3_Characters_F_Enoch",
+	"po_factions_eu",
 	"A3_Characters_F",
-	"A3_Modules_F_Effects"
+	"cba_xeh",
+	"A3_Modules_F_Effects",
+	"UK3CB_Factions_CPD_I"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=29;
+		items=32;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -80,161 +84,197 @@ class AddonsMetaData
 		};
 		class Item3
 		{
+			className="WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP";
+			name="WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP";
+		};
+		class Item4
+		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item7
-		{
-			className="CUP_WaterVehicles_Zodiac";
-			name="CUP_WaterVehicles_Zodiac";
-		};
 		class Item8
 		{
-			className="CUP_wheeledvehicles_Octaiva";
-			name="CUP_wheeledvehicles_Octaiva";
+			className="A3_Boat_F";
+			name="Arma 3 Alpha - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item9
 		{
-			className="CUP_Wheeledvehicles_VWGolf";
-			name="CUP_Wheeledvehicles_VWGolf";
+			className="UK3CB_Factions_Vehicles_Skoda";
+			name="3CB Factions - Vehicles";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
 		};
 		class Item10
+		{
+			className="UK3CB_Factions_Vehicles_VWGolf";
+			name="3CB Factions - Vehicles";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item11
 		{
 			className="rhs_c_a2port_air";
 			name="A2 ported air";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item11
+		class Item12
 		{
 			className="CUP_CAMisc";
 			name="CUP_CAMisc";
 		};
-		class Item12
+		class Item13
 		{
 			className="rhs_c_air";
 			name="AFRF Planes";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item13
+		class Item14
 		{
 			className="RHS_US_A2_AirImport";
 			name="RHSUSF A2 Air Ports";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item14
-		{
-			className="CUP_AirVehicles_C130J";
-			name="CUP_AirVehicles_C130J";
-		};
 		class Item15
+		{
+			className="UK3CB_Factions_ADA";
+			name="3CB Factions - ADA";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item16
 		{
 			className="rhs_c_a2port_car";
 			name="A2 ported cars";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item16
-		{
-			className="CUP_WheeledVehicles_TT650";
-			name="CUP_WheeledVehicles_TT650";
-		};
 		class Item17
 		{
-			className="CA_Animals2_Dogs_Pastor";
-			name="CA_Animals2_Dogs_Pastor";
+			className="UK3CB_Factions_CHC";
+			name="3CB Factions - CHC";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
 		};
 		class Item18
+		{
+			className="UK3CB_Factions_ADM";
+			name="3CB Factions - ADM";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item19
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Market";
 			name="CUP_CAStructures_E_Misc_Misc_Market";
 		};
-		class Item19
+		class Item20
 		{
 			className="rhs_c_heavyweapons";
 			name="Heavy weapons pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item20
+		class Item21
+		{
+			className="itc_land_rhsafrf_d30";
+			name="itc_land_rhsafrf_d30";
+			author="RHS + ITC Addons Team";
+		};
+		class Item22
 		{
 			className="ace_mk6mortar";
 			name="ACE3 - Mk6 Mortar";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item23
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item22
+		class Item24
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
-		{
-			className="CUP_Creatures_Military_USArmy";
-			name="CUP_Creatures_Military_USArmy";
-		};
-		class Item24
-		{
-			className="CUP_Creatures_Military_PMC";
-			name="CUP_Creatures_Military_PMC";
-		};
 		class Item25
 		{
-			className="CUP_Creatures_Military_Russia";
-			name="CUP_Creatures_Military_Russia";
+			className="UK3CB_Factions_CW_US";
+			name="3CB Factions - CW_US";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
 		};
 		class Item26
 		{
-			className="CUP_Creatures_People_Civil_Chernarus";
-			name="CUP_Creatures_People_Civil_Chernarus";
+			className="po_factions_me";
+			name="po_factions_me";
+			author="Leight, Keeway";
 		};
 		class Item27
+		{
+			className="UK3CB_Factions_CW_SOV";
+			name="3CB Factions - CW_SOV";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item28
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item29
+		{
+			className="po_factions_eu";
+			name="po_factions_eu";
+			author="Leight, Keeway";
+		};
+		class Item30
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item31
+		{
+			className="UK3CB_Factions_CPD";
+			name="3CB Factions - CPD";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 	};
 };
-randomSeed=8649552;
+randomSeed=12522890;
 class ScenarioData
 {
 	author="abelian";
@@ -281,20 +321,21 @@ class Mission
 	};
 	class Entities
 	{
-		items=187;
+		items=186;
 		class Item0
 		{
 			dataType="Marker";
-			position[]={8267.4199,4.4628906,4440.2407};
+			position[]={8285.3408,4.4629998,4441.52};
 			name="opmech";
 			text="Secret Research Facility";
 			type="o_installation";
 			colorName="ColorRed";
+			alpha=0.65652341;
 			a=2;
 			b=2;
 			angle=359.94897;
-			id=0;
-			atlOffset=-0.53764343;
+			id=133;
+			atlOffset=-0.00027799606;
 		};
 		class Item1
 		{
@@ -307,9 +348,9 @@ class Mission
 			fillName="Border";
 			a=4000;
 			b=3300;
-			angle=359.06693;
+			angle=359.06689;
 			drawBorder=1;
-			id=1;
+			id=134;
 		};
 		class Item2
 		{
@@ -318,7 +359,7 @@ class Mission
 			name="aotool";
 			type="Empty";
 			angle=61.760952;
-			id=2;
+			id=135;
 		};
 		class Item3
 		{
@@ -331,7 +372,7 @@ class Mission
 			a=0;
 			b=0;
 			angle=61.760952;
-			id=3;
+			id=136;
 			atlOffset=30.255886;
 		};
 		class Item4
@@ -340,7 +381,7 @@ class Mission
 			position[]={11926.759,18.304646,10242.673};
 			name="respawn_west";
 			type="Empty";
-			id=4;
+			id=137;
 		};
 		class Item5
 		{
@@ -348,7 +389,7 @@ class Mission
 			position[]={11940.068,18.603559,10242.591};
 			name="respawn_east";
 			type="Empty";
-			id=5;
+			id=138;
 		};
 		class Item6
 		{
@@ -361,7 +402,7 @@ class Mission
 			a=2;
 			b=2;
 			angle=179.60738;
-			id=6;
+			id=139;
 		};
 		class Item7
 		{
@@ -373,7 +414,7 @@ class Mission
 			a=2;
 			b=2;
 			angle=0.34552899;
-			id=7;
+			id=140;
 		};
 		class Item8
 		{
@@ -381,7 +422,7 @@ class Mission
 			position[]={11933.349,18.455009,10242.386};
 			name="respawn_civilian";
 			type="Empty";
-			id=8;
+			id=141;
 			atlOffset=-1.9073486e-006;
 		};
 		class Item9
@@ -394,7 +435,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=9;
+			id=142;
 		};
 		class Item10
 		{
@@ -406,7 +447,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=10;
+			id=143;
 			atlOffset=3.9325562;
 		};
 		class Item11
@@ -419,7 +460,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=11;
+			id=144;
 		};
 		class Item12
 		{
@@ -431,7 +472,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=12;
+			id=145;
 		};
 		class Item13
 		{
@@ -443,7 +484,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=13;
+			id=146;
 			atlOffset=3.2696733;
 		};
 		class Item14
@@ -456,7 +497,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=14;
+			id=147;
 		};
 		class Item15
 		{
@@ -468,7 +509,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=15;
+			id=148;
 		};
 		class Item16
 		{
@@ -480,7 +521,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=16;
+			id=149;
 		};
 		class Item17
 		{
@@ -492,7 +533,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=17;
+			id=150;
 		};
 		class Item18
 		{
@@ -504,7 +545,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=18;
+			id=151;
 		};
 		class Item19
 		{
@@ -516,8 +557,8 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			angle=52.612068;
-			id=19;
+			angle=52.612064;
+			id=152;
 		};
 		class Item20
 		{
@@ -529,7 +570,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=20;
+			id=153;
 		};
 		class Item21
 		{
@@ -541,7 +582,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=21;
+			id=154;
 			atlOffset=0.080729961;
 		};
 		class Item22
@@ -554,7 +595,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=22;
+			id=155;
 		};
 		class Item23
 		{
@@ -562,7 +603,7 @@ class Mission
 			position[]={10116.6,29.108797,9241.3359};
 			name="respawn_guerilla";
 			type="Empty";
-			id=23;
+			id=156;
 		};
 		class Item24
 		{
@@ -574,8 +615,8 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			angle=268.75208;
-			id=24;
+			angle=268.75204;
+			id=157;
 		};
 		class Item25
 		{
@@ -587,7 +628,7 @@ class Mission
 			colorName="ColorRed";
 			a=500;
 			b=500;
-			id=25;
+			id=158;
 		};
 		class Item26
 		{
@@ -599,7 +640,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=26;
+			id=159;
 		};
 		class Item27
 		{
@@ -611,7 +652,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=27;
+			id=160;
 		};
 		class Item28
 		{
@@ -623,7 +664,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=28;
+			id=161;
 		};
 		class Item29
 		{
@@ -632,7 +673,7 @@ class Mission
 			name="base_1_1_1";
 			text="Federal Security Service Checkpoint";
 			type="Faction_RU";
-			id=29;
+			id=162;
 		};
 		class Item30
 		{
@@ -644,7 +685,7 @@ class Mission
 			a=10;
 			b=15;
 			angle=343.00174;
-			id=30;
+			id=163;
 		};
 		class Item31
 		{
@@ -656,7 +697,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			id=31;
+			id=164;
 		};
 		class Item32
 		{
@@ -672,7 +713,7 @@ class Mission
 				activationBy="WEST";
 				isRectangle=1;
 			};
-			id=32;
+			id=165;
 			type="EmptyDetector";
 		};
 		class Item33
@@ -685,7 +726,7 @@ class Mission
 				onActivation="fuelDump = true; radioTowerDestroyed = true; foodStorage = true; dr1 setdammage 1; dr2 setdammage 1; drone1 setdammage 1; drone2 setdammage 1; drone3 setdammage 1; ruscommander setdammage 1; t50 setdammage 1; cargoplane setdammage 1; apache setdammage 1; stealRadarTower = true; sandi_red_deaths = 10;  stealHudsonPlans = true; photoCannon = true;  blowChemPlant = true;";
 				interuptable=1;
 			};
-			id=33;
+			id=166;
 			type="EmptyDetector";
 		};
 		class Item34
@@ -698,7 +739,7 @@ class Mission
 				onActivation="balls = []spawn { while {true} do { player sidechat format [""%1"", objectives]; sleep 6;}; };";
 				interuptable=1;
 			};
-			id=34;
+			id=167;
 			type="EmptyDetector";
 		};
 		class Item35
@@ -711,7 +752,7 @@ class Mission
 				onActivation="balls = []spawn { sleep 10;  [""sandi_endMission"", [""time""]] call CBA_fnc_globalEvent;  };";
 				interuptable=1;
 			};
-			id=35;
+			id=168;
 			type="EmptyDetector";
 		};
 		class Item36
@@ -727,7 +768,7 @@ class Mission
 				activationType="GUER D";
 				activationBy="WEST";
 			};
-			id=36;
+			id=169;
 			type="EmptyDetector";
 			atlOffset=-2.3841858e-007;
 		};
@@ -745,7 +786,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=37;
+			id=170;
 			type="Fort_RazorWire";
 			atlOffset=-0.00077819824;
 		};
@@ -763,7 +804,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=38;
+			id=171;
 			type="Fort_RazorWire";
 			atlOffset=9.5367432e-006;
 		};
@@ -781,7 +822,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=39;
+			id=172;
 			type="Fort_RazorWire";
 			atlOffset=7.8201294e-005;
 		};
@@ -799,7 +840,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=40;
+			id=173;
 			type="Fort_RazorWire";
 			atlOffset=2.6702881e-005;
 		};
@@ -817,7 +858,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=41;
+			id=174;
 			type="Fort_RazorWire";
 			atlOffset=7.4386597e-005;
 		};
@@ -835,7 +876,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=42;
+			id=175;
 			type="Fort_RazorWire";
 			atlOffset=5.9127808e-005;
 		};
@@ -853,7 +894,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=43;
+			id=176;
 			type="Fort_RazorWire";
 			atlOffset=0.00087738037;
 		};
@@ -871,7 +912,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=44;
+			id=177;
 			type="Fort_RazorWire";
 			atlOffset=0.00012588501;
 		};
@@ -889,7 +930,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=45;
+			id=178;
 			type="Fort_RazorWire";
 			atlOffset=0.00030326843;
 		};
@@ -907,7 +948,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=46;
+			id=179;
 			type="Fort_RazorWire";
 			atlOffset=-0.0018959045;
 		};
@@ -925,7 +966,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=47;
+			id=180;
 			type="Fort_RazorWire";
 			atlOffset=0.00010490417;
 		};
@@ -943,7 +984,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=48;
+			id=181;
 			type="Fort_RazorWire";
 			atlOffset=0.00043869019;
 		};
@@ -961,7 +1002,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=49;
+			id=182;
 			type="Fort_RazorWire";
 			atlOffset=-0.0077514648;
 		};
@@ -979,7 +1020,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=50;
+			id=183;
 			type="Fort_RazorWire";
 			atlOffset=0.00094604492;
 		};
@@ -997,7 +1038,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=51;
+			id=184;
 			type="Fort_RazorWire";
 			atlOffset=0.0060462952;
 		};
@@ -1015,7 +1056,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=52;
+			id=185;
 			type="Fort_RazorWire";
 			atlOffset=-0.010608673;
 		};
@@ -1033,7 +1074,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=53;
+			id=186;
 			type="Fort_RazorWire";
 			atlOffset=0.0029144287;
 		};
@@ -1051,7 +1092,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=54;
+			id=187;
 			type="Fort_RazorWire";
 			atlOffset=0.003578186;
 		};
@@ -1069,7 +1110,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=55;
+			id=188;
 			type="Fort_RazorWire";
 			atlOffset=0.0040912628;
 		};
@@ -1087,7 +1128,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=56;
+			id=189;
 			type="Fort_RazorWire";
 			atlOffset=0.0021686554;
 		};
@@ -1105,7 +1146,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=57;
+			id=190;
 			type="Fort_RazorWire";
 			atlOffset=0.0012645721;
 		};
@@ -1123,7 +1164,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=58;
+			id=191;
 			type="Fort_RazorWire";
 			atlOffset=0.0017127991;
 		};
@@ -1141,7 +1182,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=59;
+			id=192;
 			type="Fort_RazorWire";
 			atlOffset=0.016307831;
 		};
@@ -1159,7 +1200,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=60;
+			id=193;
 			type="Fort_RazorWire";
 			atlOffset=0.00096321106;
 		};
@@ -1177,7 +1218,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=61;
+			id=194;
 			type="Fort_RazorWire";
 			atlOffset=0.0034103394;
 		};
@@ -1195,7 +1236,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=62;
+			id=195;
 			type="Fort_RazorWire";
 			atlOffset=-0.025466919;
 		};
@@ -1213,7 +1254,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=63;
+			id=196;
 			type="Fort_RazorWire";
 			atlOffset=0.0044250488;
 		};
@@ -1231,7 +1272,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=64;
+			id=197;
 			type="Fort_RazorWire";
 			atlOffset=0.0026283264;
 		};
@@ -1249,7 +1290,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=65;
+			id=198;
 			type="Fort_RazorWire";
 			atlOffset=6.2942505e-005;
 		};
@@ -1267,7 +1308,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=66;
+			id=199;
 			type="Fort_RazorWire";
 			atlOffset=-0.00090408325;
 		};
@@ -1285,7 +1326,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=67;
+			id=200;
 			type="Fort_RazorWire";
 			atlOffset=0.0012302399;
 		};
@@ -1303,7 +1344,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=68;
+			id=201;
 			type="Fort_RazorWire";
 			atlOffset=6.1035156e-005;
 		};
@@ -1321,7 +1362,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=69;
+			id=202;
 			type="Fort_RazorWire";
 			atlOffset=-0.004201889;
 		};
@@ -1339,7 +1380,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=70;
+			id=203;
 			type="Fort_RazorWire";
 			atlOffset=0.00085258484;
 		};
@@ -1357,7 +1398,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=71;
+			id=204;
 			type="Fort_RazorWire";
 			atlOffset=0.004442215;
 		};
@@ -1375,7 +1416,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=72;
+			id=205;
 			type="Fort_RazorWire";
 			atlOffset=0.0040912628;
 		};
@@ -1393,7 +1434,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=73;
+			id=206;
 			type="Fort_RazorWire";
 			atlOffset=0.00096321106;
 		};
@@ -1411,7 +1452,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=74;
+			id=207;
 			type="Fort_RazorWire";
 			atlOffset=6.2942505e-005;
 		};
@@ -1429,7 +1470,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=75;
+			id=208;
 			type="Fort_RazorWire";
 			atlOffset=-0.00340271;
 		};
@@ -1447,7 +1488,7 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=76;
+			id=209;
 			type="Fort_RazorWire";
 			atlOffset=0.00012588501;
 		};
@@ -1466,7 +1507,7 @@ class Mission
 				skill=0.51999998;
 				init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
 			};
-			id=77;
+			id=210;
 			type="B_supplyCrate_F";
 		};
 		class Item78
@@ -1484,7 +1525,7 @@ class Mission
 				skill=0.51999998;
 				init="clearWeaponCargo this; clearMagazineCargo this; this addAction [""Enter Spectator Mode"", ""scripts\specAction.sqf"", [], 1, false, true, """", """"];";
 			};
-			id=78;
+			id=211;
 			type="Land_Pallet_MilBoxes_F";
 			atlOffset=0.00010681152;
 		};
@@ -1503,7 +1544,7 @@ class Mission
 				skill=0.60000002;
 				name="camrespawn";
 			};
-			id=79;
+			id=212;
 			type="ClutterCutter_EP1";
 		};
 		class Item80
@@ -1511,7 +1552,25 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10122.14,4.1409802,5899.5864};
+				position[]={10108.245,4.0450964,5899.2529};
+				angles[]={6.1723118,3.4160347,0.013671981};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="4th Squad / Leader";
+			};
+			id=213;
+			type="B_Boat_Transport_01_F";
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10122.14,4.2048955,5899.5791};
 				angles[]={6.1694193,3.4160347,0.0058593834};
 			};
 			side="Empty";
@@ -1521,15 +1580,15 @@ class Mission
 				skill=0.60000002;
 				description="4th Squad / Leader";
 			};
-			id=80;
-			type="CUP_B_Zodiac_USMC";
+			id=214;
+			type="B_Boat_Transport_01_F";
 		};
-		class Item81
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11708.881,4.2786236,5409.2896};
+				position[]={11708.876,4.3426428,5409.2852};
 				angles[]={6.2178483,3.4160347,0.074084558};
 			};
 			side="Empty";
@@ -1539,16 +1598,16 @@ class Mission
 				skill=0.60000002;
 				description="4th Squad / Leader";
 			};
-			id=81;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=2.3841858e-007;
+			id=215;
+			type="B_Boat_Transport_01_F";
+			atlOffset=-2.3841858e-007;
 		};
-		class Item82
+		class Item83
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11711.715,3.7715998,5398.2939};
+				position[]={11711.71,3.835597,5398.2896};
 				angles[]={6.2159033,3.9855347,0.076997295};
 			};
 			side="Empty";
@@ -1558,16 +1617,16 @@ class Mission
 				skill=0.60000002;
 				description="4th Squad / Leader";
 			};
-			id=82;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=5.030632e-005;
+			id=216;
+			type="B_Boat_Transport_01_F";
+			atlOffset=8.4161758e-005;
 		};
-		class Item83
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8475.5928,4.8363199,7625.7676};
+				position[]={8475.6006,4.8999701,7625.7642};
 				angles[]={6.2324471,2.7180271,6.146348};
 			};
 			side="Empty";
@@ -1577,16 +1636,15 @@ class Mission
 				skill=0.60000002;
 				description="4th Squad / Leader";
 			};
-			id=83;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=2.3841858e-007;
+			id=217;
+			type="B_Boat_Transport_01_F";
 		};
-		class Item84
+		class Item85
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8488.0879,4.4496379,7639.5972};
+				position[]={8488.0928,4.5135093,7639.5913};
 				angles[]={6.1935806,2.8433285,6.2032766};
 			};
 			side="Empty";
@@ -1596,15 +1654,15 @@ class Mission
 				skill=0.60000002;
 				description="4th Squad / Leader";
 			};
-			id=84;
-			type="CUP_B_Zodiac_USMC";
+			id=218;
+			type="B_Boat_Transport_01_F";
 		};
-		class Item85
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10042.933,5.9978518,6010.3765};
+				position[]={10042.933,5.6619954,6010.4429};
 				angles[]={6.0884175,6.2763972,0};
 			};
 			side="Empty";
@@ -1615,15 +1673,15 @@ class Mission
 				lock="UNLOCKED";
 				init="id = [""gearcar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
 			};
-			id=85;
-			type="CUP_C_Octavia_CIV";
+			id=219;
+			type="UK3CB_C_Skoda";
 		};
-		class Item86
+		class Item87
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10042.788,7.9914789,6023.8511};
+				position[]={10042.788,7.9784451,6023.8516};
 				angles[]={6.2421932,6.2612295,6.2812324};
 			};
 			side="Empty";
@@ -1634,16 +1692,16 @@ class Mission
 				lock="UNLOCKED";
 				init="id = [""weaponscar"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf"";";
 			};
-			id=86;
-			type="CUP_C_Golf4_random_Civ";
+			id=220;
+			type="UK3CB_C_Golf";
 		};
-		class Item87
+		class Item88
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7739.811,8.2310219,4300.5605};
-				angles[]={-0,1.5260854,0};
+				angles[]={0,1.6177106,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1654,33 +1712,16 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; this setVariable [""chopperFlares"", 20, true];  this addAction [""Drop Paraflare"", ""scripts\chopperparaflare.sqf"", [], 10, true, true, """", ""(gunner _target == player) && (_target getvariable 'chopperFlares') > 0""];";
 				name="helo";
 			};
-			id=87;
+			id=221;
 			type="RHS_Mi8mt_vdv";
-		};
-		class Item88
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7741.499,5.0005341,4301.0493};
-				angles[]={-0,1.4903905,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-			};
-			id=88;
-			type="HeliH";
 		};
 		class Item89
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7742.8203,5.0005341,4277.8564};
-				angles[]={-0,4.6970105,0};
+				position[]={7741.499,5.0005341,4301.0493};
+				angles[]={0,1.4903905,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1688,7 +1729,7 @@ class Mission
 			{
 				skill=0.60000002;
 			};
-			id=89;
+			id=222;
 			type="HeliH";
 		};
 		class Item90
@@ -1696,8 +1737,25 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8492.9404,7.3227997,4831.9365};
-				angles[]={-0,4.3327179,0};
+				position[]={7742.8203,5.0005341,4277.8564};
+				angles[]={0,4.6970105,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=223;
+			type="HeliH";
+		};
+		class Item91
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8492.5215,7.2420683,4829.5581};
+				angles[]={0,4.291224,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1712,16 +1770,16 @@ class Mission
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
 			};
-			id=90;
+			id=224;
 			type="RHS_T50_vvs_blueonblue";
 		};
-		class Item91
+		class Item92
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={8165.585,7.3665061,4631.1748};
-				angles[]={-0,0.53136587,0};
+				angles[]={0,0.53136587,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1736,17 +1794,17 @@ class Mission
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
 			};
-			id=91;
+			id=225;
 			type="RHS_AH64D_wd";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item92
+		class Item93
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9786.1611,5.286972,4232.0874};
-				angles[]={-0,3.1243839,0};
+				angles[]={0,3.1243839,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1760,16 +1818,16 @@ class Mission
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
 			};
-			id=92;
+			id=226;
 			type="rhs_pchela1t_vvsc";
 		};
-		class Item93
+		class Item94
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9860.6582,10.65959,3904.6833};
-				angles[]={-0,5.8791947,0};
+				position[]={9860.6582,10.866116,3904.6594};
+				angles[]={0,5.8791947,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1779,17 +1837,19 @@ class Mission
 				lock="LOCKED";
 				init="clearmagazinecargo this; clearweaponcargo this;";
 				name="cargoplane";
+				reportOwnPosition=1;
 			};
-			id=93;
-			type="CUP_B_C130J_Cargo_USMC";
+			id=227;
+			type="UK3CB_ADA_O_C130J_CARGO";
+			atlOffset=4.7683716e-007;
 		};
-		class Item94
+		class Item95
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9778.6025,5.286972,4232.1611};
-				angles[]={-0,3.1243839,0};
+				angles[]={0,3.1243839,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1803,16 +1863,16 @@ class Mission
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
 			};
-			id=94;
+			id=228;
 			type="rhs_pchela1t_vvsc";
 		};
-		class Item95
+		class Item96
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9794.1514,5.286972,4231.7983};
-				angles[]={-0,3.1243839,0};
+				angles[]={0,3.1243839,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1826,16 +1886,16 @@ class Mission
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
 			};
-			id=95;
+			id=229;
 			type="rhs_pchela1t_vvsc";
 		};
-		class Item96
+		class Item97
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7939.1934,6.9105911,4174.8569};
-				angles[]={-0,3.1609488,0};
+				angles[]={0,3.1609488,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1847,16 +1907,16 @@ class Mission
 				name="testural";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=96;
+			id=230;
 			type="RHS_Ural_VDV_01";
 		};
-		class Item97
+		class Item98
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7926.5791,6.9105911,4162.5918};
-				angles[]={-0,1.5834327,0};
+				angles[]={0,1.5834327,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1867,16 +1927,16 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=97;
+			id=231;
 			type="RHS_Ural_VDV_01";
 		};
-		class Item98
+		class Item99
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7945.8018,6.9105911,4174.6899};
-				angles[]={-0,3.0891109,0};
+				angles[]={0,3.0891109,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1887,16 +1947,16 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=98;
+			id=232;
 			type="RHS_Ural_VDV_01";
 		};
-		class Item99
+		class Item100
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7926.5674,6.9105911,4158.0244};
-				angles[]={-0,1.5337958,0};
+				angles[]={0,1.5337958,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1907,36 +1967,16 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""]; hideinvehicle = this addAction [""Hide in Back of Truck"", ""scripts\hideinvehicle.sqf"",[this, ""ural""],-1,false,true,"""",""(side _this == west) && (alive _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=99;
+			id=233;
 			type="RHS_Ural_VDV_01";
-		};
-		class Item100
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7962.8984,6.2461133,4173.7813};
-				angles[]={-0,3.1811421,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-				lock="LOCKED";
-				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=100;
-			type="rhs_uaz_vdv";
 		};
 		class Item101
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7963.604,6.2461133,4160.9014};
-				angles[]={-0,6.2308259,0};
+				position[]={7962.8984,6.2461133,4173.7813};
+				angles[]={0,3.1811421,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1947,7 +1987,7 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=101;
+			id=234;
 			type="rhs_uaz_vdv";
 		};
 		class Item102
@@ -1955,8 +1995,28 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
+				position[]={7963.604,6.2461133,4160.9014};
+				angles[]={0,6.2308259,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=1;
+				lock="LOCKED";
+				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=235;
+			type="rhs_uaz_vdv";
+		};
+		class Item103
+		{
+			dataType="Object";
+			class PositionInfo
+			{
 				position[]={7969.7397,6.2461133,4173.9531};
-				angles[]={-0,3.1659577,0};
+				angles[]={0,3.1659577,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1968,16 +2028,16 @@ class Mission
 				name="car";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=102;
+			id=236;
 			type="rhs_uaz_vdv";
 		};
-		class Item103
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7969.5894,6.2461133,4161.1123};
-				angles[]={-0,6.2703748,0};
+				angles[]={0,6.2703748,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1988,36 +2048,16 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  loadDog = this addAction [""Load Dog Into Vehicle"", ""scripts\loadDog.sqf"",[this, nearestObjects [this, ['pastor'], 3]],-1,false,true,"""",""(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)""]; hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""uaz""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=103;
+			id=237;
 			type="rhs_uaz_vdv";
-		};
-		class Item104
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7952.5845,6.5830812,4155.3931};
-				angles[]={-0,0.057648659,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=1;
-				lock="LOCKED";
-				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=104;
-			type="CUP_O_TT650_TKA";
 		};
 		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7949.6284,6.5830812,4155.0161};
-				angles[]={-0,0.057648659,0};
+				position[]={7952.5845,6.58042,4155.3931};
+				angles[]={0,0.057648659,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2028,58 +2068,36 @@ class Mission
 				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=105;
-			type="CUP_O_TT650_TKA";
+			id=238;
+			type="UK3CB_CHC_I_TT650";
 		};
 		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8005.1631,5.0019727,4319.2354};
-				angles[]={-0,0.00035190582,0};
+				position[]={7949.6284,6.58042,4155.0161};
+				angles[]={0,0.057648659,0};
 			};
-			side="Ambient";
+			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				skill=0.60000002;
-				init="0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""dogInCar"", 0]; this setVariable [""dogStamina"", true];";
-				name="dog2";
-				description="2 K-9 Detachment / Hound";
-				isPlayable=1;
+				skill=1;
+				lock="LOCKED";
+				init="clearmagazinecargo this; clearweaponcargo this; unlockVehicle = this addAction [""Unlock Vehicle"", ""scripts\unlockVehicle.sqf"",[this],-1,false,true,"""",""(locked _target) && ('EvDogTags' in weapons _this)""];  lockVehicle = this addAction [""Lock Vehicle"", ""scripts\lockVehicle.sqf"",[this],-1,false,true,"""",""!(locked _target) && ('EvDogTags' in weapons _this)""];  hotwire = this addAction [""Break Into and Hotwire (LOUD)"", ""scripts\hotwire.sqf"",[this, ""motorbike""],-1,false,true,"""",""(side _this == west) && (alive _target) && (locked _target)""];";
+				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=106;
-			type="Pastor";
+			id=239;
+			type="UK3CB_ADM_I_TT650";
 		};
 		class Item107
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8054.0435,5.0019727,4321.3911};
-				angles[]={-0,0.018152714,0};
-			};
-			side="Ambient";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""dogInCar"", 0]; this setVariable [""dogStamina"", true];";
-				name="dog1";
-				description="1 K-9 Detachment / Hound";
-				isPlayable=1;
-			};
-			id=107;
-			type="Pastor";
-		};
-		class Item108
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={9560.7842,5.2740312,4182.6577};
-				angles[]={-0,6.2587337,0};
+				angles[]={0,6.2587337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2090,16 +2108,16 @@ class Mission
 				name="fuel1";
 				description="SAD Group / Operator";
 			};
-			id=108;
+			id=240;
 			type="Fuel_can";
 		};
-		class Item109
+		class Item108
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9543.958,5.2740312,4183.3521};
-				angles[]={-0,6.2587337,0};
+				angles[]={0,6.2587337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2110,16 +2128,16 @@ class Mission
 				name="fuel2";
 				description="SAD Group / Operator";
 			};
-			id=109;
+			id=241;
 			type="Fuel_can";
 		};
-		class Item110
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9518.1699,5.2740312,4183.0571};
-				angles[]={-0,6.2587337,0};
+				angles[]={0,6.2587337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2130,16 +2148,16 @@ class Mission
 				name="fuel3";
 				description="SAD Group / Operator";
 			};
-			id=110;
+			id=242;
 			type="Fuel_can";
 		};
-		class Item111
+		class Item110
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9500.4482,5.2740312,4183.2549};
-				angles[]={-0,6.2587337,0};
+				angles[]={0,6.2587337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2150,16 +2168,16 @@ class Mission
 				name="fuel4";
 				description="SAD Group / Operator";
 			};
-			id=111;
+			id=243;
 			type="Fuel_can";
 		};
-		class Item112
+		class Item111
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9463.1904,5.2740312,4155.6392};
-				angles[]={-0,6.2587337,0};
+				angles[]={0,6.2587337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2169,16 +2187,16 @@ class Mission
 				init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { radioTowerDestroyed = true; publicvariable 'radioTowerDestroyed';};"" ];";
 				description="SAD Group / Operator";
 			};
-			id=112;
+			id=244;
 			type="Fuel_can";
 		};
-		class Item113
+		class Item112
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={8320.7734,5.2872372,5371.1992};
-				angles[]={6.2704997,6.2587337,0.02730315};
+				angles[]={0.015663261,6.2587337,0.010012784};
 			};
 			side="Empty";
 			flags=4;
@@ -2189,17 +2207,17 @@ class Mission
 				name="foodcan";
 				description="SAD Group / Operator";
 			};
-			id=113;
+			id=245;
 			type="Fuel_can";
-			atlOffset=0.0001001358;
+			atlOffset=4.5776367e-005;
 		};
-		class Item114
+		class Item113
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8320.376,5.5085917,5373.2295};
-				angles[]={6.2637243,6.2587337,0.022970492};
+				position[]={8320.3916,5.5088024,5373.2314};
+				angles[]={6.2675223,6.2587337,6.2731729};
 			};
 			side="Empty";
 			flags=4;
@@ -2208,11 +2226,11 @@ class Mission
 				skill=0.60000002;
 				description="SAD Group / Operator";
 			};
-			id=114;
+			id=246;
 			type="Land_bags_EP1";
-			atlOffset=-0.00043725967;
+			atlOffset=-0.00027513504;
 		};
-		class Item115
+		class Item114
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2227,11 +2245,11 @@ class Mission
 				skill=0.60000002;
 				description="SAD Group / Operator";
 			};
-			id=115;
+			id=247;
 			type="Land_bags_EP1";
 			atlOffset=-0.0005235672;
 		};
-		class Item116
+		class Item115
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2246,11 +2264,11 @@ class Mission
 				skill=0.60000002;
 				description="SAD Group / Operator";
 			};
-			id=116;
+			id=248;
 			type="Land_bags_EP1";
 			atlOffset=-0.00068569183;
 		};
-		class Item117
+		class Item116
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2265,11 +2283,11 @@ class Mission
 				skill=0.60000002;
 				description="SAD Group / Operator";
 			};
-			id=117;
+			id=249;
 			type="Land_bags_EP1";
 			atlOffset=0.00015497208;
 		};
-		class Item118
+		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2284,16 +2302,16 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=118;
+			id=250;
 			type="rhs_D30_vdv";
 		};
-		class Item119
+		class Item118
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7927.8496,5.2845888,4045.6499};
-				angles[]={-0,4.6436534,0};
+				angles[]={0,4.6436534,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2302,7 +2320,25 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=119;
+			id=251;
+			type="ACE_Box_82mm_Mo_Combo";
+		};
+		class Item119
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7926.9663,5.2845888,4045.4868};
+				angles[]={0,4.6092176,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=252;
 			type="ACE_Box_82mm_Mo_Combo";
 		};
 		class Item120
@@ -2310,8 +2346,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7926.9663,5.2845888,4045.4868};
-				angles[]={-0,4.6092176,0};
+				position[]={7928.6948,5.2845888,4045.7561};
+				angles[]={0,1.5078893,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2320,7 +2356,7 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=120;
+			id=253;
 			type="ACE_Box_82mm_Mo_Combo";
 		};
 		class Item121
@@ -2328,8 +2364,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7928.6948,5.2845888,4045.7561};
-				angles[]={-0,1.5078893,0};
+				position[]={7930.1245,5.2845888,4045.5891};
+				angles[]={0,4.7268162,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2338,34 +2374,16 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=121;
-			type="ACE_Box_82mm_Mo_Combo";
+			id=254;
+			type="ACE_Box_82mm_Mo_HE";
 		};
 		class Item122
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7930.1245,5.2845888,4045.5891};
-				angles[]={-0,4.7268162,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=122;
-			type="ACE_Box_82mm_Mo_HE";
-		};
-		class Item123
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={7931.4243,5.2845888,4045.2864};
-				angles[]={-0,4.7753763,0};
+				angles[]={0,4.7753763,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2374,10 +2392,10 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=123;
+			id=255;
 			type="ACE_Box_82mm_Mo_Smoke";
 		};
-		class Item124
+		class Item123
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2392,10 +2410,10 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=124;
+			id=256;
 			type="ClutterCutter_EP1";
 		};
-		class Item125
+		class Item124
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2410,11 +2428,11 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=125;
+			id=257;
 			type="Land_fort_artillery_nest";
 			atlOffset=4.7683716e-007;
 		};
-		class Item126
+		class Item125
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2429,17 +2447,17 @@ class Mission
 				skill=0.60000002;
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=126;
+			id=258;
 			type="Land_fort_artillery_nest";
 			atlOffset=0.0061826706;
 		};
-		class Item127
+		class Item126
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9649.1357,14.971285,4254.5542};
-				angles[]={-0,6.2796602,0};
+				angles[]={0,6.2796602,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2448,16 +2466,16 @@ class Mission
 				skill=0.60000002;
 				description="Senior Sergeant";
 			};
-			id=127;
+			id=259;
 			type="Land_Ind_IlluminantTower";
 		};
-		class Item128
+		class Item127
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={9067.4619,14.210021,5977.6538};
-				angles[]={-0,3.1629384,0};
+				angles[]={0,3.1629384,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2467,16 +2485,16 @@ class Mission
 				init="this animate [""Bargate"",1];";
 				description="3 Patrol / Patrol Leader";
 			};
-			id=128;
+			id=260;
 			type="ZavoraAnim";
 		};
-		class Item129
+		class Item128
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7924.6714,5.2740312,4103.7417};
-				angles[]={-0,4.6351933,0};
+				angles[]={0,4.6351933,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2486,16 +2504,16 @@ class Mission
 				init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 				name="chemtank3";
 			};
-			id=129;
+			id=261;
 			type="Fuel_can";
 		};
-		class Item130
+		class Item129
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7924.8667,5.2740312,4086.9053};
-				angles[]={-0,4.6351933,0};
+				angles[]={0,4.6351933,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2505,16 +2523,16 @@ class Mission
 				init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 				name="chemtank2";
 			};
-			id=130;
+			id=262;
 			type="Fuel_can";
 		};
-		class Item131
+		class Item130
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7926.3818,5.2740312,4061.8643};
-				angles[]={-0,4.6351933,0};
+				angles[]={0,4.6351933,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2524,10 +2542,10 @@ class Mission
 				init="hideobject this; this addEventHandler [""hit"", ""if ((_this select 2) > 0.1) then { blowChemPlant = true; publicvariable 'blowChemPlant';};"" ]; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 				name="chemtank1";
 			};
-			id=131;
+			id=263;
 			type="Fuel_can";
 		};
-		class Item132
+		class Item131
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2544,10 +2562,10 @@ class Mission
 				name="scienceRadio";
 				description="SAD Group / Operator";
 			};
-			id=132;
+			id=264;
 			type="Radio";
 		};
-		class Item133
+		class Item132
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2561,11 +2579,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=133;
+			id=265;
 			type="Fort_RazorWire";
 			atlOffset=0.00010204315;
 		};
-		class Item134
+		class Item133
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2579,11 +2597,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=134;
+			id=266;
 			type="Fort_RazorWire";
 			atlOffset=3.4332275e-005;
 		};
-		class Item135
+		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2597,11 +2615,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=135;
+			id=267;
 			type="Fort_RazorWire";
 			atlOffset=0.00022554398;
 		};
-		class Item136
+		class Item135
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2615,11 +2633,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=136;
+			id=268;
 			type="Fort_RazorWire";
 			atlOffset=-0.030856609;
 		};
-		class Item137
+		class Item136
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2633,11 +2651,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=137;
+			id=269;
 			type="Fort_RazorWire";
 			atlOffset=9.727478e-005;
 		};
-		class Item138
+		class Item137
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2651,11 +2669,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=138;
+			id=270;
 			type="Fort_RazorWire";
 			atlOffset=0.00024604797;
 		};
-		class Item139
+		class Item138
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2669,11 +2687,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=139;
+			id=271;
 			type="Fort_RazorWire";
 			atlOffset=0.00055217743;
 		};
-		class Item140
+		class Item139
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2687,11 +2705,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=140;
+			id=272;
 			type="Fort_RazorWire";
 			atlOffset=0.00012016296;
 		};
-		class Item141
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2705,11 +2723,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=141;
+			id=273;
 			type="Fort_RazorWire";
 			atlOffset=2.8610229e-005;
 		};
-		class Item142
+		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2723,11 +2741,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=142;
+			id=274;
 			type="Fort_RazorWire";
 			atlOffset=1.9073486e-005;
 		};
-		class Item143
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2741,11 +2759,11 @@ class Mission
 			{
 				skill=0.51999998;
 			};
-			id=143;
+			id=275;
 			type="Fort_RazorWire";
 			atlOffset=-0.0068545341;
 		};
-		class Item144
+		class Item143
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2763,11 +2781,11 @@ class Mission
 				name="stockadeGate";
 				description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
 			};
-			id=144;
+			id=276;
 			type="Land_BarGate2";
 			atlOffset=3.194809e-005;
 		};
-		class Item145
+		class Item144
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2776,10 +2794,10 @@ class Mission
 				angles[]={0,4.6687737,0};
 			};
 			name="ao";
-			id=145;
+			id=277;
 			type="Logic";
 		};
-		class Item146
+		class Item145
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2787,10 +2805,10 @@ class Mission
 				position[]={11935.368,18.00935,10251.722};
 			};
 			name="specPen";
-			id=146;
+			id=278;
 			type="Logic";
 		};
-		class Item147
+		class Item146
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2799,10 +2817,10 @@ class Mission
 				angles[]={0,0.0013987296,0};
 			};
 			name="hill";
-			id=147;
+			id=279;
 			type="Logic";
 		};
-		class Item148
+		class Item147
 		{
 			dataType="Group";
 			side="West";
@@ -2815,7 +2833,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10045.375,4.4648561,5995.2158};
-						angles[]={-0,4.3923979,0};
+						angles[]={0,4.3923979,0};
 					};
 					side="West";
 					flags=6;
@@ -2826,8 +2844,8 @@ class Mission
 						presence=0;
 						description="4th Squad / Leader";
 					};
-					id=149;
-					type="CUP_B_US_Soldier";
+					id=281;
+					type="UK3CB_CW_US_B_LATE_RIF_1";
 				};
 				class Item1
 				{
@@ -2835,7 +2853,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10043.24,4.4648561,5996.7549};
-						angles[]={-0,0.029007912,0};
+						angles[]={0,0.029007912,0};
 					};
 					side="West";
 					flags=4;
@@ -2847,8 +2865,8 @@ class Mission
 						description="SAD Group / Leader";
 						isPlayable=1;
 					};
-					id=150;
-					type="CUP_I_PMC_Bodyguard_AA12";
+					id=282;
+					type="LOP_PMC_Infantry_Rifleman";
 				};
 				class Item2
 				{
@@ -2856,7 +2874,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10044.693,4.4648561,5996.5972};
-						angles[]={-0,6.1032023,0};
+						angles[]={0,6.1032023,0};
 					};
 					side="West";
 					flags=4;
@@ -2868,8 +2886,8 @@ class Mission
 						description="SAD Group / Assistant Leader, Helicopter Pilot";
 						isPlayable=1;
 					};
-					id=151;
-					type="CUP_I_PMC_Soldier_TL";
+					id=283;
+					type="LOP_PMC_Infantry_TL";
 				};
 				class Item3
 				{
@@ -2877,7 +2895,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10045.991,4.4648561,5996.5967};
-						angles[]={-0,6.1032023,0};
+						angles[]={0,6.1032023,0};
 					};
 					side="West";
 					flags=4;
@@ -2889,8 +2907,8 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=152;
-					type="CUP_I_PMC_Soldier_MG_PKM";
+					id=284;
+					type="LOP_PMC_Infantry_MG";
 				};
 				class Item4
 				{
@@ -2898,7 +2916,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10042.86,4.4648561,5994.79};
-						angles[]={-0,5.9990635,0};
+						angles[]={0,5.9990635,0};
 					};
 					side="West";
 					flags=4;
@@ -2910,8 +2928,8 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=153;
-					type="CUP_I_PMC_Sniper";
+					id=285;
+					type="LOP_PMC_Infantry_Marksman";
 				};
 				class Item5
 				{
@@ -2919,7 +2937,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10044.551,4.4648561,5994.8794};
-						angles[]={-0,5.9990635,0};
+						angles[]={0,5.9990635,0};
 					};
 					side="West";
 					flags=4;
@@ -2931,8 +2949,8 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=154;
-					type="CUP_I_PMC_Soldier_GL";
+					id=286;
+					type="LOP_PMC_Infantry_GL";
 				};
 				class Item6
 				{
@@ -2940,7 +2958,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10045.834,4.4648561,5994.6895};
-						angles[]={-0,5.9990635,0};
+						angles[]={0,5.9990635,0};
 					};
 					side="West";
 					flags=4;
@@ -2952,8 +2970,8 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=155;
-					type="CUP_I_PMC_Contractor1";
+					id=287;
+					type="LOP_PMC_Infantry_EOD";
 				};
 				class Item7
 				{
@@ -2961,7 +2979,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10047.332,4.4648561,5994.2393};
-						angles[]={-0,5.9990635,0};
+						angles[]={0,5.9990635,0};
 					};
 					side="West";
 					flags=4;
@@ -2973,8 +2991,8 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=156;
-					type="CUP_I_PMC_Contractor2";
+					id=288;
+					type="LOP_PMC_Infantry_Rifleman_4";
 				};
 				class Item8
 				{
@@ -2982,7 +3000,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10047.278,4.4648561,5996.5557};
-						angles[]={-0,5.9990635,0};
+						angles[]={0,5.9990635,0};
 					};
 					side="West";
 					flags=4;
@@ -2994,16 +3012,16 @@ class Mission
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
-					id=157;
-					type="CUP_I_PMC_Engineer";
+					id=289;
+					type="LOP_PMC_Infantry_Engineer";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=148;
+			id=280;
 		};
-		class Item149
+		class Item148
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3012,10 +3030,10 @@ class Mission
 				angles[]={0,0.12824678,0};
 			};
 			name="boats1";
-			id=158;
+			id=290;
 			type="Logic";
 		};
-		class Item150
+		class Item149
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3024,10 +3042,10 @@ class Mission
 				angles[]={0,0.12824678,0};
 			};
 			name="boats2";
-			id=159;
+			id=291;
 			type="Logic";
 		};
-		class Item151
+		class Item150
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3036,10 +3054,10 @@ class Mission
 				angles[]={0,0.12824678,0};
 			};
 			name="boats3";
-			id=160;
+			id=292;
 			type="Logic";
 		};
-		class Item152
+		class Item151
 		{
 			dataType="Group";
 			side="East";
@@ -3052,7 +3070,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8056.6777,5.0019732,4270.73};
-						angles[]={-0,0.53726578,0};
+						angles[]={0,3.1756444,0};
 					};
 					side="East";
 					flags=6;
@@ -3065,8 +3083,8 @@ class Mission
 						description="Base Commander";
 						isPlayable=1;
 					};
-					id=162;
-					type="CUP_O_RU_Commander_VDV";
+					id=294;
+					type="UK3CB_CW_SOV_O_EARLY_OFF";
 				};
 				class Item1
 				{
@@ -3074,7 +3092,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8055.9814,5.0019732,4265.1177};
-						angles[]={-0,6.0941677,0};
+						angles[]={0,6.0941677,0};
 					};
 					side="East";
 					flags=4;
@@ -3086,8 +3104,8 @@ class Mission
 						description="Base Signaller";
 						isPlayable=1;
 					};
-					id=163;
-					type="CUP_O_RU_Soldier_EMR";
+					id=295;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item2
 				{
@@ -3095,7 +3113,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8062.3613,5.0019732,4263.6636};
-						angles[]={-0,5.9398794,0};
+						angles[]={0,5.9398794,0};
 					};
 					side="East";
 					flags=4;
@@ -3106,8 +3124,8 @@ class Mission
 						description="Chief Medic";
 						isPlayable=1;
 					};
-					id=164;
-					type="CUP_O_RU_Soldier_EMR";
+					id=296;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item3
 				{
@@ -3115,7 +3133,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8049.0435,5.0019732,4265.1172};
-						angles[]={-0,0.056340218,0};
+						angles[]={0,0.056340218,0};
 					};
 					side="East";
 					flags=4;
@@ -3128,16 +3146,16 @@ class Mission
 						description="Senior Sergeant";
 						isPlayable=1;
 					};
-					id=165;
-					type="CUP_O_RU_Officer_VDV_EMR";
+					id=297;
+					type="UK3CB_CW_SOV_O_EARLY_JNR_OFF";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=161;
+			id=293;
 		};
-		class Item153
+		class Item152
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3147,10 +3165,10 @@ class Mission
 			};
 			init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_runway_edgelight"", 2000]);";
 			description="Base Commander";
-			id=166;
+			id=298;
 			type="Logic";
 		};
-		class Item154
+		class Item153
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3160,10 +3178,10 @@ class Mission
 			};
 			init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_NavigLight"", 2000]);";
 			description="Base Commander";
-			id=167;
+			id=299;
 			type="Logic";
 		};
-		class Item155
+		class Item154
 		{
 			dataType="Group";
 			side="East";
@@ -3176,7 +3194,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7988.5098,5.0019732,4295.4824};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=6;
@@ -3188,8 +3206,8 @@ class Mission
 						description="1 Patrol / Patrol Leader";
 						isPlayable=1;
 					};
-					id=169;
-					type="CUP_O_RU_Soldier_EMR";
+					id=301;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item1
 				{
@@ -3197,7 +3215,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7990.2495,5.0019732,4298.1978};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=4;
@@ -3208,8 +3226,8 @@ class Mission
 						description="1 Patrol / Assistant Leader";
 						isPlayable=1;
 					};
-					id=170;
-					type="CUP_O_RU_Soldier_EMR";
+					id=302;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item2
 				{
@@ -3217,7 +3235,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7986.5679,5.0019732,4298.5132};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=4;
@@ -3228,8 +3246,8 @@ class Mission
 						description="1 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=171;
-					type="CUP_O_RU_Soldier_EMR";
+					id=303;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item3
 				{
@@ -3237,7 +3255,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7990.3862,5.0019732,4300.8169};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=4;
@@ -3248,8 +3266,8 @@ class Mission
 						description="1 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=172;
-					type="CUP_O_RU_Soldier_EMR";
+					id=304;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item4
 				{
@@ -3257,7 +3275,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7986.1616,5.0019732,4302.623};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=4;
@@ -3268,8 +3286,8 @@ class Mission
 						description="1 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=173;
-					type="CUP_O_RU_Soldier_EMR";
+					id=305;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item5
 				{
@@ -3277,7 +3295,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7988.4194,5.0019732,4304.6177};
-						angles[]={-0,2.8187594,0};
+						angles[]={0,2.8187594,0};
 					};
 					side="East";
 					flags=4;
@@ -3288,14 +3306,160 @@ class Mission
 						description="1 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=174;
-					type="CUP_O_RU_Soldier_EMR";
+					id=306;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=168;
+			id=300;
+		};
+		class Item155
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8033.8257,5.0019732,4296.6494};
+						angles[]={0,3.1501019,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Patrol Leader";
+						isPlayable=1;
+					};
+					id=308;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8035.8999,5.0019732,4299.6406};
+						angles[]={0,2.8057041,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Assistant Leader";
+						isPlayable=1;
+					};
+					id=309;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8032.2124,5.0019732,4299.9121};
+						angles[]={0,2.8057041,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Guard";
+						isPlayable=1;
+					};
+					id=310;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8035.9995,5.0019732,4302.2598};
+						angles[]={0,2.8057041,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Guard";
+						isPlayable=1;
+					};
+					id=311;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8031.7554,5.0019732,4304.0073};
+						angles[]={0,2.8057041,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Guard";
+						isPlayable=1;
+					};
+					id=312;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8033.9839,5.0019732,4306.0396};
+						angles[]={0,2.8057041,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="2 Patrol / Guard";
+						isPlayable=1;
+					};
+					id=313;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+038;
+					position[]={8033.9497,5.0005341,4257.7378};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=379;
+					type="Move";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=307;
 		};
 		class Item156
 		{
@@ -3309,8 +3473,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8033.8257,5.0019732,4296.6494};
-						angles[]={-0,2.8057041,0};
+						position[]={8072.6509,5.0019732,4295.0518};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=6;
@@ -3318,118 +3482,118 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Patrol Leader";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Patrol Leader";
 						isPlayable=1;
 					};
-					id=176;
-					type="CUP_O_RU_Soldier_EMR";
+					id=315;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8035.8999,5.0019732,4299.6406};
-						angles[]={-0,2.8057041,0};
+						position[]={8074.9917,5.0019732,4298.1797};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Assistant Leader";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Assistant Leader";
 						isPlayable=1;
 					};
-					id=177;
-					type="CUP_O_RU_Soldier_EMR";
+					id=316;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8032.2124,5.0019732,4299.9121};
-						angles[]={-0,2.8057041,0};
+						position[]={8071.6421,5.0019732,4299.7212};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=178;
-					type="CUP_O_RU_Soldier_EMR";
+					id=317;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8035.9995,5.0019732,4302.2598};
-						angles[]={-0,2.8057041,0};
+						position[]={8076.0093,5.0019732,4300.5957};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=179;
-					type="CUP_O_RU_Soldier_EMR";
+					id=318;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8031.7554,5.0019732,4304.0073};
-						angles[]={-0,2.8057041,0};
+						position[]={8072.646,5.0019732,4303.7231};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=180;
-					type="CUP_O_RU_Soldier_EMR";
+					id=319;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8033.9839,5.0019732,4306.0396};
-						angles[]={-0,2.8057041,0};
+						position[]={8076.2163,5.0019732,4302.811};
+						angles[]={0,3.1629384,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  2patrol = group this; group this setGroupId [""2 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="2 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="3 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=181;
-					type="CUP_O_RU_Soldier_EMR";
+					id=320;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=175;
+			id=314;
 		};
 		class Item157
 		{
@@ -3443,8 +3607,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8072.6509,5.0019732,4295.0518};
-						angles[]={-0,3.1629384,0};
+						position[]={7956.1802,5.0019732,4297.1738};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=6;
@@ -3452,118 +3616,118 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Patrol Leader";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Patrol Leader";
 						isPlayable=1;
 					};
-					id=183;
-					type="CUP_O_RU_Soldier_EMR";
+					id=322;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8074.9917,5.0019732,4298.1797};
-						angles[]={-0,3.1629384,0};
+						position[]={7958.1099,5.0019732,4300.2534};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Assistant Leader";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Assistant Leader";
 						isPlayable=1;
 					};
-					id=184;
-					type="CUP_O_RU_Soldier_EMR";
+					id=323;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8071.6421,5.0019732,4299.7212};
-						angles[]={-0,3.1629384,0};
+						position[]={7954.4165,5.0019732,4300.3521};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=185;
-					type="CUP_O_RU_Soldier_EMR";
+					id=324;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8076.0093,5.0019732,4300.5957};
-						angles[]={-0,3.1629384,0};
+						position[]={7958.0835,5.0019732,4302.877};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=186;
-					type="CUP_O_RU_Soldier_EMR";
+					id=325;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8072.646,5.0019732,4303.7231};
-						angles[]={-0,3.1629384,0};
+						position[]={7953.7622,5.0019732,4304.4219};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=187;
-					type="CUP_O_RU_Soldier_EMR";
+					id=326;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8076.2163,5.0019732,4302.811};
-						angles[]={-0,3.1629384,0};
+						position[]={7955.8892,5.0019732,4306.5562};
+						angles[]={0,2.7586327,0};
 					};
 					side="East";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  3patrol = group this; group this setGroupId [""3 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="3 Patrol / Guard";
+						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
+						description="4 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=188;
-					type="CUP_O_RU_Soldier_EMR";
+					id=327;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=182;
+			id=321;
 		};
 		class Item158
 		{
@@ -3577,142 +3741,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7956.1802,5.0019732,4297.1738};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Patrol Leader";
-						isPlayable=1;
-					};
-					id=190;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7958.1099,5.0019732,4300.2534};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Assistant Leader";
-						isPlayable=1;
-					};
-					id=191;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7954.4165,5.0019732,4300.3521};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Guard";
-						isPlayable=1;
-					};
-					id=192;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7958.0835,5.0019732,4302.877};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Guard";
-						isPlayable=1;
-					};
-					id=193;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7953.7622,5.0019732,4304.4219};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Guard";
-						isPlayable=1;
-					};
-					id=194;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7955.8892,5.0019732,4306.5562};
-						angles[]={-0,2.7586327,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  4patrol = group this; group this setGroupId [""4 Patrol""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; ";
-						description="4 Patrol / Guard";
-						isPlayable=1;
-					};
-					id=195;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=189;
-		};
-		class Item159
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=6;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={8111.2959,5.0019732,4295.5405};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=6;
@@ -3724,8 +3754,8 @@ class Mission
 						description="5 Patrol / Patrol Leader";
 						isPlayable=1;
 					};
-					id=197;
-					type="CUP_O_RU_Soldier_EMR";
+					id=329;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item1
 				{
@@ -3733,7 +3763,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8114.1626,5.0019732,4297.7808};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=4;
@@ -3744,8 +3774,8 @@ class Mission
 						description="5 Patrol / Assistant Leader";
 						isPlayable=1;
 					};
-					id=198;
-					type="CUP_O_RU_Soldier_EMR";
+					id=330;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item2
 				{
@@ -3753,7 +3783,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8110.7217,5.0019732,4299.1318};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=4;
@@ -3764,8 +3794,8 @@ class Mission
 						description="5 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=199;
-					type="CUP_O_RU_Soldier_EMR";
+					id=331;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item3
 				{
@@ -3773,7 +3803,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8115.0298,5.0019732,4300.2554};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=4;
@@ -3784,8 +3814,8 @@ class Mission
 						description="5 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=200;
-					type="CUP_O_RU_Soldier_EMR";
+					id=332;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item4
 				{
@@ -3793,7 +3823,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8111.4893,5.0019732,4303.1826};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=4;
@@ -3804,8 +3834,8 @@ class Mission
 						description="5 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=201;
-					type="CUP_O_RU_Soldier_EMR";
+					id=333;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item5
 				{
@@ -3813,7 +3843,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8114.2192,5.0019732,4304.4678};
-						angles[]={-0,3.1054296,0};
+						angles[]={0,3.1054296,0};
 					};
 					side="East";
 					flags=4;
@@ -3824,16 +3854,16 @@ class Mission
 						description="5 Patrol / Guard";
 						isPlayable=1;
 					};
-					id=202;
-					type="CUP_O_RU_Soldier_EMR";
+					id=334;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=196;
+			id=328;
 		};
-		class Item160
+		class Item159
 		{
 			dataType="Group";
 			side="East";
@@ -3846,7 +3876,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7758.1816,5.0019732,4301.519};
-						angles[]={-0,4.4812908,0};
+						angles[]={0,4.4812908,0};
 					};
 					side="East";
 					flags=6;
@@ -3860,8 +3890,8 @@ class Mission
 						isPlayer=1;
 						isPlayable=1;
 					};
-					id=204;
-					type="CUP_O_RU_Pilot_EMR";
+					id=336;
+					type="UK3CB_CW_SOV_O_EARLY_HELI_PILOT";
 				};
 				class Item1
 				{
@@ -3869,7 +3899,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7759.9424,5.0019732,4300.7041};
-						angles[]={-0,4.4812908,0};
+						angles[]={0,4.4812908,0};
 					};
 					side="East";
 					flags=4;
@@ -3882,14 +3912,68 @@ class Mission
 						description="Base Helicopter / Crew Chief";
 						isPlayable=1;
 					};
-					id=205;
-					type="CUP_O_RU_Pilot_EMR";
+					id=337;
+					type="UK3CB_CW_SOV_O_EARLY_HELI_CREW";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=203;
+			id=335;
+		};
+		class Item160
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8017.3608,5.0019732,4258.7842};
+						angles[]={0,1.8078375,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="COLONEL";
+						presence=0;
+					};
+					id=339;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8017.7256,5.0019732,4261.6172};
+						angles[]={0,1.2563934,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="MAJOR";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist1 = group this; group this setGroupId [""Dr. Hudsonski""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""ace_arty_rangeTable_m119""; this addweapon ""ACE_Map_Tools""; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj11' in objectivesText) then {   [-2, {    hint format ['Dr. Hudsonski was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
+						name="dr1";
+						description="Chadori Hudsonski, Experimental Physicist";
+						isPlayable=1;
+					};
+					id=340;
+					type="C_scientist_02_formal_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=338;
 		};
 		class Item161
 		{
@@ -3903,62 +3987,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8017.3608,5.0019732,4258.7842};
-						angles[]={-0,1.8078375,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="COLONEL";
-						presence=0;
-					};
-					id=207;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8017.7256,5.0019732,4261.6172};
-						angles[]={-0,1.2563934,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="MAJOR";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist1 = group this; group this setGroupId [""Dr. Hudsonski""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""ace_arty_rangeTable_m119""; this addweapon ""ACE_Map_Tools""; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj11' in objectivesText) then {   [-2, {    hint format ['Dr. Hudsonski was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
-						name="dr1";
-						description="Chadori Hudsonski, Experimental Physicist";
-						isPlayable=1;
-					};
-					id=208;
-					type="CUP_C_C_Doctor_01";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=206;
-		};
-		class Item162
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={8012.5132,5.0019732,4276.46};
-						angles[]={-0,1.0756702,0};
+						angles[]={0,1.0756702,0};
 					};
 					side="East";
 					flags=6;
@@ -3968,8 +3998,8 @@ class Mission
 						rank="COLONEL";
 						presence=0;
 					};
-					id=210;
-					type="CUP_O_RU_Soldier_EMR";
+					id=342;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 				class Item1
 				{
@@ -3977,7 +4007,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8015.1196,5.0019732,4274.9077};
-						angles[]={-0,1.5031824,0};
+						angles[]={0,1.5031824,0};
 					};
 					side="East";
 					flags=4;
@@ -3990,14 +4020,49 @@ class Mission
 						description="Gavriil Zedic, Chemical Warfare Expert";
 						isPlayable=1;
 					};
-					id=211;
-					type="C_scientist_02_formal_F";
+					id=343;
+					type="LOP_CHR_Civ_Doctor_01";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=209;
+			id=341;
+		};
+		class Item162
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8053.5205,5.0019732,4335.1763};
+						angles[]={0,2.9980578,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 1k9 = group this; group this setGroupId [""1 K-9""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+						name="handler1";
+						description="1 K-9 Detachment / Handler";
+						isPlayable=1;
+					};
+					id=345;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=344;
 		};
 		class Item163
 		{
@@ -4011,43 +4076,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8053.5205,5.0019732,4335.1763};
-						angles[]={-0,3.1053584,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="id = [""patrolLead"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; 1k9 = group this; group this setGroupId [""1 K-9""]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
-						name="handler1";
-						description="1 K-9 Detachment / Handler";
-						isPlayable=1;
-					};
-					id=213;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=212;
-		};
-		class Item164
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={8004.5381,5.0019732,4334.8359};
-						angles[]={-0,3.2363641,0};
+						angles[]={0,3.2363641,0};
 					};
 					side="East";
 					flags=6;
@@ -4060,16 +4090,16 @@ class Mission
 						description="2 K-9 Detachment / Handler";
 						isPlayable=1;
 					};
-					id=215;
-					type="CUP_O_RU_Soldier_EMR";
+					id=347;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=214;
+			id=346;
 		};
-		class Item165
+		class Item164
 		{
 			dataType="Group";
 			side="Independent";
@@ -4094,7 +4124,7 @@ class Mission
 						presence=0;
 						description="Camera Man (For FRAPS)";
 					};
-					id=217;
+					id=349;
 					type="I_G_Soldier_A_F";
 				};
 				class Item1
@@ -4116,16 +4146,16 @@ class Mission
 						description="Camera Man (For FRAPS)";
 						isPlayable=1;
 					};
-					id=218;
-					type="CUP_C_C_Doctor_01";
+					id=350;
+					type="C_journalist_F";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=216;
+			id=348;
 		};
-		class Item166
+		class Item165
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4133,20 +4163,20 @@ class Mission
 				position[]={14544.306,6.7172079,19699.709};
 			};
 			name="graveyard";
-			id=219;
+			id=351;
 			type="Logic";
 		};
-		class Item167
+		class Item166
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
 				position[]={7865.1836,5.0005341,4268.3506};
 			};
-			id=220;
+			id=352;
 			type="BIS_Effect_MovieNight";
 		};
-		class Item168
+		class Item167
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4157,10 +4187,10 @@ class Mission
 			name="foodloc";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +2] ";
 			description="SAD Group / Operator";
-			id=221;
+			id=353;
 			type="Logic";
 		};
-		class Item169
+		class Item168
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4170,10 +4200,10 @@ class Mission
 			};
 			name="towerloc";
 			description="SAD Group / Operator";
-			id=222;
+			id=354;
 			type="Logic";
 		};
-		class Item170
+		class Item169
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4183,10 +4213,10 @@ class Mission
 			};
 			name="city1";
 			description="SAD Group / Leader";
-			id=223;
+			id=355;
 			type="Logic";
 		};
-		class Item171
+		class Item170
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4196,10 +4226,10 @@ class Mission
 			};
 			name="city2";
 			description="SAD Group / Leader";
-			id=224;
+			id=356;
 			type="Logic";
 		};
-		class Item172
+		class Item171
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4210,10 +4240,10 @@ class Mission
 			name="controlTower";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +11]; ";
 			description="3 Patrol / Patrol Leader";
-			id=225;
+			id=357;
 			type="Logic";
 		};
-		class Item173
+		class Item172
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4224,10 +4254,10 @@ class Mission
 			name="chemfire1";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 			description="3 Patrol / Patrol Leader";
-			id=226;
+			id=358;
 			type="Logic";
 		};
-		class Item174
+		class Item173
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4238,10 +4268,10 @@ class Mission
 			name="chemfire2";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 			description="3 Patrol / Patrol Leader";
-			id=227;
+			id=359;
 			type="Logic";
 		};
-		class Item175
+		class Item174
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4252,10 +4282,10 @@ class Mission
 			name="hudsonPlans";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) + 3]; ";
 			description="3 Patrol / Patrol Leader";
-			id=228;
+			id=360;
 			type="Logic";
 		};
-		class Item176
+		class Item175
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4265,10 +4295,10 @@ class Mission
 			};
 			name="expercanon";
 			description="3 Patrol / Patrol Leader";
-			id=229;
+			id=361;
 			type="Logic";
 		};
-		class Item177
+		class Item176
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4276,10 +4306,10 @@ class Mission
 				position[]={10042.42,4.4634171,6005.5508};
 			};
 			name="offlimits1";
-			id=230;
+			id=362;
 			type="Logic";
 		};
-		class Item178
+		class Item177
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4287,10 +4317,10 @@ class Mission
 				position[]={7928.543,5.0005341,4045.0928};
 			};
 			name="offlimits2";
-			id=231;
+			id=363;
 			type="Logic";
 		};
-		class Item179
+		class Item178
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4298,10 +4328,10 @@ class Mission
 				position[]={8399.2402,5.0319405,5175.6934};
 			};
 			name="offlimits3";
-			id=232;
+			id=364;
 			type="Logic";
 		};
-		class Item180
+		class Item179
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4309,10 +4339,10 @@ class Mission
 				position[]={9443.9189,5.0005341,4157.5186};
 			};
 			name="offlimits4";
-			id=233;
+			id=365;
 			type="Logic";
 		};
-		class Item181
+		class Item180
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4322,10 +4352,10 @@ class Mission
 			};
 			name="centerOfRange";
 			description="2 K-9 Detachment / Hound";
-			id=234;
+			id=366;
 			type="Logic";
 		};
-		class Item182
+		class Item181
 		{
 			dataType="Group";
 			side="Independent";
@@ -4338,7 +4368,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9072.7168,10.002049,5952.3789};
-						angles[]={-0,6.2796602,0};
+						angles[]={0,6.2796602,0};
 					};
 					side="Independent";
 					flags=6;
@@ -4348,8 +4378,8 @@ class Mission
 						rank="COLONEL";
 						presence=0;
 					};
-					id=236;
-					type="CUP_I_PMC_Soldier";
+					id=368;
+					type="LOP_PMC_Infantry_VIP";
 				};
 				class Item1
 				{
@@ -4357,7 +4387,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9071.9932,10.002049,5948.8853};
-						angles[]={-0,6.2796602,0};
+						angles[]={0,6.2796602,0};
 					};
 					side="Independent";
 					flags=4;
@@ -4367,8 +4397,8 @@ class Mission
 						rank="CORPORAL";
 						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
 					};
-					id=237;
-					type="CUP_C_C_Policeman_02";
+					id=369;
+					type="UK3CB_CPD_I_PAT";
 				};
 				class Item2
 				{
@@ -4376,7 +4406,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9069.5605,10.002049,5945.626};
-						angles[]={-0,6.2796602,0};
+						angles[]={0,6.2796602,0};
 					};
 					side="Independent";
 					flags=4;
@@ -4385,8 +4415,8 @@ class Mission
 						skill=0.60000002;
 						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  this moveingunner kordmg; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
 					};
-					id=238;
-					type="CUP_C_C_Policeman_02";
+					id=370;
+					type="UK3CB_CPD_I_PAT";
 				};
 				class Item3
 				{
@@ -4394,7 +4424,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9075.0547,10.002049,5945.6006};
-						angles[]={-0,6.2796602,0};
+						angles[]={0,6.2796602,0};
 					};
 					side="Independent";
 					flags=4;
@@ -4403,8 +4433,8 @@ class Mission
 						skill=0.60000002;
 						init="id = [""rifle"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf"";  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
 					};
-					id=239;
-					type="CUP_C_C_Policeman_02";
+					id=371;
+					type="UK3CB_CPD_I_PAT";
 				};
 				class Item4
 				{
@@ -4418,14 +4448,48 @@ class Mission
 					{
 					};
 					showWP="NEVER";
-					id=240;
+					id=372;
 					type="Move";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=235;
+			id=367;
+		};
+		class Item182
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10040.215,4.4648561,5997.7256};
+						angles[]={0,1.4097557,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						lock="UNLOCKED";
+						init="removeallweapons this; removeallitems this; if (isserver) then {this setdammage 1; };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
+						name="uniform2";
+						description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
+					};
+					id=374;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=373;
 		};
 		class Item183
 		{
@@ -4439,42 +4503,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10040.215,4.4648561,5997.7256};
-						angles[]={-0,1.4097557,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						lock="UNLOCKED";
-						init="removeallweapons this; removeallitems this; if (isserver) then {this setdammage 1; };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];";
-						name="uniform2";
-						description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
-					};
-					id=242;
-					type="CUP_O_RU_Soldier_EMR";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=241;
-		};
-		class Item184
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={10040.56,4.4648561,5998.3359};
-						angles[]={-0,2.7114563,0};
+						angles[]={0,2.7114563,0};
 					};
 					side="East";
 					flags=6;
@@ -4486,16 +4516,16 @@ class Mission
 						name="uniform1";
 						description="2nd Mech. Inf. Platoon 2LT ""PANTHER 2""";
 					};
-					id=244;
-					type="CUP_O_RU_Soldier_EMR";
+					id=376;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=243;
+			id=375;
 		};
-		class Item185
+		class Item184
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4503,10 +4533,10 @@ class Mission
 				position[]={8308.3135,5.2114263,4197.897};
 			};
 			name="stockade";
-			id=245;
+			id=377;
 			type="Logic";
 		};
-		class Item186
+		class Item185
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4514,7 +4544,7 @@ class Mission
 				position[]={9069.6396,0.003409944,5882.5713};
 			};
 			name="offlimits5";
-			id=246;
+			id=378;
 			type="Logic";
 			atlOffset=2.0049357;
 		};
