@@ -66,7 +66,7 @@ if (!(isNull player)) then  //non-JIP player
 	[] execVM "scripts\weaponCheck.sqf"; //check to see that people aren't taking enemy weapons
 	[] execVM "scripts\pilotCheck.sqf"; //check to see if players are qualified to fly
 	[] execVM "scripts\defectorCheck.sqf"; //checks to see if the player is a defector, then executes special code
-	[] execVM "scripts\fair.sqf";  //check to see if the player is a cheater
+	// [] execVM "scripts\fair.sqf";  //check to see if the player is a cheater
 	
 	if (side player == east) then { //runs on all russian players
 		[] execVM "scripts\russianInit.sqf";
