@@ -74,14 +74,13 @@ if (!(isNull player)) then  //non-JIP player
 	if (side player == west) then { //runs on all CIA players
 		[] execVM "scripts\CIAinit.sqf";
 	};
-	if (typeof player == "Pastor") then {  //runs on all dogs
+	if (vehiclevarname player in ["dog1","dog2"]) then {  //runs on all dogs
 		[] execVM "scripts\playerIsDog.sqf";
 	};	
 	if ( "camman" == vehicleVarName player ) then { //camera man init functions
 		[] execVM "scripts\cameramaninit.sqf";  
 
 	}; 	
-	
 	
 };
 
@@ -105,14 +104,13 @@ if (!isServer && isNull player) then  //JIP player
 	if (side player == west) then { //runs on all CIA players
 		[] execVM "scripts\CIAinit.sqf";
 	};
-	if (typeof player == "Pastor") then {  //runs on all dogs
+	if (vehiclevarname player in ["dog1","dog2"]) then {  //runs on all dogs
 		[] execVM "scripts\playerIsDog.sqf";
 	};	
 	if ( "camman" == vehicleVarName player ) then { //camera man init functions
 		[] execVM "scripts\cameramaninit.sqf";  
 
 	}; 	
-	
 
 };
 

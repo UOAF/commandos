@@ -59,28 +59,28 @@ class CfgSounds
 	class dogbark1
 	{
 		name = "dogbark1"; 
-		sound[] = {\scripts\angrybarking.ogg, db-5, 1.0};
+		sound[] = {\scripts\angrybarking.ogg, db-0, 1.0};
 		titles[] = {0, ""};
 	};
 
 	class dogbark2
 	{
 		name = "dogbark2"; 
-		sound[] = {\scripts\singleBark.ogg, db-5, 1.0};
+		sound[] = {\scripts\singleBark.ogg, db-0, 1.0};
 		titles[] = {0, ""};
 	};
 	
 	class doggrowl
 	{
 		name = "doggrowl"; 
-		sound[] = {\scripts\growl.ogg, db-10, 1.0};
+		sound[] = {\scripts\growl.ogg, db-0, 1.0};
 		titles[] = {0, ""};
 	};
 	
 	class dogwhine
 	{
 		name = "dogwhine"; 
-		sound[] = {\scripts\dogwhine.ogg, db-10, 1.0};
+		sound[] = {\scripts\dogwhine.ogg, db-0, 1.0};
 		titles[] = {0, ""};
 	};
 		
@@ -101,21 +101,21 @@ class CfgSounds
 	  class dogrunning1
   {
    name = "dogrunning1";
-   sound[] = {"\scripts\dogrunning1.ogg", db-25, 1};
+   sound[] = {"\scripts\dogrunning1.ogg", db-0, 1};
    titles[] = {};
   };	
 
 	  class dogrunning2
   {
    name = "dogrunning2";
-   sound[] = {"\scripts\dogrunning2.ogg", db-25, 1};
+   sound[] = {"\scripts\dogrunning2.ogg", db-0, 1};
    titles[] = {};
   };	
   
 	  class dogpant
   {
    name = "dogpant";
-   sound[] = {"\scripts\dogpant.ogg", db-10, 1};
+   sound[] = {"\scripts\dogpant.ogg", db-0, 1};
    titles[] = {};
   };	
   
@@ -129,21 +129,21 @@ class CfgSounds
   	  class breakingin
   {
    name = "breakingin";
-   sound[] = {"\scripts\breakingin.ogg", db-25, 1};
+   sound[] = {"\scripts\breakingin.ogg", db-0, 1};
    titles[] = {};
   };	
 
      class stab
   {
    name = "stab";
-   sound[] = {"\scripts\stab.ogg", db-15, 1};
+   sound[] = {"\scripts\stab.ogg", db-0, 1};
    titles[] = {};
   };	
   
      class tgtdestroyed
   {
    name = "tgtdestroyed";
-   sound[] = {"\scripts\tgtdestroyed.ogg", db-20, 1};
+   sound[] = {"\scripts\tgtdestroyed.ogg", db-0, 1};
    titles[] = {};
   };	
   

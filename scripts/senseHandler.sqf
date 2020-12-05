@@ -1,6 +1,8 @@
 private ["_handler", "_handlerRange", "_dirToHandler"]; 
 
 _handler = _this select 3 select 0; 
+if (isNil "_handler") exitWith{systemchat "You can't smell your handler"};
+systemchat format ["handler is %1", _handler];
 
 if (player distance _handler < 500) then { 
 

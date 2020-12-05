@@ -1,26 +1,42 @@
 player setVariable["acre_sys_core_isDisabled", true, true];
 
-
-if (((isserver) && (local player)) || !(isserver)) then //dog actions
-{
 	waitUntil {player==player};
+	//systemchat "inside playerIsDog.sqf";
+	_oldPlayerObject = vehicle player; 
+	_newDogName = (vehiclevarname player) + "_created"; 
+	//systemchat format ["playerobject: %1", _newDogName];
 
+	"krauseDog" createUnit [getpos player,group player, format ["%1 = this", _newDogName]];
+	//systemchat format ["createdDog: %1", _unit];
+	selectplayer (call compile _newDogName); 
+	waituntil {player == (call compile _newDogName)};
+	deletevehicle _oldPlayerObject; 
+	player setVariable ["dogID", _newDogName];
+	sleep 1;
+	player setVariable ["dogInCar", 0]; 
+	player setVariable ["dogStamina", true];
+	player enableFatigue false; 
+	player setCustomAimCoef 0.0; 
+	player setUnitRecoilCoefficient 0; 
+	[]spawn {waituntil{player setAnimSpeedCoef 1.5; sleep 0.1;false}};
+	//systemchat "inside dog loop";
+	//systemchat format["player is %1",player];
 	dogBark2 = player addAction ["Emote: Single Bark", "scripts\dogEmotes.sqf","bark2",-1,false,true,"",""];
 	dogBark = player addAction ["Emote: Aggressive Bark", "scripts\dogEmotes.sqf","bark",-1,false,true,"",""];
 	dogGrowl = player addAction ["Emote: Growl", "scripts\dogEmotes.sqf","growl",-1,false,true,"",""];			
 	dogWhine = player addAction ["Emote: Whine", "scripts\dogEmotes.sqf","whine",-1,false,true,"",""];
 	dogpant = player addAction ["Emote: Pant/Excited", "scripts\dogEmotes.sqf","pant",-1,false,true,"",""];
-	if (vehiclevarname player == "dog1") then {
+	// to allow action menu to appear, reveal all nearby vehicles and ammo crates within 100m/50m radius
+
+	if (player getVariable ["dogID", "ass"] == "dog1_created") then {
 		smellHandler = player addAction ["Sense Handler", "scripts\senseHandler.sqf",[handler1],-1,false,true,"",""];
 	}; 
-	if (vehiclevarname player == "dog2") then {
+	if (player getVariable ["dogID", "ass"] == "dog2_created") then {
 		smellHandler = player addAction ["Sense Handler", "scripts\senseHandler.sqf",[handler2],-1,false,true,"",""];
 	}; 
 	dogLeap = [(actionKeys "ReloadMagazine") select 0, [false, false, false], { []execVM "scripts\dogLeap.sqf";  }, "keydown", "leap1"] call CBA_fnc_addKeyHandler;
 	dogLeapWall = [(actionKeys "ReloadMagazine") select 0, [true, false, false], { []execVM "scripts\dogLeapWall.sqf";  }, "keydown", "leap2"] call CBA_fnc_addKeyHandler;
 
-	
-};	
 
 //doggy night vision
 
@@ -28,40 +44,6 @@ _dogVision = ppEffectCreate ["colorCorrections", 1501];
 _dogVision ppEffectEnable true;
 _dogVision ppEffectAdjust[ 0.6, 0.26, 0, [0.32, 5, 5, 0],[5, 5, 5, 0.83],[5, 5, 5, 5]];
 _dogVision ppEffectCommit 0;
-
-
-//make sounds when running
-
-[]spawn { 
-
-	private ["_rand"]; 
-
-	
-
-	while {true} do {
-
-
-		if (((speed player) > 13) && (player getvariable "dogInCar" == 0)) then { 
-
-			_rand = round(random 1); 
-
-			if (_rand == 0) then { 
-				[player, "dogrunning1"] call CBA_fnc_globalSay3d;
-
-			};
-
-			if (_rand == 1) then { 
-				[player, "dogrunning2"] call CBA_fnc_globalSay3d;
-
-			};
-
-			sleep 4; 
-		};
-
-		sleep 0.25; 
-	};
-
-};
 
 //bite motherfuckers
 

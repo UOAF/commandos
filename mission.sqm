@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=383;
+		nextID=393;
 	};
 	class MarkerIDProvider
 	{
@@ -313,7 +313,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=186;
+		items=189;
 		class Item0
 		{
 			dataType="Marker";
@@ -3879,7 +3879,6 @@ class Mission
 						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""]; this setVariable [""pistolDrawn"", 0];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
 						name="pilot1";
 						description="Base Helicopter / Pilot";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=336;
@@ -4539,6 +4538,148 @@ class Mission
 			id=378;
 			type="Logic";
 			atlOffset=2.0049357;
+		};
+		class Item186
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8927.2959,5.0019732,4397.7559};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=386;
+					type="B_Soldier_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=385;
+		};
+		class Item187
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8001.9448,5.0019732,4329.6147};
+						angles[]={0,3.2363641,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						name="dog1";
+						description="2 K-9 Detachment / Guard Dog";
+						isPlayable=1;
+					};
+					id=390;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=389;
+		};
+		class Item188
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8048.127,5.0019732,4324.105};
+						angles[]={0,3.2363641,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						name="dog2";
+						description="1 K-9 Detachment / Guard Dog";
+						isPlayable=1;
+					};
+					id=392;
+					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=391;
 		};
 	};
 };
