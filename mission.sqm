@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8094.3721,28.766737,4231.7183};
-		dir[]={-0.17057456,-0.44780681,0.87781256};
-		up[]={-0.08543735,0.894059,0.43968323};
-		aside[]={0.98170525,5.9022568e-008,0.1907589};
+		pos[]={7928.3633,25.495975,4155.811};
+		dir[]={0.0080969809,-0.94196051,0.33568877};
+		up[]={0.022715831,0.3355571,0.94174135};
+		aside[]={0.99973089,-1.1885641e-007,-0.024114033};
 	};
 };
 binarizationWanted=0;
@@ -36,12 +36,12 @@ addons[]=
 	"A3_Boat_F_Boat_Transport_01",
 	"UK3CB_Factions_Vehicles_Skoda",
 	"UK3CB_Factions_Vehicles_VWGolf",
-	"rhs_c_a2port_air",
+	"UK3CB_Factions_CW_SOV_O_EARLY",
 	"CUP_CAMisc",
 	"rhs_c_air",
 	"RHS_US_A2_AirImport",
+	"rhs_c_a2port_air",
 	"UK3CB_Factions_ADA_O",
-	"rhs_c_a2port_car",
 	"UK3CB_Factions_CHC_I",
 	"UK3CB_Factions_ADM_I",
 	"CUP_CAStructures_E_Misc_Misc_Market",
@@ -52,7 +52,6 @@ addons[]=
 	"A3_Modules_F",
 	"UK3CB_Factions_CW_US_B_LATE",
 	"po_factions_me",
-	"UK3CB_Factions_CW_SOV_O_EARLY",
 	"A3_Characters_F_Enoch",
 	"po_factions_eu",
 	"A3_Characters_F",
@@ -64,7 +63,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=32;
+		items=31;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -136,10 +135,10 @@ class AddonsMetaData
 		};
 		class Item11
 		{
-			className="rhs_c_a2port_air";
-			name="A2 ported air";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
+			className="UK3CB_Factions_CW_SOV";
+			name="3CB Factions - CW_SOV";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
 		};
 		class Item12
 		{
@@ -162,17 +161,17 @@ class AddonsMetaData
 		};
 		class Item15
 		{
+			className="rhs_c_a2port_air";
+			name="A2 ported air";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item16
+		{
 			className="UK3CB_Factions_ADA";
 			name="3CB Factions - ADA";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
-		};
-		class Item16
-		{
-			className="rhs_c_a2port_car";
-			name="A2 ported cars";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
 		};
 		class Item17
 		{
@@ -240,32 +239,25 @@ class AddonsMetaData
 		};
 		class Item27
 		{
-			className="UK3CB_Factions_CW_SOV";
-			name="3CB Factions - CW_SOV";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item28
-		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item28
 		{
 			className="po_factions_eu";
 			name="po_factions_eu";
 			author="Leight, Keeway";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item30
 		{
 			className="UK3CB_Factions_CPD";
 			name="3CB Factions - CPD";
@@ -333,7 +325,7 @@ class Mission
 			alpha=0.65652341;
 			a=2;
 			b=2;
-			angle=359.94897;
+			angle=359.94894;
 			id=133;
 			atlOffset=-0.00027799606;
 		};
@@ -348,7 +340,7 @@ class Mission
 			fillName="Border";
 			a=4000;
 			b=3300;
-			angle=359.06689;
+			angle=359.06686;
 			drawBorder=1;
 			id=134;
 		};
@@ -557,7 +549,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			angle=52.612064;
+			angle=52.612061;
 			id=152;
 		};
 		class Item20
@@ -615,7 +607,7 @@ class Mission
 			colorName="ColorBlack";
 			a=0;
 			b=0;
-			angle=268.75204;
+			angle=268.75201;
 			id=157;
 		};
 		class Item25
@@ -1704,7 +1696,6 @@ class Mission
 				angles[]={0,1.6177106,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -1713,7 +1704,8 @@ class Mission
 				name="helo";
 			};
 			id=221;
-			type="RHS_Mi8mt_vdv";
+			type="UK3CB_CW_SOV_O_EARLY_Mi8AMT";
+			atlOffset=0.46267605;
 		};
 		class Item89
 		{
@@ -1895,7 +1887,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7939.1934,6.9105911,4174.8569};
-				angles[]={0,3.1609488,0};
+				angles[]={-0,3.1306241,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1908,7 +1900,7 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=230;
-			type="RHS_Ural_VDV_01";
+			type="UK3CB_CW_SOV_O_EARLY_Ural";
 		};
 		class Item98
 		{
@@ -1916,7 +1908,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7926.5791,6.9105911,4162.5918};
-				angles[]={0,1.5834327,0};
+				angles[]={-0,1.5702184,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1928,15 +1920,15 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=231;
-			type="RHS_Ural_VDV_01";
+			type="UK3CB_CW_SOV_O_EARLY_Ural";
 		};
 		class Item99
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7945.8018,6.9105911,4174.6899};
-				angles[]={0,3.0891109,0};
+				position[]={7945.3145,6.9105911,4174.9185};
+				angles[]={-0,3.1558063,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1948,7 +1940,7 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=232;
-			type="RHS_Ural_VDV_01";
+			type="UK3CB_CW_SOV_O_EARLY_Ural";
 		};
 		class Item100
 		{
@@ -1956,7 +1948,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7926.5674,6.9105911,4158.0244};
-				angles[]={0,1.5337958,0};
+				angles[]={-0,1.5781857,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1968,7 +1960,7 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=233;
-			type="RHS_Ural_VDV_01";
+			type="UK3CB_CW_SOV_O_EARLY_Ural";
 		};
 		class Item101
 		{
@@ -1976,7 +1968,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7962.8984,6.2461133,4173.7813};
-				angles[]={0,3.1811421,0};
+				angles[]={-0,3.1308327,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1988,15 +1980,15 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=234;
-			type="rhs_uaz_vdv";
+			type="UK3CB_CW_SOV_O_EARLY_UAZ_Closed";
 		};
 		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7963.604,6.2461133,4160.9014};
-				angles[]={0,6.2308259,0};
+				position[]={7963.0713,6.2461133,4160.9722};
+				angles[]={-0,6.2746434,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2008,7 +2000,7 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=235;
-			type="rhs_uaz_vdv";
+			type="UK3CB_CW_SOV_O_EARLY_UAZ_Closed";
 		};
 		class Item103
 		{
@@ -2016,7 +2008,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7969.7397,6.2461133,4173.9531};
-				angles[]={0,3.1659577,0};
+				angles[]={-0,3.1282454,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2029,15 +2021,15 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=236;
-			type="rhs_uaz_vdv";
+			type="UK3CB_CW_SOV_O_EARLY_UAZ_Closed";
 		};
 		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7969.5894,6.2461133,4161.1123};
-				angles[]={0,6.2703748,0};
+				position[]={7969.7705,6.2461133,4161.0991};
+				angles[]={-0,6.2816443,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2049,15 +2041,15 @@ class Mission
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=237;
-			type="rhs_uaz_vdv";
+			type="UK3CB_CW_SOV_O_EARLY_UAZ_Closed";
 		};
 		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7952.5845,6.58042,4155.3931};
-				angles[]={0,0.057648659,0};
+				position[]={7953.792,6.58042,4154.7656};
+				angles[]={-0,0.0081104003,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2076,8 +2068,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7949.6284,6.58042,4155.0161};
-				angles[]={0,0.057648659,0};
+				position[]={7948.6768,6.58042,4154.7964};
+				angles[]={-0,0.001684209,0};
 			};
 			side="Empty";
 			flags=4;
