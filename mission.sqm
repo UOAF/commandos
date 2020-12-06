@@ -3097,7 +3097,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=295;
-					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+					type="UK3CB_CW_SOV_O_EARLY_RADIO";
 				};
 				class Item2
 				{
