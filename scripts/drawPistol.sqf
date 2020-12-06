@@ -22,4 +22,4 @@ if (_actionToDo == "holster") then {
 player removeweapon _pistolType; 
 player setVariable ["pistolDrawn", 0];
 
-}; 
+};

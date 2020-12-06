@@ -17,4 +17,4 @@ ammobox addmagazinecargoglobal ["ACE_SSYellow_FG", 20];
 ammobox addweaponcargoglobal ["NVGoggles", 2]; 
 ammobox addmagazinecargoglobal ["ACE_Pomz_M", 10]; 
 ammobox addmagazinecargoglobal ["ACE_MON50_M", 5]; 
-ammobox addmagazinecargoglobal ["ACE_TripFlare_M", 10]; z
+ammobox addmagazinecargoglobal ["ACE_TripFlare_M", 10];

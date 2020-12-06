@@ -10,6 +10,6 @@
           hint "Should have brushed up on your maths in uni. You cant fly this damn thing!";
         };
       };
-	  sleep 0.5; 
+    sleep 0.5; 
     };
   };

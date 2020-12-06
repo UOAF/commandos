@@ -13,36 +13,36 @@ _unitsNear = [];
 _unitsNearer = [];
 
 {
-	if ((_x distance _flarePos) < 300) then
-	{
-		_unitsNear = _unitsNear + [_x];
-		
-		if ((_x distance _flarePos) < 30) then
-		{
-			_unitsNearer = _unitsNearer + [_x];
-		};
-	};
+    if ((_x distance _flarePos) < 300) then
+    {
+        _unitsNear = _unitsNear + [_x];
+
+        if ((_x distance _flarePos) < 30) then
+        {
+            _unitsNearer = _unitsNearer + [_x];
+        };
+    };
 } forEach allUnits;
 
 {
-	if (_x isKindOf "CAManBase" || _x isKindOf "LandVehicle") then
-	{
-		if ((!local _x) || (player == _x)) then
-		{
-			_localEnemyUnits = _localEnemyUnits - [_x];
-		}
-		else
-		{
-			_localEnemyUnits = _localEnemyUnits + [_x];
-		};
-	};
+    if (_x isKindOf "CAManBase" || _x isKindOf "LandVehicle") then
+    {
+        if ((!local _x) || (player == _x)) then
+        {
+            _localEnemyUnits = _localEnemyUnits - [_x];
+        }
+        else
+        {
+            _localEnemyUnits = _localEnemyUnits + [_x];
+        };
+    };
 } forEach _unitsNearer;
 
 {
-	if (_x isKindOf "CAManBase" || _x isKindOf "LandVehicle" || _x isKindOf "Air" || _x isKindOf "Ship") then
-	{
-		_spottingUnits = _spottingUnits + [_x];
-	};
+    if (_x isKindOf "CAManBase" || _x isKindOf "LandVehicle" || _x isKindOf "Air" || _x isKindOf "Ship") then
+    {
+        _spottingUnits = _spottingUnits + [_x];
+    };
 } forEach _unitsNear;
 
 _flare = "Can_small" createVehicleLocal _flarePos;
@@ -63,34 +63,34 @@ sleep 0.25;
 private["_seer"];
 
 {
-	_seer = _x;
-	{
-		if ((_seer knowsAbout _x) < 1) then
-		{
-			_seer reveal _x;
-			
-			if ((side _seer) != (side _x)) then
-			{
-				_seer doTarget _x;
-				_seer doFire _x;
-			};
-		};	
-	} forEach _localEnemyUnits;
+    _seer = _x;
+    {
+        if ((_seer knowsAbout _x) < 1) then
+        {
+            _seer reveal _x;
+
+            if ((side _seer) != (side _x)) then
+            {
+                _seer doTarget _x;
+                _seer doFire _x;
+            };
+        };
+    } forEach _localEnemyUnits;
 } forEach _spottingUnits;
 
 while {_cnt > 0} do
 {
-	_ranNum = (10 + (random (20))) / 100;
-	_light setLightBrightness _ranNum;
-	_cnt = _cnt - 0.1;
-	
-	sleep 0.1;
+    _ranNum = (10 + (random (20))) / 100;
+    _light setLightBrightness _ranNum;
+    _cnt = _cnt - 0.1;
+
+    sleep 0.1;
 };
 
 for [{_i=_ranNum}, {_i > 0}, {_i=_i-0.01}] do
 {
-	_light setLightBrightness _i;
-	sleep 0.1;
+    _light setLightBrightness _i;
+    sleep 0.1;
 };
 
 deleteVehicle _light;

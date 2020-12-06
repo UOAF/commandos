@@ -5,26 +5,26 @@ private ["_vector", "_AOA", "_stamina"];
 _stamina = player getVariable "dogStamina";
 
 
-if (_stamina) then { 
+if (_stamina) then {
 
 
-	if (speed player < 1) then { 
+    if (speed player < 1) then {
 
-		_totalVelocity = 7.5;
-		
-		_AOA = 70; 
-			
-		
-		_vector = [_totalVelocity, (getdir player), _AOA] call cba_fnc_polar2vect;
+        _totalVelocity = 7.5;
 
-		player setVelocity _vector; 
-	player setVariable ["dogStamina", false];
+        _AOA = 70;
 
-	}; 
-	
 
-	
-}else { 
+        _vector = [_totalVelocity, (getdir player), _AOA] call cba_fnc_polar2vect;
 
-	hint "You are too exhausted to leap again! Rest some.";
-};	
+        player setVelocity _vector;
+    player setVariable ["dogStamina", false];
+
+    };
+
+
+
+}else {
+
+    hint "You are too exhausted to leap again! Rest some.";
+};

@@ -15,4 +15,4 @@ challengePass = _challenge + " " + _pass;
 publicvariable "challengePass"; 
 
 challengePassDone = true; 
-publicvariable "challengePassDone"; 
+publicvariable "challengePassDone";
