@@ -312,8 +312,14 @@ while {(count objectives) > 0} do {
                 };
             };
         case "obj14": { //General raid
-                if (sandi_red_deaths > 9) then {
-                    objectives = objectives - ["obj14"];
+                // if sandi has not yet been initialized, it's possible that 
+                // this loop gets here first and causes a script error. Just
+                // skip this condition in that case; it will be caught in the
+                // next iteration.
+                if (!(isNil "sandi_red_deaths")) then {                
+                    if (sandi_red_deaths > 9) then {
+                        objectives = objectives - ["obj14"];
+                    };
                 };
             };
         case "obj15": { //steal control tower intel
