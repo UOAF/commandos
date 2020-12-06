@@ -1,19 +1,21 @@
 _this spawn {
-    _reason        = _this select 0;
-    _victoryPoints = _this select 1;
-    _blu_deaths    = _this select 2;
-    _red_deaths    = _this select 3;
-    _time          = _this select 4;
-    _flagsCaptured = _this select 5;
-    _blu_VEHdeaths    = _this select 6;
-    _blu_IFVdeaths    = _this select 7;
-    _blu_AFVdeaths    = _this select 8;
-    _red_VEHdeaths    = _this select 9;
-    _red_IFVdeaths    = _this select 10;
-    _red_AFVdeaths    = _this select 11;
-    _blu_obj1_multiplier    = _this select 12;
-    _blu_obj2_multiplier    = _this select 13;
-    _blu_obj3_multiplier    = _this select 14;
+    params [
+        "_reason",
+        "_victoryPoints",
+        "_blu_deaths",
+        "_red_deaths",
+        "_time",
+        "_flagsCaptured",
+        "_blu_VEHdeaths",
+        "_blu_IFVdeaths",
+        "_blu_AFVdeaths",
+        "_red_VEHdeaths",
+        "_red_IFVdeaths",
+        "_red_AFVdeaths",
+        "_blu_obj1_multiplier",
+        "_blu_obj2_multiplier",
+        "_blu_obj3_multiplier"
+    ];
 
     _reasonText = "";
     switch (_reason) do {
