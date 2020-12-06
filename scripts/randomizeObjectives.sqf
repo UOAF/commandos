@@ -258,17 +258,17 @@ while {(count objectives) > 0} do {
                 };
             };
         case "obj11": { //dr. Hudsonski defects
-                if ((dr1 distance city1 < 50) || (dr1 distance city2 < 50)) then {
-                    objectives = objectives - ["obj11"];
-                    dr1defected = true;
-                    publicvariable "dr1defected";
-                };
                 if (isnil ("dr1")) then {
                     objectives = objectives - ["obj11"];
                     dr1defected = true;
                     publicvariable "dr1defected";
-                }else {
+                } else {
                     if (!alive dr1) then {
+                        objectives = objectives - ["obj11"];
+                        dr1defected = true;
+                        publicvariable "dr1defected";
+                    };
+                    if ((dr1 distance city1 < 50) || (dr1 distance city2 < 50)) then {
                         objectives = objectives - ["obj11"];
                         dr1defected = true;
                         publicvariable "dr1defected";
@@ -276,16 +276,16 @@ while {(count objectives) > 0} do {
                 };
             };
         case "obj12": { //dr. Zedic defects
-                if ((dr2 distance city1 < 50) || (dr2 distance city2 < 50)) then {
-                    objectives = objectives - ["obj12"];
-                    dr2defected = true;
-                    publicvariable "dr2defected";
-                };
                 if (isnil ("dr2")) then {
                     objectives = objectives - ["obj12"];
                     dr2defected = true;
                     publicvariable "dr2defected";
-                }else {
+                } else {
+                    if ((dr2 distance city1 < 50) || (dr2 distance city2 < 50)) then {
+                        objectives = objectives - ["obj12"];
+                        dr2defected = true;
+                        publicvariable "dr2defected";
+                    };
                     if (!alive dr2) then {
                         objectives = objectives - ["obj12"];
                         dr2defected = true;
@@ -294,16 +294,16 @@ while {(count objectives) > 0} do {
                 };
             };
         case "obj13": { //Commander defects
-                if ((rusCommander distance city1 < 50) || (rusCommander distance city2 < 50)) then {
-                    objectives = objectives - ["obj13"];
-                    commanderDefected = true;
-                    publicvariable "commanderDefected";
-                };
                 if (isnil ("rusCommander")) then {
                     objectives = objectives - ["obj13"];
                     commanderDefected = true;
                     publicvariable "commanderDefected";
-                }else {
+                } else {
+                    if ((rusCommander distance city1 < 50) || (rusCommander distance city2 < 50)) then {
+                        objectives = objectives - ["obj13"];
+                        commanderDefected = true;
+                        publicvariable "commanderDefected";
+                    };
                     if (!alive rusCommander) then {
                         objectives = objectives - ["obj13"];
                         commanderDefected = true;
