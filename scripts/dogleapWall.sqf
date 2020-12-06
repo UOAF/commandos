@@ -10,13 +10,12 @@ if (_stamina) then {
 
     if (speed player < 1) then {
 
-        _totalVelocity = 7.5;
+        _totalVelocity = 8.5;
 
         _AOA = 70;
 
 
         _vector = [_totalVelocity, (getdir player), _AOA] call cba_fnc_polar2vect;
-
         player setVelocity _vector;
     player setVariable ["dogStamina", false];
 
