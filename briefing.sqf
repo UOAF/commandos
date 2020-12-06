@@ -64,7 +64,7 @@ case "PMC_BAF":
 
         _service = player createDiaryRecord ["Diary",["Service Support","
     Equipment available: <br/><br/>
-    Gear car (white Skoda): x6 Balaklava, 10x bundles of cash, Kestrel4500, spotting scope, MX2A, x2 Binoculars, rangefinder, x2 DAGR, x6 VTAC rush, x1 wirecutter, x2 flare guns, x10 blocks of C4, x4 satchels, x2 IR strobes, x2 MAGlite, x20 bandage, x20 morphine, x12 medkit, x12 epi<br/><br/>
+    Gear car (white Skoda): x6 Balaklava, 10x MRE, Kestrel4500, spotting scope, MX2A, x2 Binoculars, rangefinder, x2 DAGR, x6 VTAC rush, x1 wirecutter, x2 flare guns, x10 blocks of C4, x4 satchels, x2 IR strobes, x2 MAGlite, x20 bandage, x20 morphine, x12 medkit, x12 epi<br/><br/>
     Weapon car (Red): x1 M249, x2 RPG-27, x2 AKS-74, x1 G3SG1, x3 HK416 (silenced), x2 MP5 (silenced), x1 M32, x1 bizon (silenced), x1 AA-12, x1 UZI (silenced), x1 Mk48, x1 TAC-50 (silenced), x1 M24, x5 incind. grenades, x5 flashbangs, x5 claymores, x5 M34, x5 tripflares, x5 PDM<br/><br/>
     Two uniforms from an intercepted Russian patrol, to the 9 o'clock of the assembly area.
         "]];

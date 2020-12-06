@@ -9,7 +9,7 @@
     _unit addWeapon "ItemMap";
     _unit addWeapon "ItemCompass";
     _unit addWeapon "ItemWatch";
-        _unit addMagazine "ACE_BANDAGE";
+    _unit addMagazine "ACE_BANDAGE";
     _unit addMagazine "ACE_BANDAGE";
     _unit addMagazine "ACE_MORPHINE";
     _unit addWeapon "ACRE_PRC148";
@@ -31,32 +31,33 @@ _unit addmagazine "ACE_12Rnd_45ACP_USPSD";
 
             case "gearcar":
         {
-            _unit addweaponcargo ["ACE_GlassesBalaklava", 6];
-            _unit addweaponcargo ["EvMoney", 10];
-            _unit addweaponcargo ["ACE_Kestrel4500", 1];
-            _unit addweaponcargo ["ACE_SpottingScope", 1];
-            _unit addweaponcargo ["ACE_MX2A", 1];
-            _unit addweaponcargo ["Binocular", 2];
-            _unit addweaponcargo ["ACE_Rangefinder_OD", 1];
-            _unit addmagazinecargo ["ACE_Battery_Rangefinder", 2];
-            _unit addweaponcargo ["ACE_DAGR", 2];
-            _unit addweaponcargo ["ACE_VTAC_RUSH72", 6];
-            _unit addweaponcargo ["ACE_WireCutter", 2];
-            _unit addweaponcargo ["ACE_Flaregun", 2];
-            _unit addmagazinecargo ["ACE_SSRed_FG", 5];
-            _unit addmagazinecargo ["ACE_SSGreen_FG", 5];
-            _unit addmagazinecargo ["ACE_Knicklicht_B", 5];
-            _unit addmagazinecargo ["ACE_Knicklicht_R", 5];
-            _unit addmagazinecargo ["ACE_Knicklicht_G", 5];
-            _unit addmagazinecargo ["ACE_C4_M", 10];
-            _unit addmagazinecargo ["pipebomb", 6];
-            _unit addmagazinecargo ["IRStrobe", 2];
-            _unit addmagazinecargo ["HandGrenade_Stone", 5];
-            _unit addweaponcargo ["ACE_MugLite", 2];
-            _unit addmagazinecargo ["ACE_BANDAGE", 20];
-            _unit addmagazinecargo ["ACE_MORPHINE", 20];
-            _unit addmagazinecargo ["ACE_MEDKIT", 12];
-            _unit addmagazinecargo ["ACE_Epinephrine", 12];
+            _unit addItemCargoGlobal ["G_Balaclava_blk", 6];
+            _unit addItemCargoGlobal ["ACE_MRE_ChickenTikkaMasala", 6];
+            // no money in the mod pack :(
+            // _unit addweaponcargo ["EvMoney", 10];
+            _unit addItemCargoGlobal ["ACE_Kestrel4500NV", 1];
+            _unit addItemCargoGlobal ["ACE_SpottingScope", 1];
+            _unit addItemCargoGlobal ["ACE_MX2A", 1];
+            _unit addItemCargoGlobal ["Binocular", 2];
+            _unit addItemCargoGlobal ["ACE_Vector", 1];
+            _unit addItemCargoGlobal ["ACE_DAGR", 2];
+            _unit addItemCargoGlobal ["B_TacticalPack_blk", 6];
+            _unit addItemCargoGlobal ["ACE_WireCutter", 2];
+            _unit addItemCargoGlobal ["fow_w_type10", 2];
+            // _unit addmagazinecargo ["ACE_SSRed_FG", 5];
+            // _unit addmagazinecargo ["ACE_SSGreen_FG", 5];
+            _unit addItemCargoGlobal ["Chemlight_blue", 5];
+            _unit addItemCargoGlobal ["Chemlight_red", 5];
+            _unit addItemCargoGlobal ["Chemlight_green", 5];
+            _unit addItemCargoGlobal ["rhs_charge_M2tet_x2_mag", 10];
+            _unit addItemCargoGlobal ["CUP_PipeBomb_M", 6];
+            _unit addItemCargoGlobal ["ACE_IR_Strobe_Item", 2];
+            _unit addItemCargoGlobal ["rhs_grenade_mkii_mag", 5];
+            _unit addItemCargoGlobal ["ACE_Flashlight_XL50", 2];
+            _unit addItemCargoGlobal ["ACE_fieldDressing", 20];
+            _unit addItemCargoGlobal ["ACE_MORPHINE", 20];
+            _unit addItemCargoGlobal ["MEDKIT", 12];
+            _unit addItemCargoGlobal ["ACE_Epinephrine", 12];
 
         };
 
