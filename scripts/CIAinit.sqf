@@ -3,19 +3,19 @@
 _marker = createMarkerlocal ["boats", ([ getPos boats1 select 0, (getPos boats1 select 1) +0, getPos boats1 select 2]) ];
 "boats" setMarkerSizeLocal [1, 1];
 "boats" setMarkerColorLocal "ColorBlue";
-"boats" setMarkerTypeLocal "boat";
+"boats" setMarkerTypeLocal "b_naval";
 "boats" setMarkertextLocal "x2 CRRC Boats";
 
 _marker = createMarkerlocal ["boats2", ([ getPos boats2 select 0, (getPos boats2 select 1) +0, getPos boats2 select 2]) ];
 "boats2" setMarkerSizeLocal [1, 1];
 "boats2" setMarkerColorLocal "ColorBlue";
-"boats2" setMarkerTypeLocal "boat";
+"boats2" setMarkerTypeLocal "b_naval";
 "boats2" setMarkertextLocal "x2 CRRC Boats";
 
 _marker = createMarkerlocal ["boats3", ([ getPos boats3 select 0, (getPos boats3 select 1) +0, getPos boats3 select 2]) ];
 "boats3" setMarkerSizeLocal [1, 1];
 "boats3" setMarkerColorLocal "ColorBlue";
-"boats3" setMarkerTypeLocal "boat";
+"boats3" setMarkerTypeLocal "b_naval";
 "boats3" setMarkertextLocal "x2 CRRC Boats";
 
 //liquidation upon death if in stockade
