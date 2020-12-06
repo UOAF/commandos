@@ -39,8 +39,28 @@ if (isServer) then {
             _victoryPoints = _red / _blu;
         };
 
+  // there are no flags captured in this mission, and time is not used.
+  private _flags_captured = 0;
+  private _time = 0;
+  private _blu_obj1_multiplier = 1.0;
+  private _blu_obj2_multiplier = 1.0;
+  private _blu_obj3_multiplier = 1.0;
 
-  ["sandi_assessment", [_reason, _victoryPoints, _blu_deaths, _red_deaths, _time, _flagsCaptured, _blu_VEHdeaths, _blu_IFVdeaths, _blu_AFVdeaths, _red_VEHdeaths, _red_IFVdeaths, _red_AFVdeaths, _blu_obj1_multiplier, _blu_obj2_multiplier, _blu_obj3_multiplier]] call CBA_fnc_globalEvent;
+  ["sandi_assessment", [_reason, 
+                        _victoryPoints,
+                        _blu_deaths, 
+                        _red_deaths,
+                        _time,
+                        _flags_captured,
+                        _blu_VEHdeaths,
+                        _blu_IFVdeaths,
+                        _blu_AFVdeaths, 
+                        _red_VEHdeaths, 
+                        _red_IFVdeaths, 
+                        _red_AFVdeaths, 
+                        _blu_obj1_multiplier,
+                        _blu_obj2_multiplier, 
+                        _blu_obj3_multiplier]] call CBA_fnc_globalEvent;
     };
   };
   
