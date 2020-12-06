@@ -18,6 +18,21 @@ player setVariable["acre_sys_core_isDisabled", true, true];
     player enableFatigue false;
     player setCustomAimCoef 0.0;
     player setUnitRecoilCoefficient 0;
+    nolandDamage =
+    {
+        _damage = 0;
+
+        // if this damage has no projectile string, then it's fall damage. if its not fall damage (but getting shot damage) then set the _damage variable to hold the actual damage amount and return that
+        if((_this select 4) != "") then
+        {
+        _damage = _this select 2;
+        };
+
+        // return the damage dealt to this unit
+        _damage
+    };
+    // make player unit nolanddamage function when damaged by something:
+    player addEventHandler ["HandleDamage", { _this call nolandDamage }];
     []spawn {waituntil{player setAnimSpeedCoef 1.5; sleep 0.1;false}};
     //systemchat "inside dog loop";
     //systemchat format["player is %1",player];
