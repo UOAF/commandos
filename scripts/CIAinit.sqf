@@ -22,7 +22,7 @@ _marker = createMarkerlocal ["boats3", ([ getPos boats3 select 0, (getPos boats3
 player addEventHandler ["killed", { if ((_this select 0) distance stockade < 50) then { ["liquidation", player] call CBA_fnc_globalEvent;}; }];
 
 //knife attack
-[(actionKeys "Stand") select 0, [true, false, false], { []execVM "scripts\knife.sqf";  }, "keydown", "knifebitches"] call CBA_fnc_addKeyHandler;
+[46, [true, false, false], { []execVM "scripts\knife.sqf";  }, "keydown", "knifebitches"] call CBA_fnc_addKeyHandler;
 
 if (((isserver) && (local player)) || !(isserver)) then //intelligence actions
 {
