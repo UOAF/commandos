@@ -1,3 +1,12 @@
+if (isNil "debugenabled") then {debugenabled = true;};
+fnc_debugPrint = {
+    if (debugenabled) then
+    {
+        systemChat _this;
+        diag_log format ["%1 debug: %2", systemTime, _this];
+    };
+    debugenabled
+};
 //objective variables
 if (isNil "BLUFOR_timer") then {BLUFOR_timer = false;};
 if (isNil "BLUFOR_CC") then {BLUFOR_CC = false;};
