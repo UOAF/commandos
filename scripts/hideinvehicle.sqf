@@ -28,7 +28,7 @@ if (_vehicleType == "ural") then {
 
     hint "To get out of the vehicle press your jump key (default v)";
 
-    _hider attachTo [_vehicle,[0,-1.5,-0.5]];
+    _hider attachTo [_vehicle,[0,-1.5,-0.2]];
     _hider setVariable ["isHiding", true];
     _hiding = _hider getVariable "isHiding";
 
@@ -48,7 +48,7 @@ if (_vehicleType == "ural") then {
 
         _hiding = _hider getVariable "isHiding";
 
-        _hider playmove "AidlPpneMstpSnonWnonDnon_SleepA_layDown";
+        _hider switchmove "AmovPincMstpSnonWnonDnon";
 
     };
 
