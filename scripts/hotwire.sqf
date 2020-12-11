@@ -1,12 +1,12 @@
 private ["_vehicle", "_vehicleType"]; 
 
 _vehicle = _this select 3 select 0; 
-_vehicleType = _this select 3 select 1; 
+_vehicleType = typeof _vehicle; 
 
-if (_vehicleType == "uaz") then { 
-    _vehicle setVehicleInit "this setHit ['glass2', 1];";
+if (_vehicleType == "UK3CB_CW_SOV_O_EARLY_UAZ_Closed") then { 
+    //_vehicle setVehicleInit "this setHit ['glass2', 1];";
+    [_vehicle,["glass2", 1]] remoteExec ["sethit", _vehicle, true];
     [_vehicle, "windowbreak"] call CBA_fnc_globalSay3d;
-    processInitCommands;
 
     hint "Hotwiring vehicle!"; 
 
@@ -48,10 +48,10 @@ if (_vehicleType == "motorbike") then {
 
 };
 
-if (_vehicleType == "ural") then { 
-    _vehicle setVehicleInit "this setHit ['glass3', 1];";
+if (_vehicleType == "UK3CB_CW_SOV_O_EARLY_Ural") then { 
+    //_vehicle setVehicleInit "this setHit ['glass3', 1];";
+    [_vehicle,["glass3", 1]] remoteExec ["sethit", _vehicle, true];
     [_vehicle, "windowbreak"] call CBA_fnc_globalSay3d;
-    processInitCommands;
 
     hint "Hotwiring vehicle!"; 
 
