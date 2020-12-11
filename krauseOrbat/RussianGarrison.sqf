@@ -14,98 +14,117 @@
     _unit addWeapon "ItemCompass";
     _unit addWeapon "ItemWatch";
     _unit addWeapon "ACRE_PRC343";
+    _unit addWeapon "ACE_tourniquet";
+    _unit addWeapon "ACE_tourniquet";
+    _unit addWeapon "FirstAidKit";
 
     switch (_type) do
     {
         case "commander":
         {
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addWeapon "AKS_74_U";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addWeapon "rhs_weap_ak74";
             _unit addWeapon "ACRE_PRC148";
             _unit addWeapon "Binocular";
-                        _unit addweapon "ACE_MugLite";
+                        _unit addweapon "ACE_Flashlight_XL50";
 
         };
 
         case "RTO":
         {
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addWeapon "AKS_74_U";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addWeapon "rhs_weap_ak74";
             _unit addWeapon "ACE_P159_RD99";
-                        _unit addWeapon "ACRE_PRC148";
+             _unit addWeapon "ACRE_PRC148";
 
         };
 
         case "medic":
         {
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addWeapon "AKS_74_U";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addWeapon "rhs_weap_ak74";
 _unit addweapon "ACE_Rucksack_RD99";
             _unit setVariable ["ace_w_ismedic", true, false];
             _unit addMagazine "ACE_medkit";
-            _unit addMagazine "ACE_medkit";
-            _unit addMagazine "ACE_medkit";
+            _unit addMagazine "ACE_surgicalKit";
+            _unit addMagazine "ACE_tourniquet";
+            _unit addMagazine "ACE_tourniquet";
+            _unit addMagazine "ACE_packingBandage";
+            _unit addMagazine "ACE_packingBandage";
+            _unit addMagazine "ACE_packingBandage";
+            _unit addMagazine "ACE_packingBandage";
+            _unit addMagazine "ACE_elasticBandage";
+            _unit addMagazine "ACE_elasticBandage";
+            _unit addMagazine "ACE_elasticBandage";
+            _unit addMagazine "ACE_elasticBandage";
+            _unit addMagazine "ACE_fieldDressing";
+            _unit addMagazine "ACE_fieldDressing";
+            _unit addMagazine "ACE_fieldDressing";
             _unit addMagazine "ACE_medkit";
             _unit addMagazine "ACE_medkit";
             _unit addMagazine "ACE_medkit";
             _unit addMagazine "ACE_Epinephrine";
             _unit addMagazine "ACE_Epinephrine";
-            _unit addMagazine "ACE_MORPHINE";
-            _unit setVariable ["ACE_RuckMagContents", [["SmokeShellGreen",4], ["ACE_Epinephrine", 10], ["ACE_BANDAGE", 20], ["ACE_MORPHINE", 20]]];
+            _unit addMagazine "ACE_Epinephrine";
+            _unit addMagazine "ACE_morphine";
+            _unit addMagazine "ACE_morphine";
+            _unit addMagazine "ACE_morphine";
+            _unit addMagazine "ACE_morphine";
         };
 
             case "patrolLead":
         {
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addWeapon "AKS_74_U";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addWeapon "rhs_weap_ak74";
             _unit addWeapon "ACRE_PRC148";
             _unit addWeapon "Binocular";
-            _unit addweapon "ACE_MugLite";
-            _unit addmagazine "handgrenade_east";
-            _unit addmagazine "handgrenade_east";
+            _unit addweapon "ACE_Flashlight_XL50";
+            _unit addmagazine "rhs_mag_rgd5";
+            _unit addmagazine "rhs_mag_rgd5";
 
         };
 
 
         case "rifle":
         {
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addMagazine "30Rnd_545x39_AK";
-            _unit addWeapon "AKS_74_U";
-            _unit addmagazine "handgrenade_east";
-            _unit addmagazine "handgrenade_east";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addMagazine "rhs_30Rnd_545x39_7N6_AK";
+            _unit addWeapon "rhs_weap_ak74";
+            _unit addmagazine "rhs_mag_rgd5";
+            _unit addmagazine "rhs_mag_rgd5";
         };
 
         case "pistolGuy":
         {
-            _unit addMagazine "8Rnd_9x18_Makarov";
-            _unit addMagazine "8Rnd_9x18_Makarov";
-            _unit addMagazine "8Rnd_9x18_Makarov";
-            _unit addMagazine "8Rnd_9x18_Makarov";
+            _unit addWeapon "rhs_weap_makarov_pm";
+            _unit addMagazine "rhs_mag_9x18_8_57N181S";
+            _unit addMagazine "rhs_mag_9x18_8_57N181S";
+            _unit addMagazine "rhs_mag_9x18_8_57N181S";
+            _unit addMagazine "rhs_mag_9x18_8_57N181S";
         };
 
     };

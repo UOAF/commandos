@@ -121,8 +121,6 @@ if (_oldUnitType != "Soldier_TL_PMC") then {
     [] execVM "scripts\pilotCheck.sqf";
 };
 
-drawpistol = player addAction ["Draw Pistol", "scripts\drawPistol.sqf",["draw", "blufor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 0) "];
-holsterpistol = player addAction ["Holster Pistol", "scripts\drawPistol.sqf",["holster", "blufor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 1) && ('ACE_USPSD' in (weapons _target))"];
 stealRadarIntel = player addAction ["Steal Control Tower Intel", "scripts\stealStuff.sqf",["controlTower"],-1,false,true,"","(_this distance controlTower < 3) && !stealRadarTower"];
 stealPhysics = player addAction ["Steal Dr. Hudsonski's Plans", "scripts\stealStuff.sqf",["hudsonPlans"],-1,false,true,"","(_this distance hudsonPlans < 10) && !stealHudsonPlans"];
 photographCannon = player addAction ["Photograph Experimental Cannon", "scripts\stealStuff.sqf",["experPhoto"],-1,false,true,"","(_this distance expercanon < 5) && !photoCannon"];
@@ -146,12 +144,6 @@ maxViewDist = 3000;
 setViewDistance maxViewDist;
 viewDist = maxViewDist;
 player setVariable ["BIS_noCoreConversations", true];  //disable greeting menu
-
-if ("ACE_USPSD" in (weapons player)) then {
-    player setVariable ["pistolDrawn", 1];
-}else {
-    player setVariable ["pistolDrawn", 0];
-};
 
 [] execVM "scripts\fair.sqf";  //fairness code
 

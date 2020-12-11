@@ -2882,7 +2882,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="MAJOR";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];  this setVariable [""pistolDrawn"", 0];  takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""isHiding"", false];  ";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];    takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""isHiding"", false];  ";
 						description="SAD Group / Leader";
 						isPlayable=1;
 					};
@@ -2903,7 +2903,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0]; takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; this setVariable [""isHiding"", false]; ";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];  takeIntelligence = this addAction [""Check Pockets"", ""scripts\checkBody.sqf"",[this],-1,false,true,"""",""(side _this == east) && (!alive _target)""]; this setVariable [""isHiding"", false]; ";
 						name="pilot1_blu";
 						description="SAD Group / Assistant Leader, Helicopter Pilot";
 						isPlayable=1;
@@ -2925,7 +2925,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];   this setVariable [""isHiding"", false];";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -2946,7 +2946,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];  this setVariable [""buttStroked"", false, true];";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];   this setVariable [""isHiding"", false];  this setVariable [""buttStroked"", false, true];";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -2967,7 +2967,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false]; ";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];   this setVariable [""isHiding"", false]; ";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -2988,7 +2988,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false]; ";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];   this setVariable [""isHiding"", false]; ";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -3009,7 +3009,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0]; this setVariable [""isHiding"", false]; ";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];  this setVariable [""isHiding"", false]; ";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -3030,7 +3030,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""]; this setVariable [""pistolDrawn"", 0];  this setVariable [""isHiding"", false];";
+						init="id = [""operator"", this] call compile preprocessFileLineNumbers ""krauseOrbat\CIA.sqf""; SADgroup = group this; group this setGroupId [""SAD Group""];   this setVariable [""isHiding"", false];";
 						description="SAD Group / Operator";
 						isPlayable=1;
 					};
@@ -3906,7 +3906,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""]; this setVariable [""pistolDrawn"", 0];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];   stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
 						name="pilot1";
 						description="Base Helicopter / Pilot";
 						isPlayable=1;
@@ -3928,7 +3928,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""]; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
 						name="pilot2";
 						description="Base Helicopter / Crew Chief";
 						isPlayable=1;
@@ -3982,7 +3982,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="MAJOR";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist1 = group this; group this setGroupId [""Dr. Hudsonski""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""ace_arty_rangeTable_m119""; this addweapon ""ACE_Map_Tools""; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj11' in objectivesText) then {   [-2, {    hint format ['Dr. Hudsonski was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist1 = group this; group this setGroupId [""Dr. Hudsonski""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""ace_arty_rangeTable_m119""; this addweapon ""ACE_Map_Tools""; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj11' in objectivesText) then {   [-2, {    hint format ['Dr. Hudsonski was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""]; ";
 						name="dr1";
 						description="Chadori Hudsonski, Experimental Physicist";
 						isPlayable=1;
@@ -4036,7 +4036,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="MAJOR";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist2 = group this; group this setGroupId [""Dr. Zedic""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] }; this setVariable [""pistolDrawn"", 0]; stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj12' in objectivesText) then {   [-2, {    hint format ['Dr. Zedic was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""];";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; scientist2 = group this; group this setGroupId [""Dr. Zedic""]; 0 = this spawn { _this setVariable [""ACE_STAMINA_CLASS"", ""SoldierWB""] };  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; defect = this addAction [""Add To Group"", ""scripts\addToGroup.sqf"","""",-1,false,true,"""",""(side _this == west)""];   this addEventHandler [""killed"", ""if (side (_this select 1) == EAST) then {   if !('obj12' in objectivesText) then {   [-2, {    hint format ['Dr. Zedic was just killed by %1, and he was not a traitor!', name (_this select 0)];    }, [(_this select 1)]] call CBA_fnc_globalExecute;  };  };""];";
 						name="dr2";
 						description="Gavriil Zedic, Chemical Warfare Expert";
 						isPlayable=1;

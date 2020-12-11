@@ -24,12 +24,10 @@ player addEventHandler ["killed", { if ((_this select 0) distance stockade < 50)
 //knife attack
 [(actionKeys "Stand") select 0, [true, false, false], { []execVM "scripts\knife.sqf";  }, "keydown", "knifebitches"] call CBA_fnc_addKeyHandler;
 
-if (((isserver) && (local player)) || !(isserver)) then //pistol + intelligence actions
+if (((isserver) && (local player)) || !(isserver)) then //intelligence actions
 {
     waitUntil {player==player};
 
-    drawpistol = player addAction ["Draw Pistol", "scripts\drawPistol.sqf",["draw", "blufor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 0) "];
-    holsterpistol = player addAction ["Holster Pistol", "scripts\drawPistol.sqf",["holster", "blufor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 1) && ('ACE_USPSD' in (weapons _target))"];
     stealRadarIntel = player addAction ["Steal Control Tower Intel", "scripts\stealStuff.sqf",["controlTower"],-1,false,true,"","(_this distance controlTower < 3) && !stealRadarTower"];
     stealPhysics = player addAction ["Steal Dr. Hudsonski's Plans", "scripts\stealStuff.sqf",["hudsonPlans"],-1,false,true,"","(_this distance hudsonPlans < 10) && !stealHudsonPlans"];
     photographCannon = player addAction ["Photograph Experimental Cannon", "scripts\stealStuff.sqf",["experPhoto"],-1,false,true,"","(_this distance expercanon < 5) && !photoCannon"];

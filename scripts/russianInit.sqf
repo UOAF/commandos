@@ -14,27 +14,6 @@ decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[th
 //buttstroke
 [(actionKeys "Stand") select 0, [true, false, false], { []execVM "scripts\buttstroke.sqf";  }, "keydown", "buttstrokebitches"] call CBA_fnc_addKeyHandler;
 
-//hidden pistols
-
-pistolFolk = ["dr1", "dr2", "pilot1", "pilot2"];
-
-{
-    if ( _x == vehicleVarName player ) then {
-
-        if (((isserver) && (local player)) || !(isserver)) then //pistol stuff
-        {
-            waitUntil {player==player};
-
-            drawpistol = player addAction ["Draw Pistol", "scripts\drawPistol.sqf",["draw", "opfor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 0) "];
-            holsterpistol = player addAction ["Holster Pistol", "scripts\drawPistol.sqf",["holster", "opfor"],-1,false,true,"","(_target getVariable 'pistolDrawn' == 1) && ('Makarov' in (weapons _target))"];
-
-        };
-    }
-}
-forEach pistolFolk;
-
-
-
 if (((isserver) && (local player)) || !(isserver)) then //whistle blowing for dog handlers
 {
     waitUntil {player==player};
