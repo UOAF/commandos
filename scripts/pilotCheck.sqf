@@ -1,4 +1,6 @@
-  if (!(typeof player == "RU_Soldier_Pilot") && !(typeof player == "Soldier_TL_PMC")) then {
+  
+  
+  if (!("pilot" in str(player))) then {
     private "_vic";
     while {alive player} do {
       waituntil {vehicle player != player};
@@ -13,3 +15,4 @@
     sleep 0.5; 
     };
   };
+  

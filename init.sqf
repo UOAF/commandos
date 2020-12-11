@@ -115,5 +115,6 @@ if (!isServer && isNull player) then  //JIP player
 };
 
 [] execVM "initArsenal.sqf";
+[] execVM "scripts\chopperparaflare.sqf";
 
 [] execVM "bScripts\bInit.sqf";  //init bScripts functions
