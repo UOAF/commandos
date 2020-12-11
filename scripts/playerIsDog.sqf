@@ -32,7 +32,6 @@ player setVariable["acre_sys_core_isDisabled", true, true];
         _damage
     };
     // make player unit nolanddamage function when damaged by something:
-    player addEventHandler ["HandleDamage", { _this call nolandDamage }];
     []spawn {waituntil{player setAnimSpeedCoef 1.5; sleep 0.1;false}};
     //systemchat "inside dog loop";
     //systemchat format["player is %1",player];
@@ -102,7 +101,7 @@ _objposition = (_objposition select 2);
             _ps11 = '#particlesource' createVehicleLocal _pos;
                         _ps11 attachTo [(_this select 0)];
 
-            _ps11 setParticleParams [['\Ca\Data\ParticleEffects\Universal\Universal', 16, 7, 48], '', 'Billboard', 1, 6, [0, 0, 0.5], [0, 0, 0], 0, 10, 1, 0, [1,5],[[1,0,0,0.8],[1,0,0,0]], [0.5,0.5,0], 1, 1, '', '', center];
+            _ps11 setParticleParams [['\Ca\Data\ParticleEffects\Universal\Universal', 16, 7, 48], '', 'Billboard', 1, 6, [0, 0, 0.5], [0, 0, 0], 0, 10, 1, 0, [1,5],[[1,0,0,0.8],[1,0,0,0]], [0.5,0.5,0], 1, 1, '', '', ''];
             _ps11 setParticleRandom [.1, [0, 0, 0], [1, 2, 2], 1, 0, [0, 0, .2, 1.1], 0, 0];
             _ps11 setParticleCircle [0, [0, 0, 0]];
             _ps11 setDropInterval 0.01;
