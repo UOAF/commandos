@@ -1,3 +1,4 @@
+sleep 0.1; 
 player setVariable["acre_sys_core_isDisabled", true, true];
 
     waitUntil {player==player};

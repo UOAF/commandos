@@ -177,18 +177,17 @@ case WEST:
         You are a group of Special Activities Division, infiltrated deep behind enemy lines. Expect no support. The government will deny your existence if you are captured.
         "]];
 
-        if (typeof player == "krauseDog") then {
+    };
+
+case EAST:
+    {
+        if (vehiclevarname player in ["dog1","dog2"]) exitWith {
             _service = player createDiaryRecord ["Diary",["You are a dog","
             You cannot talk, but can hear direct. You can communicate with a range of vocalizations. You should listen to your handler, he has a whistle and might use it to ask you to return to him. You can bite enemy by left clicking on them. It takes approximately three serious bites to kill most humans. Most importantly: you can sniff the enemy at up to 500 meters. The closer you get to what you are tracking, the more accurate the readings will be. <br/><br/>
             You may perform long leaps by pressing your reload key (default r). You may scale walls by pressing shift-r. <br/><br/>
             You may sense your handler by using the action menu. Use this if your handler is out of sight.
             "]];
-        };
-
-    };
-
-case EAST:
-    {
+        };        
         if (vehicleVarName player in ["signaller, dr1, dr2, rusCommander"]) then {
 
             if (("obj11" in objectives) || ("obj12" in objectives) || ("obj13" in objectives)) then {
