@@ -1,5 +1,8 @@
 if (isNil "debugenabled") then {debugenabled = false;};
 fnc_debugPrint = {
+    if (typeName _this != "STRING") then{
+        _this = str _this;
+    };
     if (debugenabled) then
     {
         systemChat _this;
