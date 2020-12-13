@@ -55,8 +55,8 @@ _light setLightAmbient[0.65, 0.55, 0.25];
 _light setLightColor[0.65, 0.55, 0.25];
 _light lightAttachObject [_flare, [0,0,0]];
 
-BIS_Effects_Burn = compile preprocessFile "\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf";
-_smokeFX = [_flare, 0.8, time, false, false] spawn BIS_Effects_Burn;
+balls = compile preprocessFile "bScripts\ambient\burn.sqf";
+_smokeFX = [_flare, 0.8, time, false, false] spawn balls;
 
 sleep 0.25;
 
