@@ -1,4 +1,4 @@
-if (isNil "debugenabled") then {debugenabled = true;};
+if (isNil "debugenabled") then {debugenabled = false;};
 fnc_debugPrint = {
     if (debugenabled) then
     {

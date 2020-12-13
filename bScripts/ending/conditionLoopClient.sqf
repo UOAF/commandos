@@ -1,9 +1,10 @@
-//Written by beta
 //End conditions loop
 
+if (debugenabled) exitWith{
+    "Condition loop client disabled" call fnc_debugPrint;
+};
 
-while {true} do
-{
+waituntil {
 
     if (BLUFOR_CC) then
     {
@@ -18,4 +19,5 @@ while {true} do
     //timer in init.sqf
     
     sleep 10;
+    false
 };

@@ -69,6 +69,11 @@ for "_i" from 1 to _numberTasks do {
 
 };
 
+if (debugenabled) then {
+    objectives = possibleObjectives;
+    "All objectives enabled" call fnc_debugPrint;
+};
+
 publicvariable "objectives";
 
 objectivesText = objectives; //for end game reference, to show what objectives opfor had
