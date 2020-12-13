@@ -177,7 +177,7 @@ case WEST:
         You are a group of Special Activities Division, infiltrated deep behind enemy lines. Expect no support. The government will deny your existence if you are captured.
         "]];
 
-        if (typeof player == "Pastor") then {
+        if (typeof player == "krauseDog") then {
             _service = player createDiaryRecord ["Diary",["You are a dog","
             You cannot talk, but can hear direct. You can communicate with a range of vocalizations. You should listen to your handler, he has a whistle and might use it to ask you to return to him. You can bite enemy by left clicking on them. It takes approximately three serious bites to kill most humans. Most importantly: you can sniff the enemy at up to 500 meters. The closer you get to what you are tracking, the more accurate the readings will be. <br/><br/>
             You may perform long leaps by pressing your reload key (default r). You may scale walls by pressing shift-r. <br/><br/>
