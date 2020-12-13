@@ -28,7 +28,7 @@ if (((isserver) && (local player)) || !(isserver)) then //intelligence actions
 {
     waitUntil {player==player};
 
-    stealRadarIntel = player addAction ["Steal Control Tower Intel", "scripts\stealStuff.sqf",["controlTower"],-1,false,true,"","(_this distance controlTower < 3) && !stealRadarTower"];
+    stealRadarIntel = player addAction ["Steal Control Tower Intel", "scripts\stealStuff.sqf",["fragOrder"],-1,false,true,"","(_this distance fragOrder < 3) && !stealRadarTower"];
     stealPhysics = player addAction ["Steal Dr. Hudsonski's Plans", "scripts\stealStuff.sqf",["hudsonPlans"],-1,false,true,"","(_this distance hudsonPlans < 10) && !stealHudsonPlans"];
     photographCannon = player addAction ["Photograph Experimental Cannon", "scripts\stealStuff.sqf",["experPhoto"],-1,false,true,"","(_this distance expercanon < 5) && !photoCannon"];
 

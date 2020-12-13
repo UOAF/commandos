@@ -147,7 +147,7 @@ case WEST:
                 };
             case "obj15": { //steal tower stuff
                     _mission = player createDiaryRecord ["Diary",["Task: Steal Control Tower Frag Order","
-        Infilitrate the enemy base and steal the frag order from the control tower. It should be located in a set of metal lockers on the top floor.
+        Infilitrate the enemy base and steal the frag order from the control tower. It should be located on the top floor on a laptop computer.
         "]];
                 };
             case "obj16": { //blow up chem plant

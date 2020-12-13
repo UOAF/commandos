@@ -4,7 +4,7 @@ _stealWhat = _this select 3 select 0;
 
 
 switch (_stealWhat) do {
-    case "controlTower": {
+    case "fragOrder": {
         stealRadarTower = true;
         publicvariable "stealRadarTower";
         hintsilent "Intel secured!";
