@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=434;
+		nextID=430;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8009.0459,80.84359,4350.6104};
-		dir[]={-0.077572897,-0.40465024,0.91118526};
-		up[]={-0.034326136,0.91446662,0.40319887};
-		aside[]={0.99640208,-1.0966323e-007,0.084827304};
+		pos[]={8398.1221,14.341908,5171.5034};
+		dir[]={-0.081337623,-0.9120568,0.40207592};
+		up[]={-0.18083902,0.41006941,0.89394265};
+		aside[]={0.9802103,1.0679942e-006,0.19829008};
 	};
 };
 binarizationWanted=0;
@@ -365,7 +365,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=196;
+		items=193;
 		class Item0
 		{
 			dataType="Marker";
@@ -2421,8 +2421,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7926.6362,5.2845874,4046.853};
-				angles[]={-0,4.6092224,0};
+				position[]={8398.2383,5.3101749,5177.3462};
+				angles[]={0.0029321532,4.6092224,0.00097738439};
 			};
 			side="Empty";
 			flags=4;
@@ -4069,8 +4069,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8015.0054,5.0019732,4269.3091};
-						angles[]={-0,1.5031824,0};
+						position[]={8397.543,5.0375161,5173.7656};
+						angles[]={0.0029296887,1.5031824,0.0009765625};
 					};
 					side="East";
 					flags=4;
@@ -4995,144 +4995,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7927.7393,5.2845888,4046.9565};
-				angles[]={-0,4.6092224,0};
+				position[]={8398.8613,5.3148108,5175.9722};
+				angles[]={0.0029321532,4.6092224,0.00097738439};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
-			id=430;
-			type="ACE_Box_82mm_Mo_Combo";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item193
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7930.3467,5.2845888,4046.9573};
-				angles[]={-0,4.6092224,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=431;
-			type="ACE_Box_82mm_Mo_Combo";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item194
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7932.0498,5.152204,4046.9946};
-				angles[]={-0,4.6092224,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=432;
-			type="ACE_Box_82mm_Mo_Combo";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item195
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7929.0449,5.2845888,4047.0396};
-				angles[]={-0,4.6092224,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
-				description="Chadori Hudsonski, Experimental Physicist";
-			};
-			id=433;
+			id=429;
 			type="ACE_Box_82mm_Mo_Combo";
 			class CustomAttributes
 			{
