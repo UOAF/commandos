@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=430;
+		nextID=464;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8398.1221,14.341908,5171.5034};
-		dir[]={-0.081337623,-0.9120568,0.40207592};
-		up[]={-0.18083902,0.41006941,0.89394265};
-		aside[]={0.9802103,1.0679942e-006,0.19829008};
+		pos[]={7928.0391,27.048447,4154.4585};
+		dir[]={0.10628175,-0.69829005,0.70791364};
+		up[]={0.10369855,0.71565771,0.69070357};
+		aside[]={0.9889403,-1.4138641e-007,-0.14847377};
 	};
 };
 binarizationWanted=0;
@@ -365,7 +365,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=193;
+		items=204;
 		class Item0
 		{
 			dataType="Marker";
@@ -1727,8 +1727,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7740.4111,8.2310219,4300.7524};
-				angles[]={0,1.5688416,0};
+				position[]={8427.8242,8.2310219,4635.5767};
+				angles[]={-0,5.0887966,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2322,143 +2322,110 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8395.1211,6.5414686,5177.1294};
-				angles[]={0.0029321532,6.0401306,0.00097738439};
+				position[]={8395.1211,6.5414672,5177.1299};
+				angles[]={0.0029296887,6.0401249,0.0009765625};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this addeventhandler [""fired"", ""balls = _this execvm 'scripts\artyFire.sqf'""]; this setVehicleAmmo 0;}";
-				name="experimentalgun";
+				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=250;
 			type="rhs_D30_vdv";
-			class CustomAttributes
+		};
+		class Item116
+		{
+			dataType="Object";
+			class PositionInfo
 			{
-				class Attribute0
-				{
-					property="rhs_ammoslot_2_type";
-					expression="_this setVariable ['rhs_ammoslot_2_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_d462_2";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rhs_ammoslot_1_type";
-					expression="_this setVariable ['rhs_ammoslot_1_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_3of56_10";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_ammoslot_4_type";
-					expression="_this setVariable ['rhs_ammoslot_4_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_3of69m_2";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="rhs_ammoslot_3_type";
-					expression="_this setVariable ['rhs_ammoslot_3_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_s463_2";
-						};
-					};
-				};
-				nAttributes=4;
+				position[]={7927.8496,5.2845888,4045.6499};
+				angles[]={0,4.6436534,0};
 			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=251;
+			type="ACE_Box_82mm_Mo_Combo";
 		};
 		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8398.2383,5.3101749,5177.3462};
-				angles[]={0.0029321532,4.6092224,0.00097738439};
+				position[]={7926.9663,5.2845888,4045.4868};
+				angles[]={0,4.6092176,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=252;
 			type="ACE_Box_82mm_Mo_Combo";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 		class Item118
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7928.6948,5.2845888,4045.7561};
+				angles[]={0,1.5078893,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=253;
+			type="ACE_Box_82mm_Mo_Combo";
+		};
+		class Item119
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7930.1245,5.2845888,4045.5891};
+				angles[]={0,4.7268162,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=254;
+			type="ACE_Box_82mm_Mo_HE";
+		};
+		class Item120
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7931.4243,5.2845888,4045.2864};
+				angles[]={0,4.7753763,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				description="Chadori Hudsonski, Experimental Physicist";
+			};
+			id=255;
+			type="ACE_Box_82mm_Mo_Smoke";
+		};
+		class Item121
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2476,7 +2443,7 @@ class Mission
 			id=256;
 			type="ClutterCutter_EP1";
 		};
-		class Item119
+		class Item122
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2495,7 +2462,7 @@ class Mission
 			type="Land_fort_artillery_nest";
 			atlOffset=4.7683716e-007;
 		};
-		class Item120
+		class Item123
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2514,7 +2481,7 @@ class Mission
 			type="Land_fort_artillery_nest";
 			atlOffset=0.0061826706;
 		};
-		class Item121
+		class Item124
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2532,7 +2499,7 @@ class Mission
 			id=259;
 			type="Land_Ind_IlluminantTower";
 		};
-		class Item122
+		class Item125
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2551,7 +2518,7 @@ class Mission
 			id=260;
 			type="ZavoraAnim";
 		};
-		class Item123
+		class Item126
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2570,7 +2537,7 @@ class Mission
 			id=261;
 			type="Fuel_can";
 		};
-		class Item124
+		class Item127
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2589,7 +2556,7 @@ class Mission
 			id=262;
 			type="Fuel_can";
 		};
-		class Item125
+		class Item128
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2608,7 +2575,7 @@ class Mission
 			id=263;
 			type="Fuel_can";
 		};
-		class Item126
+		class Item129
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2628,7 +2595,7 @@ class Mission
 			id=264;
 			type="Radio";
 		};
-		class Item127
+		class Item130
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2646,7 +2613,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=0.00010204315;
 		};
-		class Item128
+		class Item131
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2664,7 +2631,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=3.4332275e-005;
 		};
-		class Item129
+		class Item132
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2682,7 +2649,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=0.00022554398;
 		};
-		class Item130
+		class Item133
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2700,7 +2667,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=-0.030856609;
 		};
-		class Item131
+		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2718,7 +2685,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=9.727478e-005;
 		};
-		class Item132
+		class Item135
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2736,7 +2703,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=0.00024604797;
 		};
-		class Item133
+		class Item136
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2754,7 +2721,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=0.00055217743;
 		};
-		class Item134
+		class Item137
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2772,7 +2739,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=0.00012016296;
 		};
-		class Item135
+		class Item138
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2790,7 +2757,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=2.8610229e-005;
 		};
-		class Item136
+		class Item139
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2808,7 +2775,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=1.9073486e-005;
 		};
-		class Item137
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2826,7 +2793,7 @@ class Mission
 			type="Fort_RazorWire";
 			atlOffset=-0.0068545341;
 		};
-		class Item138
+		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2848,7 +2815,7 @@ class Mission
 			type="Land_BarGate2";
 			atlOffset=3.194809e-005;
 		};
-		class Item139
+		class Item142
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2860,7 +2827,7 @@ class Mission
 			id=277;
 			type="Logic";
 		};
-		class Item140
+		class Item143
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2871,7 +2838,7 @@ class Mission
 			id=278;
 			type="Logic";
 		};
-		class Item141
+		class Item144
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -2883,7 +2850,7 @@ class Mission
 			id=279;
 			type="Logic";
 		};
-		class Item142
+		class Item145
 		{
 			dataType="Group";
 			side="West";
@@ -3085,7 +3052,7 @@ class Mission
 			};
 			id=280;
 		};
-		class Item143
+		class Item146
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3097,7 +3064,7 @@ class Mission
 			id=290;
 			type="Logic";
 		};
-		class Item144
+		class Item147
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3109,7 +3076,7 @@ class Mission
 			id=291;
 			type="Logic";
 		};
-		class Item145
+		class Item148
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3121,7 +3088,7 @@ class Mission
 			id=292;
 			type="Logic";
 		};
-		class Item146
+		class Item149
 		{
 			dataType="Group";
 			side="East";
@@ -3219,7 +3186,7 @@ class Mission
 			};
 			id=293;
 		};
-		class Item147
+		class Item150
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3232,20 +3199,7 @@ class Mission
 			id=298;
 			type="Logic";
 		};
-		class Item148
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8526.373,5.0005341,4401.7222};
-				angles[]={0,5.9398794,0};
-			};
-			init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_NavigLight"", 2000]);";
-			description="Base Commander";
-			id=299;
-			type="Logic";
-		};
-		class Item149
+		class Item151
 		{
 			dataType="Group";
 			side="East";
@@ -3379,7 +3333,7 @@ class Mission
 			};
 			id=300;
 		};
-		class Item150
+		class Item152
 		{
 			dataType="Group";
 			side="East";
@@ -3525,7 +3479,7 @@ class Mission
 			};
 			id=307;
 		};
-		class Item151
+		class Item153
 		{
 			dataType="Group";
 			side="East";
@@ -3659,7 +3613,7 @@ class Mission
 			};
 			id=314;
 		};
-		class Item152
+		class Item154
 		{
 			dataType="Group";
 			side="East";
@@ -3793,7 +3747,7 @@ class Mission
 			};
 			id=321;
 		};
-		class Item153
+		class Item155
 		{
 			dataType="Group";
 			side="East";
@@ -3927,64 +3881,7 @@ class Mission
 			};
 			id=328;
 		};
-		class Item154
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7758.1816,5.0019732,4301.519};
-						angles[]={0,4.4812908,0};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="LIEUTENANT";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];   stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
-						name="pilot1";
-						description="Base Helicopter / Pilot";
-						isPlayable=1;
-					};
-					id=336;
-					type="UK3CB_CW_SOV_O_EARLY_HELI_PILOT";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7759.9424,5.0019732,4300.7041};
-						angles[]={0,4.4812908,0};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="LIEUTENANT";
-						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
-						name="pilot2";
-						description="Base Helicopter / Crew Chief";
-						isPlayable=1;
-					};
-					id=337;
-					type="UK3CB_CW_SOV_O_EARLY_HELI_CREW";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=335;
-		};
-		class Item155
+		class Item156
 		{
 			dataType="Group";
 			side="East";
@@ -4038,7 +3935,7 @@ class Mission
 			};
 			id=338;
 		};
-		class Item156
+		class Item157
 		{
 			dataType="Group";
 			side="East";
@@ -4069,8 +3966,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8397.543,5.0375161,5173.7656};
-						angles[]={0.0029296887,1.5031824,0.0009765625};
+						position[]={8015.1196,5.0019732,4274.9077};
+						angles[]={0,1.5031824,0};
 					};
 					side="East";
 					flags=4;
@@ -4092,7 +3989,7 @@ class Mission
 			};
 			id=341;
 		};
-		class Item157
+		class Item158
 		{
 			dataType="Group";
 			side="East";
@@ -4127,7 +4024,7 @@ class Mission
 			};
 			id=344;
 		};
-		class Item158
+		class Item159
 		{
 			dataType="Group";
 			side="East";
@@ -4162,7 +4059,7 @@ class Mission
 			};
 			id=346;
 		};
-		class Item159
+		class Item160
 		{
 			dataType="Group";
 			side="Independent";
@@ -4218,7 +4115,7 @@ class Mission
 			};
 			id=348;
 		};
-		class Item160
+		class Item161
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4229,7 +4126,7 @@ class Mission
 			id=351;
 			type="Logic";
 		};
-		class Item161
+		class Item162
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4239,7 +4136,7 @@ class Mission
 			id=352;
 			type="BIS_Effect_MovieNight";
 		};
-		class Item162
+		class Item163
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4253,7 +4150,7 @@ class Mission
 			id=353;
 			type="Logic";
 		};
-		class Item163
+		class Item164
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4266,7 +4163,7 @@ class Mission
 			id=354;
 			type="Logic";
 		};
-		class Item164
+		class Item165
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4279,7 +4176,7 @@ class Mission
 			id=355;
 			type="Logic";
 		};
-		class Item165
+		class Item166
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4290,20 +4187,6 @@ class Mission
 			name="city2";
 			description="SAD Group / Leader";
 			id=356;
-			type="Logic";
-		};
-		class Item166
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={8460.3467,5.0005341,4343.0723};
-				angles[]={0,3.1629384,0};
-			};
-			name="controlTower";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +11]; ";
-			description="3 Patrol / Patrol Leader";
-			id=357;
 			type="Logic";
 		};
 		class Item167
@@ -4995,41 +4878,232 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8398.8613,5.3148108,5175.9722};
-				angles[]={0.0029321532,4.6092224,0.00097738439};
+				position[]={8464.4248,15.005096,4344.0879};
+				angles[]={0,1.5749153,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
-				skill=0.60000002;
-				description="Chadori Hudsonski, Experimental Physicist";
+				name="fragOrder";
 			};
 			id=429;
-			type="ACE_Box_82mm_Mo_Combo";
-			class CustomAttributes
+			type="Land_Laptop_02_unfolded_F";
+			atlOffset=0.7650013;
+		};
+		class Item193
+		{
+			dataType="Object";
+			class PositionInfo
 			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.1;
-						};
-					};
-				};
-				nAttributes=1;
+				position[]={8464.4229,14.883022,4345.8149};
 			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=430;
+			type="Newspaper_01_F";
+			atlOffset=0.76060486;
+		};
+		class Item194
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9447.5322,5.8305111,4141.1885};
+				angles[]={0,1.5649768,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=432;
+			type="GunrackTK_EP1";
+			atlOffset=0.3452692;
+		};
+		class Item195
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8464.2998,14.886379,4347.5205};
+				angles[]={0,1.5584003,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=441;
+			type="Land_File1_F";
+			atlOffset=0.76726627;
+		};
+		class Item196
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8464.3262,14.88306,4347.3774};
+				angles[]={0,1.5959361,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=442;
+			type="Land_PenBlack_F";
+			atlOffset=0.76464272;
+		};
+		class Item197
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8463.2227,14.9107,4341.856};
+				angles[]={0,1.5839535,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=443;
+			type="Land_Notepad_F";
+			atlOffset=0.78909874;
+		};
+		class Item198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8462.9639,14.901819,4341.8296};
+				angles[]={0,0.034768593,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=444;
+			type="Land_PensAndPencils_F";
+			atlOffset=0.78340149;
+		};
+		class Item199
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8430.7891,5.0019732,4615.4204};
+						angles[]={-0,5.9608746,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];   stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""]; this addweapon ""acre_prc148""; ";
+						name="pilot1";
+						description="Base Helicopter / Pilot";
+						isPlayable=1;
+					};
+					id=336;
+					type="UK3CB_CW_SOV_O_EARLY_HELI_PILOT";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8433.0508,5.0019732,4616.0967};
+						angles[]={-0,5.6853814,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="id = [""pistolGuy"", this] call compile preprocessFileLineNumbers ""krauseOrbat\RussianGarrison.sqf""; baseheli = group this; group this setGroupId [""Base Heli""];  stealUniform = this addAction [""Steal Uniform"", ""scripts\stealUniform.sqf"",[this],-1,false,true,"""",""(side _this == west) && (!alive _target)""];  ";
+						name="pilot2";
+						description="Base Helicopter / Crew Chief";
+						isPlayable=1;
+					};
+					id=337;
+					type="UK3CB_CW_SOV_O_EARLY_HELI_CREW";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=335;
+		};
+		class Item200
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10262.667,76.337814,4397.2339};
+				angles[]={0,4.4436727,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=454;
+			type="Land_Radar_01_antenna_F";
+			atlOffset=1.3533897;
+		};
+		class Item201
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10262.077,45.056835,4397.3462};
+				angles[]={0,2.708703,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=457;
+			type="Land_Radar_01_antenna_base_F";
+		};
+		class Item202
+		{
+			dataType="Trigger";
+			position[]={8705.2471,13.241368,4654.8506};
+			class Attributes
+			{
+				onActivation="canunlockweapon = true; publicvariable ""canunlockweapon"";";
+				sizeA=2000;
+				sizeB=2000;
+				interuptable=1;
+				activationType="EAST D";
+				activationBy="WEST";
+				isRectangle=1;
+			};
+			id=165;
+			type="EmptyDetector";
+		};
+		class Item203
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8526.373,5.0005341,4401.7222};
+				angles[]={0,5.9398794,0};
+			};
+			init="{_x setdamage 1} forEach ((getPos this) nearObjects [""Land_NavigLight"", 2000]);";
+			description="Base Commander";
+			id=299;
+			type="Logic";
 		};
 	};
 };
