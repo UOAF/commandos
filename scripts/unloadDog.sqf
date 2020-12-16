@@ -11,4 +11,4 @@ _dog = _this select 3 select 1;
     }, [_dog, _vehicle]] call CBA_fnc_globalExecute;
 
 _vehicle removeaction unloaddog;
-loadDog = _vehicle addAction ["Load Dog Into Vehicle", "scripts\loadDog.sqf",[_vehicle, nearestObjects [_vehicle, ['pastor'], 3]],-1,false,true,"","(count (nearestObjects [_target, ['pastor'], 3]) > 0) && ((vehicle _this) == player)"];
+loadDog = _vehicle addAction ["Load Dog Into Vehicle", "scripts\loadDog.sqf",[_vehicle, nearestObjects [_vehicle, ['krauseDog'], 3]],-1,false,true,"","(count (nearestObjects [_target, ['krauseDog'], 3]) > 0) && ((vehicle _this) == player)"];
