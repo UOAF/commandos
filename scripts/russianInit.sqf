@@ -8,7 +8,7 @@ if ( "seniorsgt" == vehicleVarName player ) then {
 };
 
 //signaller decode ability
-decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[this],-1,false,true,"","('EvMoscow' in weapons _this) && ('signaller' == vehicleVarName _this)"];
+decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[this],-1,false,true,"","('CUP_item_Cobalt_File' in items _this) && ('signaller' == vehicleVarName _this)"];
 
 
 //buttstroke

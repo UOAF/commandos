@@ -4,7 +4,7 @@ _GuyGettingSnuffed = _this select 3 select 0;
 
 player removeAction decode;  
 
-player removeweapon "EvMoscow";
+player removeItem "CUP_item_Cobalt_File";
 
 _objCount = (count objectivesText) - 1;
 
@@ -96,4 +96,4 @@ sleep 30;
 hint "Message decoded, check briefing."; 
         _intel = player createDiaryRecord ["Diary",["INTELLIGENCE: CIA Message Decoded","You have succesfully decoded a CIA message by using a captured one-time pad, it reads as follows: " + _text]];
     
-decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[this],-1,false,true,"","('EvMoscow' in weapons _this) && ('signaller' == vehicleVarName _this)"];
+decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[this],-1,false,true,"","('CUP_item_Cobalt_File' in items _this) && ('signaller' == vehicleVarName _this)"];
