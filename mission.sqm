@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7928.0391,27.048447,4154.4585};
-		dir[]={0.10628175,-0.69829005,0.70791364};
-		up[]={0.10369855,0.71565771,0.69070357};
-		aside[]={0.9889403,-1.4138641e-007,-0.14847377};
+		pos[]={8398.5996,15.137094,5160.3003};
+		dir[]={-0.004498471,-0.50876737,0.86094588};
+		up[]={-0.002661349,0.86076415,0.50897229};
+		aside[]={1.0000306,-1.3182353e-007,0.0052305884};
 	};
 };
 binarizationWanted=0;
@@ -1728,7 +1728,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8427.8242,8.2310219,4635.5767};
-				angles[]={-0,5.0887966,0};
+				angles[]={0,5.0887966,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1771,7 +1771,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8417.9424,5.0005341,4611.8813};
-				angles[]={-0,5.0478258,0};
+				angles[]={0,5.0478258,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1788,7 +1788,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8425.2363,5.0005341,4636.5049};
-				angles[]={-0,5.0623455,0};
+				angles[]={0,5.0623455,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2322,32 +2322,115 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8395.1211,6.5414672,5177.1299};
-				angles[]={0.0029296887,6.0401249,0.0009765625};
+				position[]={8395.1211,6.5414686,5177.1294};
+				angles[]={0.0029321532,6.0401306,0.00097738439};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{this setVehicleAmmo 0; this addeventhandler [""fired"",""_this execvm 'scripts\artyFire.sqf'""]}";
+				name="experimentalgun";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=250;
 			type="rhs_D30_vdv";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_ammoslot_2_type";
+					expression="_this setVariable ['rhs_ammoslot_2_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_d462_2";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_ammoslot_1_type";
+					expression="_this setVariable ['rhs_ammoslot_1_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_3of56_10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_ammoslot_4_type";
+					expression="_this setVariable ['rhs_ammoslot_4_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_3of69m_2";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_ammoslot_3_type";
+					expression="_this setVariable ['rhs_ammoslot_3_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_s463_2";
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 		class Item116
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7927.8496,5.2845888,4045.6499};
-				angles[]={0,4.6436534,0};
+				position[]={7927.8501,5.2845888,4045.6499};
+				angles[]={0,4.6436582,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=251;
@@ -2358,14 +2441,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7926.9663,5.2845888,4045.4868};
-				angles[]={0,4.6092176,0};
+				position[]={7926.4727,5.2845874,4045.5112};
+				angles[]={-0,4.6092224,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=252;
@@ -2377,13 +2461,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7928.6948,5.2845888,4045.7561};
-				angles[]={0,1.5078893,0};
+				angles[]={0,1.5078948,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=253;
@@ -2394,14 +2479,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7930.1245,5.2845888,4045.5891};
-				angles[]={0,4.7268162,0};
+				position[]={7930.125,5.2845888,4045.5891};
+				angles[]={0,4.7268229,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=254;
@@ -2412,14 +2498,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7931.4243,5.2845888,4045.2864};
-				angles[]={0,4.7753763,0};
+				position[]={7931.4238,5.2845888,4045.2859};
+				angles[]={0,4.7753782,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="call{clearMagazineCargo this; unloadammo = this addAction [""Unload Experimental Ammo"", ""scripts\unloadAmmo.sqf"",[this],-1,true,true,"""",""(side _this == east) && (alive _target) && (_target distance experimentalgun <4)""];}";
 				description="Chadori Hudsonski, Experimental Physicist";
 			};
 			id=255;
@@ -3966,8 +4053,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8015.1196,5.0019732,4274.9077};
-						angles[]={0,1.5031824,0};
+						position[]={8016.4121,5.0019727,4272.1714};
+						angles[]={-0,1.5031824,0};
 					};
 					side="East";
 					flags=4;
@@ -4466,12 +4553,14 @@ class Mission
 					};
 					id=376;
 					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
+					atlOffset=-2.8610229e-006;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=375;
+			atlOffset=-2.8610229e-006;
 		};
 		class Item179
 		{
@@ -4935,7 +5024,7 @@ class Mission
 			};
 			id=441;
 			type="Land_File1_F";
-			atlOffset=0.76726627;
+			atlOffset=0.7672224;
 		};
 		class Item196
 		{
@@ -4998,7 +5087,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8430.7891,5.0019732,4615.4204};
-						angles[]={-0,5.9608746,0};
+						angles[]={0,5.9608746,0};
 					};
 					side="East";
 					flags=6;
@@ -5020,7 +5109,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8433.0508,5.0019732,4616.0967};
-						angles[]={-0,5.6853814,0};
+						angles[]={0,5.6853814,0};
 					};
 					side="East";
 					flags=4;
