@@ -1579,8 +1579,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10108.245,4.0450964,5899.2529};
-				angles[]={6.1723118,3.4160347,0.013671981};
+				position[]={10101.709,1.5658427,5878.6284};
+				angles[]={6.1665282,3.4160347,0.0087890904};
 			};
 			side="Empty";
 			flags=4;
@@ -1597,7 +1597,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10122.14,4.2048955,5899.5791};
+				position[]={10117.526,1.6081176,5877.9434};
 				angles[]={6.1694193,3.4160347,0.0058593834};
 			};
 			side="Empty";
@@ -1615,8 +1615,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11708.876,4.3426428,5409.2852};
-				angles[]={6.2178483,3.4160347,0.074084558};
+				position[]={11683.987,1.534073,5399.0532};
+				angles[]={6.2091017,3.9583235,0.085728303};
 			};
 			side="Empty";
 			flags=4;
@@ -1627,15 +1627,14 @@ class Mission
 			};
 			id=215;
 			type="B_Boat_Transport_01_F";
-			atlOffset=-2.3841858e-007;
 		};
 		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11711.71,3.835597,5398.2896};
-				angles[]={6.2159033,3.9855347,0.076997295};
+				position[]={11692.06,1.5849855,5390.4771};
+				angles[]={6.2091007,3.9855347,0.08281938};
 			};
 			side="Empty";
 			flags=4;
@@ -1646,7 +1645,6 @@ class Mission
 			};
 			id=216;
 			type="B_Boat_Transport_01_F";
-			atlOffset=8.4161758e-005;
 		};
 		class Item83
 		{
@@ -4552,14 +4550,12 @@ class Mission
 					};
 					id=376;
 					type="UK3CB_CW_SOV_O_EARLY_RIF_1";
-					atlOffset=-2.8610229e-006;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=375;
-			atlOffset=-2.8610229e-006;
 		};
 		class Item179
 		{
