@@ -12,7 +12,7 @@ decode = player addAction ["Decode CIA Message", "scripts\decodeMessage.sqf",[th
 
 
 //buttstroke
-[(actionKeys "Stand") select 0, [true, false, false], { []execVM "scripts\buttstroke.sqf";  }, "keydown", "buttstrokebitches"] call CBA_fnc_addKeyHandler;
+[46, [true, false, false], { []execVM "scripts\buttstroke.sqf";  }, "keydown", "buttstrokebitches"] call CBA_fnc_addKeyHandler;
 
 if (((isserver) && (local player)) || !(isserver)) then //whistle blowing for dog handlers
 {
